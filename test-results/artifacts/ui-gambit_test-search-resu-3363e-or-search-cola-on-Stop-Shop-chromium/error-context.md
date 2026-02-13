@@ -1,0 +1,1086 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link "Skip to Main Content" [ref=e4] [cursor=pointer]:
+      - /url: "#"
+    - generic [ref=e5]:
+      - banner [ref=e6]:
+        - navigation "Main Menu" [ref=e8]:
+          - link "Home" [ref=e10] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e12]
+          - generic [ref=e19]:
+            - generic [ref=e25]:
+              - searchbox "Search by cola" [ref=e26]: cola
+              - button "Clear search" [ref=e27] [cursor=pointer]:
+                - generic [ref=e28]: Clear search
+                - generic:
+                  - img
+              - generic [ref=e29]: When results are available, use the up and down keys to review and the enter key to select.
+            - button "Shop with AI" [ref=e31] [cursor=pointer]:
+              - generic [ref=e32]:
+                - generic [ref=e33]: Shop with AI
+                - generic:
+                  - img
+          - generic [ref=e34]:
+            - button "Sign In" [ref=e35] [cursor=pointer]:
+              - text: Sign In
+              - generic [ref=e36]:
+                - generic:
+                  - img
+            - listitem [ref=e38]:
+              - link "Shopping List" [ref=e39] [cursor=pointer]:
+                - /url: "#"
+          - button "Cart Subtotal $0.00" [ref=e40] [cursor=pointer]:
+            - generic [ref=e41]:
+              - generic [ref=e42]: $0.00
+              - img [ref=e44]
+        - navigation "Secondary" [ref=e48]:
+          - list [ref=e49]:
+            - listitem [ref=e50]:
+              - button "Categories" [ref=e51] [cursor=pointer]:
+                - text: Categories
+                - generic [ref=e52]:
+                  - generic:
+                    - img
+            - listitem [ref=e54]:
+              - link "Past Purchases" [ref=e55] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e56]:
+              - link "Weekly Ad" [ref=e57] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e58]:
+              - link "Coupons" [ref=e59] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e60]:
+              - link "Sales" [ref=e61] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e62]:
+              - link "GO Rewards" [ref=e63] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e64]:
+              - link "Recipes" [ref=e65] [cursor=pointer]:
+                - /url: https://recipecenter.stopandshop.com/savory/recipes
+            - listitem [ref=e66]:
+              - button "Pharmacy & Nutrition" [ref=e67] [cursor=pointer]:
+                - text: Pharmacy & Nutrition
+                - generic [ref=e68]:
+                  - generic:
+                    - img
+          - generic [ref=e72]:
+            - img [ref=e74]
+            - generic [ref=e77]:
+              - button "In-Store" [ref=e78] [cursor=pointer]:
+                - strong [ref=e79]: In-Store
+              - generic [ref=e80]: at
+              - button "1001 Route 6 , 10541" [ref=e81] [cursor=pointer]:
+                - strong [ref=e82]: 1001 Route 6
+                - generic [ref=e83]: ", 10541"
+      - generic [ref=e84]:
+        - generic [ref=e86]:
+          - menu [ref=e88]:
+            - menuitem "For You" [ref=e89] [cursor=pointer]:
+              - generic [ref=e93]: For You
+            - menuitem "New Arrivals" [ref=e94] [cursor=pointer]:
+              - generic [ref=e98]: New Arrivals
+            - menuitem "Deal Lock" [ref=e99] [cursor=pointer]:
+              - generic [ref=e103]: Deal Lock
+            - menuitem "View More" [ref=e104] [cursor=pointer]:
+              - generic [ref=e108]:
+                - text: View More
+                - generic:
+                  - img
+            - listitem [ref=e109] [cursor=pointer]
+            - menuitem "Produce" [ref=e111] [cursor=pointer]:
+              - generic [ref=e115]: Produce
+            - menuitem "Meat" [ref=e116] [cursor=pointer]:
+              - generic [ref=e120]: Meat
+            - menuitem "Seafood" [ref=e121] [cursor=pointer]:
+              - generic [ref=e125]: Seafood
+            - menuitem "Deli & Prepared Food" [ref=e126] [cursor=pointer]:
+              - generic [ref=e130]: Deli & Prepared Food
+            - menuitem "Dairy & Eggs" [ref=e131] [cursor=pointer]:
+              - generic [ref=e135]: Dairy & Eggs
+            - menuitem "Beverages" [ref=e136] [cursor=pointer]:
+              - generic [ref=e140]: Beverages
+            - menuitem "Bread & Bakery" [ref=e141] [cursor=pointer]:
+              - generic [ref=e145]: Bread & Bakery
+            - menuitem "Frozen" [ref=e146] [cursor=pointer]:
+              - generic [ref=e150]: Frozen
+            - menuitem "Rice, Pasta & Beans" [ref=e151] [cursor=pointer]:
+              - generic [ref=e155]: Rice, Pasta & Beans
+            - menuitem "Baking & Cooking" [ref=e156] [cursor=pointer]:
+              - generic [ref=e160]: Baking & Cooking
+            - menuitem "Condiments & Sauces" [ref=e161] [cursor=pointer]:
+              - generic [ref=e165]: Condiments & Sauces
+            - menuitem "Soups & Canned Goods" [ref=e166] [cursor=pointer]:
+              - generic [ref=e170]: Soups & Canned Goods
+            - menuitem "Breakfast" [ref=e171] [cursor=pointer]:
+              - generic [ref=e175]: Breakfast
+            - menuitem "Snacks" [ref=e176] [cursor=pointer]:
+              - generic [ref=e180]: Snacks
+            - menuitem "Candy & Chocolate" [ref=e181] [cursor=pointer]:
+              - generic [ref=e185]: Candy & Chocolate
+            - menuitem "Adult Beverages" [ref=e186] [cursor=pointer]:
+              - generic [ref=e190]: Adult Beverages
+            - menuitem "Laundry, Paper & Cleaning" [ref=e191] [cursor=pointer]:
+              - generic [ref=e195]: Laundry, Paper & Cleaning
+            - menuitem "Home & Office" [ref=e196] [cursor=pointer]:
+              - generic [ref=e200]: Home & Office
+            - menuitem "Floral & Garden" [ref=e201] [cursor=pointer]:
+              - generic [ref=e205]: Floral & Garden
+            - menuitem "Health & Beauty" [ref=e206] [cursor=pointer]:
+              - generic [ref=e210]: Health & Beauty
+            - menuitem "Baby" [ref=e211] [cursor=pointer]:
+              - generic [ref=e215]: Baby
+            - menuitem "Pets" [ref=e216] [cursor=pointer]:
+              - generic [ref=e220]: Pets
+          - button "Next Categories" [ref=e221] [cursor=pointer]:
+            - img [ref=e223]
+        - link "Go to notifications" [ref=e227] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e228]:
+            - generic [ref=e229]: "3"
+            - generic [ref=e230]:
+              - text: Notifications
+              - img [ref=e232]
+          - list:
+            - listitem [ref=e235]: Cubs Traffic Notification
+    - generic [ref=e237]:
+      - main [ref=e238]:
+        - generic [ref=e241]:
+          - generic [ref=e243]:
+            - generic:
+              - button "Previous slide" [ref=e244] [cursor=pointer]:
+                - img [ref=e246]
+              - button "Next slide" [ref=e249] [cursor=pointer]:
+                - img [ref=e251]
+            - generic [ref=e255]:
+              - generic [ref=e259]:
+                - generic [ref=e260]: Buy 2 Get 1 FREE. Snacks. Snacks. Oh, and Snacks.
+                - generic [ref=e261]: For a limited time, select snacks are now buy 2 get 1 free After all, there's a lot of hours before dinner. Pickup only.
+                - button "Save On Snacks" [ref=e263] [cursor=pointer]:
+                  - text: Save On Snacks
+                  - img [ref=e265]
+              - generic [ref=e271]:
+                - iframe [ref=e275]
+                - list [ref=e278]:
+                  - listitem [ref=e279]:
+                    - generic [ref=e281]:
+                      - link "Wenner Bakery Irish Soda Bread Loaf priced at $5.00" [ref=e284] [cursor=pointer]:
+                        - /url: "#"
+                        - img "Wenner Bakery Irish Soda Bread Loaf" [ref=e285]
+                      - generic [ref=e287]:
+                        - link "Wenner Bakery Irish Soda Bread Loaf" [ref=e289] [cursor=pointer]:
+                          - /url: /product/wenner-bakery-irish-soda-bread-loaf-16-oz-pkg/282709
+                        - generic [ref=e290]:
+                          - generic [ref=e291]: Wenner Bakery Irish Soda Bread Loaf
+                          - generic [ref=e292] [cursor=pointer]:
+                            - generic [ref=e293]: Sale Price
+                            - text: $5.00
+                          - generic [ref=e295]:
+                            - generic [ref=e296]: Original Price
+                            - text: $5.99
+              - generic [ref=e299]:
+                - generic:
+                  - generic [ref=e300]:
+                    - generic [ref=e301]: Beans. Shells. Sauce. Don’t Forget the Savings!
+                    - generic [ref=e302]: Spend $15 on Old El Paso’s Tex-Mex flavors and receive $5 off. Dinner done and savings redeemed.
+                    - button "Shop Old El Paso" [ref=e304] [cursor=pointer]:
+                      - text: Shop Old El Paso
+                      - img [ref=e306]
+                  - list [ref=e311]:
+                    - listitem [ref=e312]:
+                      - generic [ref=e314]:
+                        - link "Old El Paso 25% Less Sodium Taco Seasoning Mix Packet priced at $1.29" [ref=e317] [cursor=pointer]:
+                          - /url: "#"
+                          - img "Old El Paso 25% Less Sodium Taco Seasoning Mix Packet" [ref=e318]
+                        - generic [ref=e320]:
+                          - link "Old El Paso 25% Less Sodium Taco Seasoning Mix Packet" [ref=e322] [cursor=pointer]:
+                            - /url: /product/old-el-paso-25-less-sodium-taco-seasoning-mix-packet-1-oz-pkt/24939
+                          - generic [ref=e323]:
+                            - generic [ref=e324]: Old El Paso 25% Less Sodium Taco Seasoning Mix Packet
+                            - generic [ref=e325] [cursor=pointer]: $1.29
+                    - listitem [ref=e326]:
+                      - generic [ref=e328]:
+                        - link "Old El Paso Burritos Flour Tortillas 8 Inch - 8 ct priced at $3.49" [ref=e331] [cursor=pointer]:
+                          - /url: "#"
+                          - img "Old El Paso Burritos Flour Tortillas 8 Inch - 8 ct" [ref=e332]
+                        - generic [ref=e334]:
+                          - link "Old El Paso Burritos Flour Tortillas 8 Inch - 8 ct" [ref=e336] [cursor=pointer]:
+                            - /url: /product/old-el-paso-burritos-flour-tortillas-8-inch-8-ct-11-oz-pkg/29362
+                          - generic [ref=e337]:
+                            - generic [ref=e338]: Old El Paso Burritos Flour Tortillas 8 Inch - 8 ct
+                            - generic [ref=e339] [cursor=pointer]: $3.49
+                    - listitem [ref=e340]:
+                      - generic [ref=e342]:
+                        - link "Old El Paso Mild Red Enchilada Sauce priced at $2.79" [ref=e345] [cursor=pointer]:
+                          - /url: "#"
+                          - img "Old El Paso Mild Red Enchilada Sauce" [ref=e346]
+                        - generic [ref=e348]:
+                          - link "Old El Paso Mild Red Enchilada Sauce" [ref=e350] [cursor=pointer]:
+                            - /url: /product/old-el-paso-mild-red-enchilada-sauce-10-oz-can/6499
+                          - generic [ref=e351]:
+                            - generic [ref=e352]: Old El Paso Mild Red Enchilada Sauce
+                            - generic [ref=e353] [cursor=pointer]: $2.79
+              - generic [ref=e356]:
+                - generic:
+                  - generic [ref=e357]:
+                    - generic [ref=e358]: Get savings that last for weeks
+                    - generic [ref=e359]: Spend less for longer on the items you love.
+                    - button "Shop Now" [ref=e361] [cursor=pointer]:
+                      - text: Shop Now
+                      - img [ref=e363]
+                  - list [ref=e368]:
+                    - listitem [ref=e369]:
+                      - generic [ref=e371]:
+                        - link "Bolthouse Farms Chunky Blue Cheese Yogurt Dressing & Dip priced at $4.49" [ref=e374] [cursor=pointer]:
+                          - /url: "#"
+                          - img "Bolthouse Farms Chunky Blue Cheese Yogurt Dressing & Dip" [ref=e375]
+                        - generic [ref=e377]:
+                          - link "Bolthouse Farms Chunky Blue Cheese Yogurt Dressing & Dip" [ref=e379] [cursor=pointer]:
+                            - /url: /product/bolthouse-farms-chunky-blue-cheese-yogurt-dressing-dip-12-oz-btl/151231
+                          - generic [ref=e380]:
+                            - generic [ref=e381]: Bolthouse Farms Chunky Blue Cheese Yogurt Dressing & Dip
+                            - generic [ref=e382] [cursor=pointer]: $4.49
+                    - listitem [ref=e383]:
+                      - generic [ref=e385]:
+                        - link "Marzetti Cream Cheese Fruit Dip priced at $4.99" [ref=e388] [cursor=pointer]:
+                          - /url: "#"
+                          - img "Marzetti Cream Cheese Fruit Dip" [ref=e389]
+                        - generic [ref=e391]:
+                          - link "Marzetti Cream Cheese Fruit Dip" [ref=e393] [cursor=pointer]:
+                            - /url: /product/marzetti-cream-cheese-fruit-dip-13.5-oz-tub/92483
+                          - generic [ref=e394]:
+                            - generic [ref=e395]: Marzetti Cream Cheese Fruit Dip
+                            - generic [ref=e396] [cursor=pointer]: $4.99
+                    - listitem [ref=e397]:
+                      - generic [ref=e399]:
+                        - link "Nature's Promise Organic Grape Tomatoes priced at $3.99" [ref=e402] [cursor=pointer]:
+                          - /url: "#"
+                          - img "Nature's Promise Organic Grape Tomatoes" [ref=e403]
+                        - generic [ref=e405]:
+                          - link "Nature's Promise Organic Grape Tomatoes" [ref=e407] [cursor=pointer]:
+                            - /url: /product/natures-promise-organic-grape-tomatoes-10-oz-pkg/128486
+                            - generic [ref=e408]:
+                              - generic:
+                                - img
+                            - text: Nature's Promise Organic Grape Tomatoes
+                          - generic [ref=e409]:
+                            - generic [ref=e410]: Nature's Promise Organic Grape Tomatoes
+                            - generic [ref=e411] [cursor=pointer]: $3.99
+              - generic [ref=e414]:
+                - generic:
+                  - generic [ref=e415]:
+                    - generic [ref=e416]: Spend $15, Earn 500 GO Points
+                    - generic [ref=e417]: Get rewarded when you stock up on tailgating favorites.
+                    - button "Shop Now" [ref=e419] [cursor=pointer]:
+                      - text: Shop Now
+                      - img [ref=e421]
+                  - list [ref=e426]:
+                    - listitem [ref=e427]:
+                      - generic [ref=e429]:
+                        - link "Heinz Simply Tomato No Artificial Sweeteners Ketchup priced at $7.49" [ref=e432] [cursor=pointer]:
+                          - /url: "#"
+                          - img "Heinz Simply Tomato No Artificial Sweeteners Ketchup" [ref=e433]
+                        - generic [ref=e435]:
+                          - link "Heinz Simply Tomato No Artificial Sweeteners Ketchup" [ref=e437] [cursor=pointer]:
+                            - /url: /product/heinz-simply-tomato-no-artificial-sweeteners-ketchup-31-oz-btl/573
+                          - generic [ref=e438]:
+                            - generic [ref=e439]: Heinz Simply Tomato No Artificial Sweeteners Ketchup
+                            - generic [ref=e440] [cursor=pointer]: $7.49
+                    - listitem [ref=e441]:
+                      - generic [ref=e443]:
+                        - link "Heinz Tomato Ketchup Value Size priced at $8.99" [ref=e446] [cursor=pointer]:
+                          - /url: "#"
+                          - img "Heinz Tomato Ketchup Value Size" [ref=e447]
+                        - generic [ref=e449]:
+                          - link "Heinz Tomato Ketchup Value Size" [ref=e451] [cursor=pointer]:
+                            - /url: /product/heinz-tomato-ketchup-value-size-64-oz-btl/575
+                          - generic [ref=e452]:
+                            - generic [ref=e453]: Heinz Tomato Ketchup Value Size
+                            - generic [ref=e454] [cursor=pointer]: $8.99
+          - generic [ref=e455]:
+            - button "Pause" [ref=e457] [cursor=pointer]:
+              - img [ref=e458]
+            - list [ref=e465]:
+              - listitem [ref=e466]:
+                - button "go to slide 1" [ref=e467] [cursor=pointer]
+              - listitem [ref=e468]:
+                - button "go to slide 2" [ref=e469] [cursor=pointer]
+              - listitem [ref=e470]:
+                - button "go to slide 3" [ref=e471] [cursor=pointer]
+              - listitem [ref=e472]:
+                - button "go to slide 4" [ref=e473] [cursor=pointer]
+              - listitem [ref=e474]:
+                - button "go to slide 5" [ref=e475] [cursor=pointer]
+        - generic [ref=e477]:
+          - generic [ref=e479]:
+            - region "Coupons Page Link" [ref=e483]:
+              - link "Coupons -" [ref=e485] [cursor=pointer]:
+                - generic [ref=e486]:
+                  - generic:
+                    - img
+                - paragraph [ref=e487]: Coupons
+            - region "Weekly Ad Page Link" [ref=e491]:
+              - link "Weekly Ad -" [ref=e493] [cursor=pointer]:
+                - generic [ref=e494]:
+                  - generic:
+                    - img
+                - paragraph [ref=e495]: Weekly Ad
+            - region "GO Rewards Page Link" [ref=e499]:
+              - link "GO Rewards -" [ref=e501] [cursor=pointer]:
+                - generic [ref=e502]:
+                  - generic:
+                    - img
+                - paragraph [ref=e503]: GO Rewards
+            - region "Store Locator Page Link" [ref=e507]:
+              - link "Store Locator -" [ref=e509] [cursor=pointer]:
+                - generic [ref=e510]:
+                  - generic:
+                    - img
+                - paragraph [ref=e511]: Store Locator
+          - generic [ref=e515]:
+            - heading "Inspiration" [level=2] [ref=e516]
+            - list [ref=e522]:
+              - listitem [ref=e523]:
+                - region "Fall test" [ref=e524]:
+                  - link "Fall test" [ref=e525] [cursor=pointer]:
+                    - paragraph [ref=e528]: Fall test
+              - listitem [ref=e529]:
+                - region "Placeholder for Gambit Ad - Slot 2" [ref=e530]:
+                  - generic [ref=e532]:
+                    - iframe [ref=e534]
+                    - generic [ref=e535]: Sponsored
+              - listitem [ref=e536]:
+                - region "Buy Faves and Save on Pickup and Delivery" [ref=e537]:
+                  - link "Buy Faves and Save on Pickup and Delivery" [ref=e538] [cursor=pointer]:
+                    - paragraph [ref=e541]: Buy Faves and Save on Pickup and Delivery
+              - listitem [ref=e542]:
+                - region "30% off Nature's Promise chicken! hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi" [ref=e543]:
+                  - link "30% off Nature's Promise chicken! hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi" [ref=e544] [cursor=pointer]:
+                    - img "Grilled chicken" [ref=e546]
+                    - paragraph [ref=e548]: 30% off Nature's Promise chicken! hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi
+              - listitem [ref=e549]:
+                - region "Placeholder for Gambit Ad - Slot 5" [ref=e550]:
+                  - generic [ref=e552]:
+                    - iframe [ref=e554]
+                    - generic [ref=e555]: Sponsored
+          - generic [ref=e557]:
+            - generic [ref=e561]:
+              - separator [ref=e563]
+              - list [ref=e565]:
+                - listitem [ref=e566]:
+                  - generic [ref=e567]:
+                    - link [ref=e568] [cursor=pointer]:
+                      - /url: /product/1
+                    - generic [ref=e571]:
+                      - button "product is loading product is loading" [ref=e572] [cursor=pointer]:
+                        - generic "product is loading" [ref=e574]
+                        - generic "product is loading" [ref=e576]
+                      - generic "product is loading" [ref=e578]
+                - listitem [ref=e579]:
+                  - generic [ref=e580]:
+                    - link [ref=e581] [cursor=pointer]:
+                      - /url: /product/2
+                    - generic [ref=e584]:
+                      - button "product is loading product is loading" [ref=e585] [cursor=pointer]:
+                        - generic "product is loading" [ref=e587]
+                        - generic "product is loading" [ref=e589]
+                      - generic "product is loading" [ref=e591]
+                - listitem [ref=e592]:
+                  - generic [ref=e593]:
+                    - link [ref=e594] [cursor=pointer]:
+                      - /url: /product/3
+                    - generic [ref=e597]:
+                      - button "product is loading product is loading" [ref=e598] [cursor=pointer]:
+                        - generic "product is loading" [ref=e600]
+                        - generic "product is loading" [ref=e602]
+                      - generic "product is loading" [ref=e604]
+                - listitem [ref=e605]:
+                  - generic [ref=e606]:
+                    - link [ref=e607] [cursor=pointer]:
+                      - /url: /product/4
+                    - generic [ref=e610]:
+                      - button "product is loading product is loading" [ref=e611] [cursor=pointer]:
+                        - generic "product is loading" [ref=e613]
+                        - generic "product is loading" [ref=e615]
+                      - generic "product is loading" [ref=e617]
+                - listitem [ref=e618]:
+                  - generic [ref=e619]:
+                    - link [ref=e620] [cursor=pointer]:
+                      - /url: /product/5
+                    - generic [ref=e623]:
+                      - button "product is loading product is loading" [ref=e624] [cursor=pointer]:
+                        - generic "product is loading" [ref=e626]
+                        - generic "product is loading" [ref=e628]
+                      - generic "product is loading" [ref=e630]
+            - generic [ref=e634]:
+              - separator [ref=e636]
+              - list [ref=e638]:
+                - listitem [ref=e639]:
+                  - generic [ref=e640]:
+                    - link [ref=e641] [cursor=pointer]:
+                      - /url: /product/1
+                    - generic [ref=e644]:
+                      - button "product is loading product is loading" [ref=e645] [cursor=pointer]:
+                        - generic "product is loading" [ref=e647]
+                        - generic "product is loading" [ref=e649]
+                      - generic "product is loading" [ref=e651]
+                - listitem [ref=e652]:
+                  - generic [ref=e653]:
+                    - link [ref=e654] [cursor=pointer]:
+                      - /url: /product/2
+                    - generic [ref=e657]:
+                      - button "product is loading product is loading" [ref=e658] [cursor=pointer]:
+                        - generic "product is loading" [ref=e660]
+                        - generic "product is loading" [ref=e662]
+                      - generic "product is loading" [ref=e664]
+                - listitem [ref=e665]:
+                  - generic [ref=e666]:
+                    - link [ref=e667] [cursor=pointer]:
+                      - /url: /product/3
+                    - generic [ref=e670]:
+                      - button "product is loading product is loading" [ref=e671] [cursor=pointer]:
+                        - generic "product is loading" [ref=e673]
+                        - generic "product is loading" [ref=e675]
+                      - generic "product is loading" [ref=e677]
+                - listitem [ref=e678]:
+                  - generic [ref=e679]:
+                    - link [ref=e680] [cursor=pointer]:
+                      - /url: /product/4
+                    - generic [ref=e683]:
+                      - button "product is loading product is loading" [ref=e684] [cursor=pointer]:
+                        - generic "product is loading" [ref=e686]
+                        - generic "product is loading" [ref=e688]
+                      - generic "product is loading" [ref=e690]
+                - listitem [ref=e691]:
+                  - generic [ref=e692]:
+                    - link [ref=e693] [cursor=pointer]:
+                      - /url: /product/5
+                    - generic [ref=e696]:
+                      - button "product is loading product is loading" [ref=e697] [cursor=pointer]:
+                        - generic "product is loading" [ref=e699]
+                        - generic "product is loading" [ref=e701]
+                      - generic "product is loading" [ref=e703]
+            - generic [ref=e707]:
+              - separator [ref=e709]
+              - list [ref=e711]:
+                - listitem [ref=e712]:
+                  - generic [ref=e713]:
+                    - link [ref=e714] [cursor=pointer]:
+                      - /url: /product/1
+                    - generic [ref=e717]:
+                      - button "product is loading product is loading" [ref=e718] [cursor=pointer]:
+                        - generic "product is loading" [ref=e720]
+                        - generic "product is loading" [ref=e722]
+                      - generic "product is loading" [ref=e724]
+                - listitem [ref=e725]:
+                  - generic [ref=e726]:
+                    - link [ref=e727] [cursor=pointer]:
+                      - /url: /product/2
+                    - generic [ref=e730]:
+                      - button "product is loading product is loading" [ref=e731] [cursor=pointer]:
+                        - generic "product is loading" [ref=e733]
+                        - generic "product is loading" [ref=e735]
+                      - generic "product is loading" [ref=e737]
+                - listitem [ref=e738]:
+                  - generic [ref=e739]:
+                    - link [ref=e740] [cursor=pointer]:
+                      - /url: /product/3
+                    - generic [ref=e743]:
+                      - button "product is loading product is loading" [ref=e744] [cursor=pointer]:
+                        - generic "product is loading" [ref=e746]
+                        - generic "product is loading" [ref=e748]
+                      - generic "product is loading" [ref=e750]
+                - listitem [ref=e751]:
+                  - generic [ref=e752]:
+                    - link [ref=e753] [cursor=pointer]:
+                      - /url: /product/4
+                    - generic [ref=e756]:
+                      - button "product is loading product is loading" [ref=e757] [cursor=pointer]:
+                        - generic "product is loading" [ref=e759]
+                        - generic "product is loading" [ref=e761]
+                      - generic "product is loading" [ref=e763]
+                - listitem [ref=e764]:
+                  - generic [ref=e765]:
+                    - link [ref=e766] [cursor=pointer]:
+                      - /url: /product/5
+                    - generic [ref=e769]:
+                      - button "product is loading product is loading" [ref=e770] [cursor=pointer]:
+                        - generic "product is loading" [ref=e772]
+                        - generic "product is loading" [ref=e774]
+                      - generic "product is loading" [ref=e776]
+            - generic [ref=e780]:
+              - separator [ref=e782]
+              - list [ref=e784]:
+                - listitem [ref=e785]:
+                  - generic [ref=e786]:
+                    - link [ref=e787] [cursor=pointer]:
+                      - /url: /product/1
+                    - generic [ref=e790]:
+                      - button "product is loading product is loading" [ref=e791] [cursor=pointer]:
+                        - generic "product is loading" [ref=e793]
+                        - generic "product is loading" [ref=e795]
+                      - generic "product is loading" [ref=e797]
+                - listitem [ref=e798]:
+                  - generic [ref=e799]:
+                    - link [ref=e800] [cursor=pointer]:
+                      - /url: /product/2
+                    - generic [ref=e803]:
+                      - button "product is loading product is loading" [ref=e804] [cursor=pointer]:
+                        - generic "product is loading" [ref=e806]
+                        - generic "product is loading" [ref=e808]
+                      - generic "product is loading" [ref=e810]
+                - listitem [ref=e811]:
+                  - generic [ref=e812]:
+                    - link [ref=e813] [cursor=pointer]:
+                      - /url: /product/3
+                    - generic [ref=e816]:
+                      - button "product is loading product is loading" [ref=e817] [cursor=pointer]:
+                        - generic "product is loading" [ref=e819]
+                        - generic "product is loading" [ref=e821]
+                      - generic "product is loading" [ref=e823]
+                - listitem [ref=e824]:
+                  - generic [ref=e825]:
+                    - link [ref=e826] [cursor=pointer]:
+                      - /url: /product/4
+                    - generic [ref=e829]:
+                      - button "product is loading product is loading" [ref=e830] [cursor=pointer]:
+                        - generic "product is loading" [ref=e832]
+                        - generic "product is loading" [ref=e834]
+                      - generic "product is loading" [ref=e836]
+                - listitem [ref=e837]:
+                  - generic [ref=e838]:
+                    - link [ref=e839] [cursor=pointer]:
+                      - /url: /product/5
+                    - generic [ref=e842]:
+                      - button "product is loading product is loading" [ref=e843] [cursor=pointer]:
+                        - generic "product is loading" [ref=e845]
+                        - generic "product is loading" [ref=e847]
+                      - generic "product is loading" [ref=e849]
+            - generic [ref=e853]:
+              - separator [ref=e855]
+              - list [ref=e857]:
+                - listitem [ref=e858]:
+                  - generic [ref=e859]:
+                    - link [ref=e860] [cursor=pointer]:
+                      - /url: /product/1
+                    - generic [ref=e863]:
+                      - button "product is loading product is loading" [ref=e864] [cursor=pointer]:
+                        - generic "product is loading" [ref=e866]
+                        - generic "product is loading" [ref=e868]
+                      - generic "product is loading" [ref=e870]
+                - listitem [ref=e871]:
+                  - generic [ref=e872]:
+                    - link [ref=e873] [cursor=pointer]:
+                      - /url: /product/2
+                    - generic [ref=e876]:
+                      - button "product is loading product is loading" [ref=e877] [cursor=pointer]:
+                        - generic "product is loading" [ref=e879]
+                        - generic "product is loading" [ref=e881]
+                      - generic "product is loading" [ref=e883]
+                - listitem [ref=e884]:
+                  - generic [ref=e885]:
+                    - link [ref=e886] [cursor=pointer]:
+                      - /url: /product/3
+                    - generic [ref=e889]:
+                      - button "product is loading product is loading" [ref=e890] [cursor=pointer]:
+                        - generic "product is loading" [ref=e892]
+                        - generic "product is loading" [ref=e894]
+                      - generic "product is loading" [ref=e896]
+                - listitem [ref=e897]:
+                  - generic [ref=e898]:
+                    - link [ref=e899] [cursor=pointer]:
+                      - /url: /product/4
+                    - generic [ref=e902]:
+                      - button "product is loading product is loading" [ref=e903] [cursor=pointer]:
+                        - generic "product is loading" [ref=e905]
+                        - generic "product is loading" [ref=e907]
+                      - generic "product is loading" [ref=e909]
+                - listitem [ref=e910]:
+                  - generic [ref=e911]:
+                    - link [ref=e912] [cursor=pointer]:
+                      - /url: /product/5
+                    - generic [ref=e915]:
+                      - button "product is loading product is loading" [ref=e916] [cursor=pointer]:
+                        - generic "product is loading" [ref=e918]
+                        - generic "product is loading" [ref=e920]
+                      - generic "product is loading" [ref=e922]
+          - region "Inspiration" [ref=e923]:
+            - heading "Food Inspiration" [level=2] [ref=e924]
+            - generic [ref=e925]:
+              - button "Trending Trending" [ref=e926] [cursor=pointer]
+              - button "Featured Featured" [ref=e927] [cursor=pointer]
+            - generic [ref=e929]:
+              - generic [ref=e931]:
+                - button "Next slide" [ref=e932] [cursor=pointer]:
+                  - img [ref=e934]
+                - generic [ref=e938]:
+                  - list [ref=e940]:
+                    - listitem [ref=e941]
+                    - listitem [ref=e944]
+                    - listitem [ref=e947]
+                    - listitem [ref=e950]
+                    - listitem [ref=e953]
+                  - list [ref=e957]:
+                    - listitem [ref=e958]
+              - list [ref=e962]:
+                - listitem [ref=e963]:
+                  - button "go to slide 1" [ref=e964] [cursor=pointer]
+                - listitem [ref=e965]:
+                  - button "go to slide 2" [ref=e966] [cursor=pointer]
+          - region "Inspiration" [ref=e968]:
+            - generic [ref=e971]:
+              - button "Next slide" [ref=e972] [cursor=pointer]:
+                - img [ref=e974]
+              - generic [ref=e978]:
+                - generic [ref=e980]:
+                  - generic [ref=e985] [cursor=pointer]:
+                    - heading "Save 20% Every Week. Save on Meals Made Easy. This is going longer. Watermelon c..." [level=2] [ref=e986]
+                    - paragraph [ref=e988]: This classic combines the delicate crunch from a cinnamon and sugar coating with a soft and chewy cookie. Cake batter is pretty tasty as well, fr...
+                    - button "Shop Recipe" [ref=e990]:
+                      - text: Shop Recipe
+                      - img [ref=e992]
+                  - generic [ref=e998] [cursor=pointer]:
+                    - img "A fest" [ref=e999]
+                    - generic [ref=e1001]:
+                      - heading "Few Signature Chicago Dishes, and more and more and more and more and more an..." [level=2] [ref=e1002]:
+                        - paragraph [ref=e1003]: Few Signature Chicago Dishes, and more and more and more and more and more an...
+                      - paragraph [ref=e1005]: Welcome to the world’s largest free-admission outdoor food festival. The annual lakefront extravaganza, a summer staple for more than 40 years, l...
+                      - button "Nature's Promise" [ref=e1007]:
+                        - text: Nature's Promise
+                        - img [ref=e1009]
+                - generic [ref=e1016] [cursor=pointer]:
+                  - img "A fest" [ref=e1017]
+                  - generic [ref=e1019]:
+                    - heading "21+ Signature Chicago Dishes" [level=2] [ref=e1020]
+                    - paragraph [ref=e1022]: The city has been a foodie haven since its inception and publications like Conde Nast Traveler, Bon Appetit and USA Today have all praised its cu...
+                    - button "link" [ref=e1024]:
+                      - text: link
+                      - img [ref=e1026]
+          - generic [ref=e1030]:
+            - region "Get Ready to Gobble" [ref=e1033]
+            - generic [ref=e1037]:
+              - separator [ref=e1039]
+              - list [ref=e1041]:
+                - listitem [ref=e1042]:
+                  - generic [ref=e1043]:
+                    - link [ref=e1044] [cursor=pointer]:
+                      - /url: /product/1
+                    - generic [ref=e1047]:
+                      - button "product is loading product is loading" [ref=e1048] [cursor=pointer]:
+                        - generic "product is loading" [ref=e1050]
+                        - generic "product is loading" [ref=e1052]
+                      - generic "product is loading" [ref=e1054]
+                - listitem [ref=e1055]:
+                  - generic [ref=e1056]:
+                    - link [ref=e1057] [cursor=pointer]:
+                      - /url: /product/2
+                    - generic [ref=e1060]:
+                      - button "product is loading product is loading" [ref=e1061] [cursor=pointer]:
+                        - generic "product is loading" [ref=e1063]
+                        - generic "product is loading" [ref=e1065]
+                      - generic "product is loading" [ref=e1067]
+                - listitem [ref=e1068]:
+                  - generic [ref=e1069]:
+                    - link [ref=e1070] [cursor=pointer]:
+                      - /url: /product/3
+                    - generic [ref=e1073]:
+                      - button "product is loading product is loading" [ref=e1074] [cursor=pointer]:
+                        - generic "product is loading" [ref=e1076]
+                        - generic "product is loading" [ref=e1078]
+                      - generic "product is loading" [ref=e1080]
+                - listitem [ref=e1081]:
+                  - generic [ref=e1082]:
+                    - link [ref=e1083] [cursor=pointer]:
+                      - /url: /product/4
+                    - generic [ref=e1086]:
+                      - button "product is loading product is loading" [ref=e1087] [cursor=pointer]:
+                        - generic "product is loading" [ref=e1089]
+                        - generic "product is loading" [ref=e1091]
+                      - generic "product is loading" [ref=e1093]
+                - listitem [ref=e1094]:
+                  - generic [ref=e1095]:
+                    - link [ref=e1096] [cursor=pointer]:
+                      - /url: /product/5
+                    - generic [ref=e1099]:
+                      - button "product is loading product is loading" [ref=e1100] [cursor=pointer]:
+                        - generic "product is loading" [ref=e1102]
+                        - generic "product is loading" [ref=e1104]
+                      - generic "product is loading" [ref=e1106]
+            - generic [ref=e1110]:
+              - separator [ref=e1112]
+              - list [ref=e1114]:
+                - listitem [ref=e1115]:
+                  - generic [ref=e1116]:
+                    - link [ref=e1117] [cursor=pointer]:
+                      - /url: /product/1
+                    - generic [ref=e1120]:
+                      - button "product is loading product is loading" [ref=e1121] [cursor=pointer]:
+                        - generic "product is loading" [ref=e1123]
+                        - generic "product is loading" [ref=e1125]
+                      - generic "product is loading" [ref=e1127]
+                - listitem [ref=e1128]:
+                  - generic [ref=e1129]:
+                    - link [ref=e1130] [cursor=pointer]:
+                      - /url: /product/2
+                    - generic [ref=e1133]:
+                      - button "product is loading product is loading" [ref=e1134] [cursor=pointer]:
+                        - generic "product is loading" [ref=e1136]
+                        - generic "product is loading" [ref=e1138]
+                      - generic "product is loading" [ref=e1140]
+                - listitem [ref=e1141]:
+                  - generic [ref=e1142]:
+                    - link [ref=e1143] [cursor=pointer]:
+                      - /url: /product/3
+                    - generic [ref=e1146]:
+                      - button "product is loading product is loading" [ref=e1147] [cursor=pointer]:
+                        - generic "product is loading" [ref=e1149]
+                        - generic "product is loading" [ref=e1151]
+                      - generic "product is loading" [ref=e1153]
+                - listitem [ref=e1154]:
+                  - generic [ref=e1155]:
+                    - link [ref=e1156] [cursor=pointer]:
+                      - /url: /product/4
+                    - generic [ref=e1159]:
+                      - button "product is loading product is loading" [ref=e1160] [cursor=pointer]:
+                        - generic "product is loading" [ref=e1162]
+                        - generic "product is loading" [ref=e1164]
+                      - generic "product is loading" [ref=e1166]
+                - listitem [ref=e1167]:
+                  - generic [ref=e1168]:
+                    - link [ref=e1169] [cursor=pointer]:
+                      - /url: /product/5
+                    - generic [ref=e1172]:
+                      - button "product is loading product is loading" [ref=e1173] [cursor=pointer]:
+                        - generic "product is loading" [ref=e1175]
+                        - generic "product is loading" [ref=e1177]
+                      - generic "product is loading" [ref=e1179]
+            - generic [ref=e1183]:
+              - separator [ref=e1185]
+              - list [ref=e1187]:
+                - listitem [ref=e1188]:
+                  - generic [ref=e1189]:
+                    - link [ref=e1190] [cursor=pointer]:
+                      - /url: /product/1
+                    - generic [ref=e1193]:
+                      - button "product is loading product is loading" [ref=e1194] [cursor=pointer]:
+                        - generic "product is loading" [ref=e1196]
+                        - generic "product is loading" [ref=e1198]
+                      - generic "product is loading" [ref=e1200]
+                - listitem [ref=e1201]:
+                  - generic [ref=e1202]:
+                    - link [ref=e1203] [cursor=pointer]:
+                      - /url: /product/2
+                    - generic [ref=e1206]:
+                      - button "product is loading product is loading" [ref=e1207] [cursor=pointer]:
+                        - generic "product is loading" [ref=e1209]
+                        - generic "product is loading" [ref=e1211]
+                      - generic "product is loading" [ref=e1213]
+                - listitem [ref=e1214]:
+                  - generic [ref=e1215]:
+                    - link [ref=e1216] [cursor=pointer]:
+                      - /url: /product/3
+                    - generic [ref=e1219]:
+                      - button "product is loading product is loading" [ref=e1220] [cursor=pointer]:
+                        - generic "product is loading" [ref=e1222]
+                        - generic "product is loading" [ref=e1224]
+                      - generic "product is loading" [ref=e1226]
+                - listitem [ref=e1227]:
+                  - generic [ref=e1228]:
+                    - link [ref=e1229] [cursor=pointer]:
+                      - /url: /product/4
+                    - generic [ref=e1232]:
+                      - button "product is loading product is loading" [ref=e1233] [cursor=pointer]:
+                        - generic "product is loading" [ref=e1235]
+                        - generic "product is loading" [ref=e1237]
+                      - generic "product is loading" [ref=e1239]
+                - listitem [ref=e1240]:
+                  - generic [ref=e1241]:
+                    - link [ref=e1242] [cursor=pointer]:
+                      - /url: /product/5
+                    - generic [ref=e1245]:
+                      - button "product is loading product is loading" [ref=e1246] [cursor=pointer]:
+                        - generic "product is loading" [ref=e1248]
+                        - generic "product is loading" [ref=e1250]
+                      - generic "product is loading" [ref=e1252]
+            - generic [ref=e1256]:
+              - separator [ref=e1258]
+              - list [ref=e1260]:
+                - listitem [ref=e1261]:
+                  - generic [ref=e1262]:
+                    - link [ref=e1263] [cursor=pointer]:
+                      - /url: /product/1
+                    - generic [ref=e1266]:
+                      - button "product is loading product is loading" [ref=e1267] [cursor=pointer]:
+                        - generic "product is loading" [ref=e1269]
+                        - generic "product is loading" [ref=e1271]
+                      - generic "product is loading" [ref=e1273]
+                - listitem [ref=e1274]:
+                  - generic [ref=e1275]:
+                    - link [ref=e1276] [cursor=pointer]:
+                      - /url: /product/2
+                    - generic [ref=e1279]:
+                      - button "product is loading product is loading" [ref=e1280] [cursor=pointer]:
+                        - generic "product is loading" [ref=e1282]
+                        - generic "product is loading" [ref=e1284]
+                      - generic "product is loading" [ref=e1286]
+                - listitem [ref=e1287]:
+                  - generic [ref=e1288]:
+                    - link [ref=e1289] [cursor=pointer]:
+                      - /url: /product/3
+                    - generic [ref=e1292]:
+                      - button "product is loading product is loading" [ref=e1293] [cursor=pointer]:
+                        - generic "product is loading" [ref=e1295]
+                        - generic "product is loading" [ref=e1297]
+                      - generic "product is loading" [ref=e1299]
+                - listitem [ref=e1300]:
+                  - generic [ref=e1301]:
+                    - link [ref=e1302] [cursor=pointer]:
+                      - /url: /product/4
+                    - generic [ref=e1305]:
+                      - button "product is loading product is loading" [ref=e1306] [cursor=pointer]:
+                        - generic "product is loading" [ref=e1308]
+                        - generic "product is loading" [ref=e1310]
+                      - generic "product is loading" [ref=e1312]
+                - listitem [ref=e1313]:
+                  - generic [ref=e1314]:
+                    - link [ref=e1315] [cursor=pointer]:
+                      - /url: /product/5
+                    - generic [ref=e1318]:
+                      - button "product is loading product is loading" [ref=e1319] [cursor=pointer]:
+                        - generic "product is loading" [ref=e1321]
+                        - generic "product is loading" [ref=e1323]
+                      - generic "product is loading" [ref=e1325]
+            - region "Get Ready to Gobble" [ref=e1328]
+            - generic [ref=e1332]:
+              - separator [ref=e1334]
+              - list [ref=e1336]:
+                - listitem [ref=e1337]:
+                  - generic [ref=e1338]:
+                    - link [ref=e1339] [cursor=pointer]:
+                      - /url: /product/1
+                    - generic [ref=e1342]:
+                      - button "product is loading product is loading" [ref=e1343] [cursor=pointer]:
+                        - generic "product is loading" [ref=e1345]
+                        - generic "product is loading" [ref=e1347]
+                      - generic "product is loading" [ref=e1349]
+                - listitem [ref=e1350]:
+                  - generic [ref=e1351]:
+                    - link [ref=e1352] [cursor=pointer]:
+                      - /url: /product/2
+                    - generic [ref=e1355]:
+                      - button "product is loading product is loading" [ref=e1356] [cursor=pointer]:
+                        - generic "product is loading" [ref=e1358]
+                        - generic "product is loading" [ref=e1360]
+                      - generic "product is loading" [ref=e1362]
+                - listitem [ref=e1363]:
+                  - generic [ref=e1364]:
+                    - link [ref=e1365] [cursor=pointer]:
+                      - /url: /product/3
+                    - generic [ref=e1368]:
+                      - button "product is loading product is loading" [ref=e1369] [cursor=pointer]:
+                        - generic "product is loading" [ref=e1371]
+                        - generic "product is loading" [ref=e1373]
+                      - generic "product is loading" [ref=e1375]
+                - listitem [ref=e1376]:
+                  - generic [ref=e1377]:
+                    - link [ref=e1378] [cursor=pointer]:
+                      - /url: /product/4
+                    - generic [ref=e1381]:
+                      - button "product is loading product is loading" [ref=e1382] [cursor=pointer]:
+                        - generic "product is loading" [ref=e1384]
+                        - generic "product is loading" [ref=e1386]
+                      - generic "product is loading" [ref=e1388]
+                - listitem [ref=e1389]:
+                  - generic [ref=e1390]:
+                    - link [ref=e1391] [cursor=pointer]:
+                      - /url: /product/5
+                    - generic [ref=e1394]:
+                      - button "product is loading product is loading" [ref=e1395] [cursor=pointer]:
+                        - generic "product is loading" [ref=e1397]
+                        - generic "product is loading" [ref=e1399]
+                      - generic "product is loading" [ref=e1401]
+      - contentinfo [ref=e1402]:
+        - navigation [ref=e1403]:
+          - generic "Stop & Shop's footer links" [ref=e1404]:
+            - generic [ref=e1405]:
+              - link "footer store locator" [ref=e1409] [cursor=pointer]:
+                - /url: ""
+                - text: Store Locator
+              - link "footer go pass™" [ref=e1413] [cursor=pointer]:
+                - /url: ""
+                - text: GO Pass™
+              - link "footer recipes" [ref=e1417] [cursor=pointer]:
+                - /url: https://recipecenter.stopandshop.com/savory/recipes
+                - text: Recipes
+              - link "footer pharmacy" [ref=e1421] [cursor=pointer]:
+                - /url: ""
+                - text: Pharmacy
+              - link "footer catering" [ref=e1425] [cursor=pointer]:
+                - /url: https://entertaining.stopandshop.com/
+                - text: Catering
+              - link "footer floral" [ref=e1429] [cursor=pointer]:
+                - /url: ""
+                - text: Floral
+              - link "footer gift cards" [ref=e1433] [cursor=pointer]:
+                - /url: ""
+                - text: Gift Cards
+              - link "footer wellness" [ref=e1437] [cursor=pointer]:
+                - /url: ""
+                - text: Wellness
+              - link "footer savory magazine" [ref=e1441] [cursor=pointer]:
+                - /url: ""
+                - text: Savory Magazine
+            - generic [ref=e1444]:
+              - heading "About" [level=3] [ref=e1446]
+              - list [ref=e1448]:
+                - listitem [ref=e1449]:
+                  - link "footer about us" [ref=e1451] [cursor=pointer]:
+                    - /url: ""
+                    - text: About Us
+                - listitem [ref=e1452]:
+                  - link "footer private brands" [ref=e1454] [cursor=pointer]:
+                    - /url: ""
+                    - text: Private Brands
+                - listitem [ref=e1455]:
+                  - link "footer store departments" [ref=e1457] [cursor=pointer]:
+                    - /url: ""
+                    - text: Store Departments
+                - listitem [ref=e1458]:
+                  - link "footer news & media" [ref=e1460] [cursor=pointer]:
+                    - /url: ""
+                    - text: News & Media
+                - listitem [ref=e1461]:
+                  - link "footer community" [ref=e1463] [cursor=pointer]:
+                    - /url: ""
+                    - text: Community
+                - listitem [ref=e1464]:
+                  - link "footer guiding stars" [ref=e1466] [cursor=pointer]:
+                    - /url: ""
+                    - text: Guiding Stars
+                - listitem [ref=e1467]:
+                  - link "footer sustainability" [ref=e1469] [cursor=pointer]:
+                    - /url: ""
+                    - text: Sustainability
+                - listitem [ref=e1470]:
+                  - link "footer security" [ref=e1472] [cursor=pointer]:
+                    - /url: ""
+                    - text: Security
+            - generic [ref=e1475]:
+              - heading "Customer Support" [level=3] [ref=e1477]
+              - list [ref=e1479]:
+                - listitem [ref=e1480]:
+                  - link "footer contact us" [ref=e1482] [cursor=pointer]:
+                    - /url: ""
+                    - text: Contact Us
+                - listitem [ref=e1483]:
+                  - link "footer help" [ref=e1485] [cursor=pointer]:
+                    - /url: ""
+                    - text: Help
+                - listitem [ref=e1486]:
+                  - link "footer coupon policy" [ref=e1488] [cursor=pointer]:
+                    - /url: ""
+                    - text: Coupon Policy
+                - listitem [ref=e1489]:
+                  - link "footer food safety" [ref=e1491] [cursor=pointer]:
+                    - /url: ""
+                    - text: Food Safety
+                - listitem [ref=e1492]:
+                  - link "footer product recalls" [ref=e1494] [cursor=pointer]:
+                    - /url: ""
+                    - text: Product Recalls
+                - listitem [ref=e1495]:
+                  - link "footer refer-a-friend" [ref=e1497] [cursor=pointer]:
+                    - /url: https://refer.stopandshop.com/consumer_global_footer
+                    - text: Refer-a-friend
+                - listitem [ref=e1498]:
+                  - link "footer covid-19" [ref=e1500] [cursor=pointer]:
+                    - /url: ""
+                    - text: COVID-19
+                - listitem [ref=e1501]:
+                  - link "footer business delivery" [ref=e1503] [cursor=pointer]:
+                    - /url: ""
+                    - text: Business Delivery
+            - generic [ref=e1506]:
+              - heading "Company" [level=3] [ref=e1508]
+              - list [ref=e1510]:
+                - listitem [ref=e1511]:
+                  - link "footer careers" [ref=e1513] [cursor=pointer]:
+                    - /url: ""
+                    - text: Careers
+                - listitem [ref=e1514]:
+                  - link "footer associate connect" [ref=e1516] [cursor=pointer]:
+                    - /url: https://www.ssneac.com
+                    - text: Associate Connect
+                - listitem [ref=e1517]:
+                  - link "footer new suppliers" [ref=e1519] [cursor=pointer]:
+                    - /url: https://www.rangeme.com/aholddelhaizeusbrands
+                    - text: New Suppliers
+          - navigation "social media and legal info" [ref=e1520]:
+            - generic [ref=e1521]:
+              - link "Our Pinterest" [ref=e1522] [cursor=pointer]:
+                - /url: https://www.pinterest.com/stopandshop/
+                - generic:
+                  - img
+              - link "Our Facebook" [ref=e1523] [cursor=pointer]:
+                - /url: https://www.facebook.com/StopandShop
+                - generic:
+                  - img
+              - link "Our Instagram" [ref=e1524] [cursor=pointer]:
+                - /url: https://www.instagram.com/stopandshop/
+                - generic:
+                  - img
+              - link "Our Twitter" [ref=e1525] [cursor=pointer]:
+                - /url: https://twitter.com/StopandShop
+                - generic:
+                  - img
+              - link "Our LinkedIn" [ref=e1526] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/stopandshop/
+                - generic:
+                  - img
+              - link "Our Youtube" [ref=e1527] [cursor=pointer]:
+                - /url: https://www.youtube.com/c/stopandshop
+                - generic:
+                  - img
+            - generic [ref=e1528]:
+              - generic [ref=e1530]:
+                - link "footer legal terms" [ref=e1533] [cursor=pointer]:
+                  - /url: ""
+                  - text: Legal Terms
+                - link "footer privacy statement" [ref=e1536] [cursor=pointer]:
+                  - /url: ""
+                  - text: Privacy Statement
+                - link "footer products" [ref=e1539] [cursor=pointer]:
+                  - /url: https://stopandshop.com/groceries/index.html
+                  - text: Products
+                - link "footer privacy center" [ref=e1542] [cursor=pointer]:
+                  - /url: ""
+                  - text: Privacy Center
+                - link "footer opt-out of targeted advertising or sale of personal information" [ref=e1545] [cursor=pointer]:
+                  - /url: ""
+                  - text: Opt-out of Targeted Advertising or Sale of Personal Information
+                - generic [ref=e1546]:
+                  - generic:
+                    - link "footer":
+                      - /url: www.google.com
+              - paragraph [ref=e1547]: ©2026 The Stop & Shop Supermarket LLC. All Rights Reserved
+    - button "Launch chat" [ref=e1550] [cursor=pointer]:
+      - generic:
+        - img
+  - img [ref=e1551]
+  - img [ref=e1552]
+  - img [ref=e1553]
+  - img [ref=e1554]
+  - img [ref=e1555]
+  - img [ref=e1556]
+  - img [ref=e1557]
+  - img [ref=e1558]
+  - img [ref=e1560]
+  - img [ref=e1561]
+  - img [ref=e1562]
+  - img [ref=e1563]
+```

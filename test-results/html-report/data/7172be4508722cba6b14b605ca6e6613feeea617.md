@@ -1,0 +1,889 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - link [ref=e4] [cursor=pointer]:
+    - /url: "#"
+    - text: Skip to Main Content
+  - generic [ref=e5]:
+    - banner [ref=e6]:
+      - navigation [ref=e8]:
+        - alertdialog [ref=e9]:
+          - button [ref=e12] [cursor=pointer]:
+            - img [ref=e14]
+          - generic [ref=e17]:
+            - heading [level=3] [ref=e18]: How are you shopping today?
+            - generic [ref=e19]:
+              - button [ref=e20] [cursor=pointer]:
+                - generic [ref=e21]:
+                  - img [ref=e24]:
+                    - img [ref=e26]
+                  - generic [ref=e28]:
+                    - paragraph [ref=e29]: In-Store
+                    - paragraph [ref=e30]: View the weekly ad and clip coupons at your local store.
+              - button [ref=e31] [cursor=pointer]:
+                - generic [ref=e32]:
+                  - img [ref=e35]:
+                    - img [ref=e37]
+                  - generic [ref=e47]:
+                    - paragraph [ref=e48]: Pickup
+                    - paragraph [ref=e49]: Same day pickup from your local store, same in-store prices and selection.
+              - button [ref=e50] [cursor=pointer]:
+                - generic [ref=e51]:
+                  - img [ref=e54]:
+                    - img [ref=e56]
+                  - generic [ref=e62]:
+                    - paragraph [ref=e63]: Delivery
+                    - paragraph [ref=e64]: Shop online and let us do all the heavy lifting. Delivered right to your door.
+        - link [ref=e66] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e68]
+        - generic [ref=e137]:
+          - searchbox [ref=e138]
+          - generic:
+            - img
+          - generic [ref=e139]: When results are available, use the up and down keys to review and the enter key to select.
+        - generic [ref=e140]:
+          - button [ref=e141] [cursor=pointer]:
+            - text: Sign In
+            - generic [ref=e142]:
+              - generic:
+                - img
+          - listitem [ref=e144]:
+            - link [ref=e145] [cursor=pointer]:
+              - /url: "#"
+              - text: Shopping List
+        - button [ref=e146] [cursor=pointer]:
+          - generic [ref=e147]:
+            - generic [ref=e148]: $0.00
+            - img [ref=e150]
+      - navigation [ref=e154]:
+        - list [ref=e155]:
+          - listitem [ref=e156]:
+            - button [ref=e157] [cursor=pointer]:
+              - text: Categories
+              - generic [ref=e158]:
+                - generic:
+                  - img
+          - listitem [ref=e160]:
+            - link [ref=e161] [cursor=pointer]:
+              - /url: "#"
+              - text: Past Purchases
+          - listitem [ref=e162]:
+            - link [ref=e163] [cursor=pointer]:
+              - /url: "#"
+              - text: Weekly Ad
+          - listitem [ref=e164]:
+            - link [ref=e165] [cursor=pointer]:
+              - /url: "#"
+              - text: Coupons
+          - listitem [ref=e166]:
+            - link [ref=e167] [cursor=pointer]:
+              - /url: "#"
+              - text: Sales
+          - listitem [ref=e168]:
+            - link [ref=e169] [cursor=pointer]:
+              - /url: "#"
+              - text: My Hannaford Rewards
+          - listitem [ref=e170]:
+            - link [ref=e171] [cursor=pointer]:
+              - /url: https://recipes.hannaford.com
+              - text: Recipes
+          - listitem [ref=e172]:
+            - button [ref=e173] [cursor=pointer]:
+              - text: Pharmacy & Wellness
+              - generic [ref=e174]:
+                - generic:
+                  - img
+        - generic [ref=e178]:
+          - img [ref=e180]:
+            - img [ref=e182]
+          - generic [ref=e184]:
+            - button [ref=e185] [cursor=pointer]:
+              - strong [ref=e186]: In-Store
+            - generic [ref=e187]: at
+            - button [ref=e188] [cursor=pointer]:
+              - strong [ref=e189]: 417 Payne Rd
+              - generic [ref=e190]: ", 04074"
+    - generic [ref=e191]:
+      - generic [ref=e193]:
+        - menu [ref=e195]:
+          - menuitem [ref=e196] [cursor=pointer]:
+            - generic [ref=e200]: For You
+          - menuitem [ref=e201] [cursor=pointer]:
+            - generic [ref=e205]: New Arrivals
+          - menuitem [ref=e206] [cursor=pointer]:
+            - generic [ref=e210]: Organic
+          - menuitem [ref=e211] [cursor=pointer]:
+            - generic [ref=e215]:
+              - text: View More
+              - generic:
+                - img
+          - listitem [ref=e216] [cursor=pointer]
+          - menuitem [ref=e218] [cursor=pointer]:
+            - generic [ref=e222]: Produce
+          - menuitem [ref=e223] [cursor=pointer]:
+            - generic [ref=e227]: Meat
+          - menuitem [ref=e228] [cursor=pointer]:
+            - generic [ref=e232]: Seafood
+          - menuitem [ref=e233] [cursor=pointer]:
+            - generic [ref=e237]: Deli & Prepared Food
+          - menuitem [ref=e238] [cursor=pointer]:
+            - generic [ref=e242]: Dairy & Eggs
+          - menuitem [ref=e243] [cursor=pointer]:
+            - generic [ref=e247]: Beverages
+          - menuitem [ref=e248] [cursor=pointer]:
+            - generic [ref=e252]: Bread & Bakery
+          - menuitem [ref=e253] [cursor=pointer]:
+            - generic [ref=e257]: Frozen
+          - menuitem [ref=e258] [cursor=pointer]:
+            - generic [ref=e262]: Rice, Pasta & Beans
+          - menuitem [ref=e263] [cursor=pointer]:
+            - generic [ref=e267]: Baking & Cooking
+          - menuitem [ref=e268] [cursor=pointer]:
+            - generic [ref=e272]: Condiments & Sauces
+          - menuitem [ref=e273] [cursor=pointer]:
+            - generic [ref=e277]: Soups & Canned Goods
+          - menuitem [ref=e278] [cursor=pointer]:
+            - generic [ref=e282]: Breakfast
+          - menuitem [ref=e283] [cursor=pointer]:
+            - generic [ref=e287]: Snacks
+          - menuitem [ref=e288] [cursor=pointer]:
+            - generic [ref=e292]: Candy & Chocolate
+          - menuitem [ref=e293] [cursor=pointer]:
+            - generic [ref=e297]: Adult Beverages
+          - menuitem [ref=e298] [cursor=pointer]:
+            - generic [ref=e302]: Laundry, Paper & Cleaning
+          - menuitem [ref=e303] [cursor=pointer]:
+            - generic [ref=e307]: Home & Office
+          - menuitem [ref=e308] [cursor=pointer]:
+            - generic [ref=e312]: Health & Beauty
+          - menuitem [ref=e313] [cursor=pointer]:
+            - generic [ref=e317]: Baby
+          - menuitem [ref=e318] [cursor=pointer]:
+            - generic [ref=e322]: Pets
+        - button [ref=e323] [cursor=pointer]:
+          - img [ref=e325]
+      - link [ref=e329] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e330]:
+          - generic [ref=e331]: "2"
+          - generic [ref=e332]:
+            - text: Notifications
+            - img [ref=e334]
+        - listitem [ref=e337]: Cubs Traffic Notification
+  - complementary [ref=e338]:
+    - dialog "Welcome!" [active] [ref=e339]:
+      - generic [ref=e340]:
+        - generic [ref=e341]:
+          - heading "Welcome!" [level=2] [ref=e342]
+          - button "close dialog" [ref=e343] [cursor=pointer]:
+            - img [ref=e345]
+        - generic [ref=e349]:
+          - img [ref=e352]
+          - heading "A fresh way to shop!" [level=2] [ref=e414]
+          - paragraph [ref=e415]: Introducing our updated website and app, designed with you in mind.
+          - generic [ref=e416]:
+            - generic [ref=e417]:
+              - img [ref=e419]:
+                - img [ref=e421]
+              - paragraph [ref=e427]: Better Substitutions
+            - generic [ref=e429]:
+              - img [ref=e431]:
+                - img [ref=e433]
+              - paragraph [ref=e437]: Better Ways To Save
+            - generic [ref=e439]:
+              - img [ref=e441]:
+                - img [ref=e443]
+              - paragraph [ref=e445]: Better Payment Options
+          - button "Get Started" [ref=e446] [cursor=pointer]
+  - generic [ref=e449]:
+    - main [ref=e450]:
+      - generic [ref=e452]:
+        - generic [ref=e454]:
+          - region [ref=e458]:
+            - link [ref=e460] [cursor=pointer]:
+              - generic [ref=e461]:
+                - generic:
+                  - img
+              - paragraph [ref=e462]: Coupons
+          - region [ref=e466]:
+            - link [ref=e468] [cursor=pointer]:
+              - generic [ref=e469]:
+                - generic:
+                  - img
+              - paragraph [ref=e470]: Weekly Ad
+          - region [ref=e474]:
+            - link [ref=e476] [cursor=pointer]:
+              - generic [ref=e477]:
+                - generic:
+                  - img
+              - paragraph [ref=e478]: My Hannaford Rewards
+          - region [ref=e482]:
+            - link [ref=e484] [cursor=pointer]:
+              - generic [ref=e485]:
+                - generic:
+                  - img
+              - paragraph [ref=e486]: Store Locator
+        - generic [ref=e490]:
+          - heading [level=2] [ref=e491]: Inspiration
+          - list [ref=e497]:
+            - listitem [ref=e498]:
+              - region [ref=e499]:
+                - link [ref=e500] [cursor=pointer]:
+                  - paragraph [ref=e503]: Snacks & platters — your best play yet. Online Only. Save $5.
+            - listitem [ref=e504]:
+              - region [ref=e505]:
+                - link [ref=e506] [cursor=pointer]:
+                  - img [ref=e508]
+                  - paragraph [ref=e510]: 30% off Nature's Promise chicken! hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi
+            - listitem [ref=e511]:
+              - region [ref=e512]:
+                - link [ref=e513] [cursor=pointer]:
+                  - paragraph [ref=e516]: Fall test
+        - generic [ref=e518]:
+          - region [ref=e524]:
+            - generic [ref=e525]:
+              - heading [level=2] [ref=e526]: Weekly Ad Zone
+              - button [ref=e527] [cursor=pointer]: View All
+            - list [ref=e535]:
+              - listitem [ref=e536]:
+                - button [ref=e539] [cursor=pointer]:
+                  - generic:
+                    - img:
+                      - generic:
+                        - img
+                - generic [ref=e542] [cursor=pointer]:
+                  - generic [ref=e543]:
+                    - generic [ref=e544]: $8.99 lb.
+                    - link [ref=e545]:
+                      - /url: "#"
+                      - text: Bone-In Strip Steak
+                    - generic [ref=e546]: Hannaford Freshly Cut
+                  - button [ref=e549]: See Eligible Items
+              - listitem [ref=e550]:
+                - button [ref=e553] [cursor=pointer]:
+                  - generic:
+                    - img:
+                      - generic:
+                        - img
+                - generic [ref=e556] [cursor=pointer]:
+                  - generic [ref=e557]:
+                    - generic [ref=e558]: $0.99 lb.
+                    - link [ref=e559]:
+                      - /url: "#"
+                      - text: Hannaford Chicken Drumsticks
+                    - generic [ref=e560]: Bone-In
+                  - button [ref=e563]: See Eligible Items
+              - listitem [ref=e564]:
+                - button [ref=e567] [cursor=pointer]:
+                  - generic:
+                    - img:
+                      - generic:
+                        - img
+                - generic [ref=e570] [cursor=pointer]:
+                  - generic [ref=e571]:
+                    - generic [ref=e572]: $6.99 lb.
+                    - link [ref=e573]:
+                      - /url: "#"
+                      - text: Gulf of Maine All Natural Atlantic Salmo...
+                    - generic [ref=e574]: Hannaford 16/20 Ct. Cooked Shrimp $9.99 Lb. or
+                  - button [ref=e577]: See Eligible Items
+              - listitem [ref=e578]:
+                - button [ref=e581] [cursor=pointer]:
+                  - generic:
+                    - img:
+                      - generic:
+                        - img
+                - generic [ref=e584] [cursor=pointer]:
+                  - generic [ref=e585]:
+                    - generic [ref=e586]: 2/ $5.00
+                    - link [ref=e587]:
+                      - /url: "#"
+                      - text: Strawberries
+                    - generic [ref=e588]: Packed with Vitamin C, Fiber and Antioxidants - 1 Lb...
+                  - button [ref=e591]: See Eligible Items
+              - listitem [ref=e592]:
+                - button [ref=e595] [cursor=pointer]:
+                  - generic:
+                    - img:
+                      - generic:
+                        - img
+                - generic [ref=e598] [cursor=pointer]:
+                  - generic [ref=e599]:
+                    - generic [ref=e600]: $1.99 lb.
+                    - link [ref=e601]:
+                      - /url: "#"
+                      - text: Boneless Center Cut Pork Chops
+                    - generic [ref=e602]: Hannaford All Natural - Pork Loin
+                  - button [ref=e605]: See Eligible Items
+          - region [ref=e611]:
+            - generic [ref=e612]:
+              - heading [level=2] [ref=e613]: Coupon Deals
+              - button [ref=e614] [cursor=pointer]: View All
+            - list [ref=e622]:
+              - listitem [ref=e623]:
+                - button [ref=e626] [cursor=pointer]:
+                  - generic:
+                    - img:
+                      - generic:
+                        - img
+                - generic [ref=e630] [cursor=pointer]:
+                  - paragraph [ref=e631]: 10% OFF
+                  - paragraph [ref=e632]:
+                    - link [ref=e633]:
+                      - /url: "#"
+                      - text: Your Purchase
+                  - paragraph [ref=e634]: When You Spend $150.00 or More
+                  - paragraph [ref=e635]: Exp 12/31/2030
+                - button [ref=e637] [cursor=pointer]:
+                  - generic [ref=e638]:
+                    - generic:
+                      - img
+                  - text: Clip Coupon
+              - listitem [ref=e639]:
+                - button [ref=e642] [cursor=pointer]:
+                  - generic:
+                    - img:
+                      - generic:
+                        - img
+                - generic [ref=e646] [cursor=pointer]:
+                  - paragraph [ref=e647]: $5.00 OFF
+                  - paragraph [ref=e648]:
+                    - link [ref=e649]:
+                      - /url: "#"
+                      - text: Your Purchase
+                  - paragraph [ref=e650]: When You Spend $75.00 or More
+                  - paragraph [ref=e651]: Exp 12/31/2030
+                - button [ref=e653] [cursor=pointer]:
+                  - generic [ref=e654]:
+                    - generic:
+                      - img
+                  - text: Clip Coupon
+              - listitem [ref=e655]:
+                - button [ref=e658] [cursor=pointer]:
+                  - generic:
+                    - img:
+                      - generic:
+                        - img
+                - generic [ref=e662] [cursor=pointer]:
+                  - paragraph [ref=e663]: $3.00 OFF
+                  - paragraph [ref=e664]:
+                    - link [ref=e665]:
+                      - /url: "#"
+                      - text: Your Purchase
+                  - paragraph [ref=e666]: When You Spend $50.00 or More
+                  - paragraph [ref=e667]: Exp 12/31/2030
+                - button [ref=e669] [cursor=pointer]:
+                  - generic [ref=e670]:
+                    - generic:
+                      - img
+                  - text: Clip Coupon
+              - listitem [ref=e671]:
+                - button [ref=e674] [cursor=pointer]:
+                  - generic:
+                    - img:
+                      - generic:
+                        - img
+                - generic [ref=e678] [cursor=pointer]:
+                  - paragraph [ref=e679]: $25.00 OFF
+                  - paragraph [ref=e680]:
+                    - link [ref=e681]:
+                      - /url: "#"
+                      - text: Your Purchase
+                  - paragraph [ref=e682]: When You Spend $120.00 or More
+                  - paragraph [ref=e683]: Exp 12/31/2030
+                - button [ref=e685] [cursor=pointer]:
+                  - generic [ref=e686]:
+                    - generic:
+                      - img
+                  - text: Clip Coupon
+              - listitem [ref=e687]:
+                - button [ref=e690] [cursor=pointer]:
+                  - generic:
+                    - img:
+                      - generic:
+                        - img
+                - generic [ref=e694] [cursor=pointer]:
+                  - paragraph [ref=e695]: $1.00 OFF
+                  - paragraph [ref=e696]:
+                    - link [ref=e697]:
+                      - /url: "#"
+                      - text: Taste of Inspirations
+                  - paragraph [ref=e698]: ONE (1) Fresh Taste of Inspirations Ham Steak (Located in Meat) Subject to Availability
+                  - paragraph [ref=e699]: Exp 11/30/2026
+                - button [ref=e701] [cursor=pointer]:
+                  - generic [ref=e702]:
+                    - generic:
+                      - img
+                  - text: Clip Coupon
+          - generic [ref=e706]:
+            - separator [ref=e708]
+            - list [ref=e710]:
+              - listitem [ref=e711]:
+                - generic [ref=e712]:
+                  - link [ref=e713] [cursor=pointer]:
+                    - /url: /product/1
+                  - button [ref=e717] [cursor=pointer]
+              - listitem [ref=e724]:
+                - generic [ref=e725]:
+                  - link [ref=e726] [cursor=pointer]:
+                    - /url: /product/2
+                  - button [ref=e730] [cursor=pointer]
+              - listitem [ref=e737]:
+                - generic [ref=e738]:
+                  - link [ref=e739] [cursor=pointer]:
+                    - /url: /product/3
+                  - button [ref=e743] [cursor=pointer]
+              - listitem [ref=e750]:
+                - generic [ref=e751]:
+                  - link [ref=e752] [cursor=pointer]:
+                    - /url: /product/4
+                  - button [ref=e756] [cursor=pointer]
+              - listitem [ref=e763]:
+                - generic [ref=e764]:
+                  - link [ref=e765] [cursor=pointer]:
+                    - /url: /product/5
+                  - button [ref=e769] [cursor=pointer]
+          - generic [ref=e779]:
+            - separator [ref=e781]
+            - list [ref=e783]:
+              - listitem [ref=e784]:
+                - generic [ref=e785]:
+                  - link [ref=e786] [cursor=pointer]:
+                    - /url: /product/1
+                  - button [ref=e790] [cursor=pointer]
+              - listitem [ref=e797]:
+                - generic [ref=e798]:
+                  - link [ref=e799] [cursor=pointer]:
+                    - /url: /product/2
+                  - button [ref=e803] [cursor=pointer]
+              - listitem [ref=e810]:
+                - generic [ref=e811]:
+                  - link [ref=e812] [cursor=pointer]:
+                    - /url: /product/3
+                  - button [ref=e816] [cursor=pointer]
+              - listitem [ref=e823]:
+                - generic [ref=e824]:
+                  - link [ref=e825] [cursor=pointer]:
+                    - /url: /product/4
+                  - button [ref=e829] [cursor=pointer]
+              - listitem [ref=e836]:
+                - generic [ref=e837]:
+                  - link [ref=e838] [cursor=pointer]:
+                    - /url: /product/5
+                  - button [ref=e842] [cursor=pointer]
+          - generic [ref=e852]:
+            - separator [ref=e854]
+            - list [ref=e856]:
+              - listitem [ref=e857]:
+                - generic [ref=e858]:
+                  - link [ref=e859] [cursor=pointer]:
+                    - /url: /product/1
+                  - button [ref=e863] [cursor=pointer]
+              - listitem [ref=e870]:
+                - generic [ref=e871]:
+                  - link [ref=e872] [cursor=pointer]:
+                    - /url: /product/2
+                  - button [ref=e876] [cursor=pointer]
+              - listitem [ref=e883]:
+                - generic [ref=e884]:
+                  - link [ref=e885] [cursor=pointer]:
+                    - /url: /product/3
+                  - button [ref=e889] [cursor=pointer]
+              - listitem [ref=e896]:
+                - generic [ref=e897]:
+                  - link [ref=e898] [cursor=pointer]:
+                    - /url: /product/4
+                  - button [ref=e902] [cursor=pointer]
+              - listitem [ref=e909]:
+                - generic [ref=e910]:
+                  - link [ref=e911] [cursor=pointer]:
+                    - /url: /product/5
+                  - button [ref=e915] [cursor=pointer]
+        - region [ref=e922]:
+          - generic [ref=e923]:
+            - button [ref=e924] [cursor=pointer]: Trending Trending
+            - button [ref=e925] [cursor=pointer]: Featured Featured
+          - generic [ref=e927]:
+            - generic [ref=e929]:
+              - button [ref=e930] [cursor=pointer]:
+                - img [ref=e932]
+              - generic [ref=e936]:
+                - list [ref=e938]:
+                  - listitem [ref=e939]
+                  - listitem [ref=e942]
+                  - listitem [ref=e945]
+                  - listitem [ref=e948]
+                  - listitem [ref=e951]
+                - list [ref=e955]:
+                  - listitem [ref=e956]
+            - list [ref=e960]:
+              - listitem [ref=e961]:
+                - button [ref=e962] [cursor=pointer]
+              - listitem [ref=e963]:
+                - button [ref=e964] [cursor=pointer]
+        - region [ref=e966]:
+          - generic [ref=e973]:
+            - generic [ref=e978] [cursor=pointer]:
+              - heading [level=2] [ref=e979]: Save 20% Every Week. Save on Meals Made Easy. This is going longer. Watermelon c...
+              - paragraph [ref=e981]: This classic combines the delicate crunch from a cinnamon and sugar coating with a soft and chewy cookie. Cake batter is pretty tasty as well, fr...
+              - button [ref=e983]:
+                - text: Shop Recipe
+                - img [ref=e985]
+            - generic [ref=e990] [cursor=pointer]:
+              - img [ref=e991]
+              - generic [ref=e993]:
+                - heading [level=2] [ref=e994]: 21+ Signature Chicago Dishes
+                - paragraph [ref=e996]: The city has been a foodie haven since its inception and publications like Conde Nast Traveler, Bon Appetit and USA Today have all praised its cu...
+                - button [ref=e998]:
+                  - text: link
+                  - img [ref=e1000]
+            - generic [ref=e1005] [cursor=pointer]:
+              - img [ref=e1006]
+              - generic [ref=e1008]:
+                - heading [level=2] [ref=e1009]:
+                  - paragraph [ref=e1010]: Few Signature Chicago Dishes, and more and more and more and more and more an...
+                - paragraph [ref=e1012]: Welcome to the world’s largest free-admission outdoor food festival. The annual lakefront extravaganza, a summer staple for more than 40 years, l...
+                - button [ref=e1014]:
+                  - text: Nature's Promise
+                  - img [ref=e1016]
+        - generic [ref=e1020]:
+          - region [ref=e1023]: Get Ready to Gobble
+          - generic [ref=e1027]:
+            - separator [ref=e1029]
+            - list [ref=e1031]:
+              - listitem [ref=e1032]:
+                - generic [ref=e1033]:
+                  - link [ref=e1034] [cursor=pointer]:
+                    - /url: /product/1
+                  - button [ref=e1038] [cursor=pointer]
+              - listitem [ref=e1045]:
+                - generic [ref=e1046]:
+                  - link [ref=e1047] [cursor=pointer]:
+                    - /url: /product/2
+                  - button [ref=e1051] [cursor=pointer]
+              - listitem [ref=e1058]:
+                - generic [ref=e1059]:
+                  - link [ref=e1060] [cursor=pointer]:
+                    - /url: /product/3
+                  - button [ref=e1064] [cursor=pointer]
+              - listitem [ref=e1071]:
+                - generic [ref=e1072]:
+                  - link [ref=e1073] [cursor=pointer]:
+                    - /url: /product/4
+                  - button [ref=e1077] [cursor=pointer]
+              - listitem [ref=e1084]:
+                - generic [ref=e1085]:
+                  - link [ref=e1086] [cursor=pointer]:
+                    - /url: /product/5
+                  - button [ref=e1090] [cursor=pointer]
+          - generic [ref=e1100]:
+            - separator [ref=e1102]
+            - list [ref=e1104]:
+              - listitem [ref=e1105]:
+                - generic [ref=e1106]:
+                  - link [ref=e1107] [cursor=pointer]:
+                    - /url: /product/1
+                  - button [ref=e1111] [cursor=pointer]
+              - listitem [ref=e1118]:
+                - generic [ref=e1119]:
+                  - link [ref=e1120] [cursor=pointer]:
+                    - /url: /product/2
+                  - button [ref=e1124] [cursor=pointer]
+              - listitem [ref=e1131]:
+                - generic [ref=e1132]:
+                  - link [ref=e1133] [cursor=pointer]:
+                    - /url: /product/3
+                  - button [ref=e1137] [cursor=pointer]
+              - listitem [ref=e1144]:
+                - generic [ref=e1145]:
+                  - link [ref=e1146] [cursor=pointer]:
+                    - /url: /product/4
+                  - button [ref=e1150] [cursor=pointer]
+              - listitem [ref=e1157]:
+                - generic [ref=e1158]:
+                  - link [ref=e1159] [cursor=pointer]:
+                    - /url: /product/5
+                  - button [ref=e1163] [cursor=pointer]
+          - generic [ref=e1173]:
+            - separator [ref=e1175]
+            - list [ref=e1177]:
+              - listitem [ref=e1178]:
+                - generic [ref=e1179]:
+                  - link [ref=e1180] [cursor=pointer]:
+                    - /url: /product/1
+                  - button [ref=e1184] [cursor=pointer]
+              - listitem [ref=e1191]:
+                - generic [ref=e1192]:
+                  - link [ref=e1193] [cursor=pointer]:
+                    - /url: /product/2
+                  - button [ref=e1197] [cursor=pointer]
+              - listitem [ref=e1204]:
+                - generic [ref=e1205]:
+                  - link [ref=e1206] [cursor=pointer]:
+                    - /url: /product/3
+                  - button [ref=e1210] [cursor=pointer]
+              - listitem [ref=e1217]:
+                - generic [ref=e1218]:
+                  - link [ref=e1219] [cursor=pointer]:
+                    - /url: /product/4
+                  - button [ref=e1223] [cursor=pointer]
+              - listitem [ref=e1230]:
+                - generic [ref=e1231]:
+                  - link [ref=e1232] [cursor=pointer]:
+                    - /url: /product/5
+                  - button [ref=e1236] [cursor=pointer]
+          - generic [ref=e1246]:
+            - separator [ref=e1248]
+            - list [ref=e1250]:
+              - listitem [ref=e1251]:
+                - generic [ref=e1252]:
+                  - link [ref=e1253] [cursor=pointer]:
+                    - /url: /product/1
+                  - button [ref=e1257] [cursor=pointer]
+              - listitem [ref=e1264]:
+                - generic [ref=e1265]:
+                  - link [ref=e1266] [cursor=pointer]:
+                    - /url: /product/2
+                  - button [ref=e1270] [cursor=pointer]
+              - listitem [ref=e1277]:
+                - generic [ref=e1278]:
+                  - link [ref=e1279] [cursor=pointer]:
+                    - /url: /product/3
+                  - button [ref=e1283] [cursor=pointer]
+              - listitem [ref=e1290]:
+                - generic [ref=e1291]:
+                  - link [ref=e1292] [cursor=pointer]:
+                    - /url: /product/4
+                  - button [ref=e1296] [cursor=pointer]
+              - listitem [ref=e1303]:
+                - generic [ref=e1304]:
+                  - link [ref=e1305] [cursor=pointer]:
+                    - /url: /product/5
+                  - button [ref=e1309] [cursor=pointer]
+          - region [ref=e1318]: Get Ready to Gobble
+          - region [ref=e1324]:
+            - generic [ref=e1325]:
+              - heading [level=2] [ref=e1326]: weekly ad zone prism.
+              - button [ref=e1327] [cursor=pointer]: View All
+            - list [ref=e1334]:
+              - listitem [ref=e1335]:
+                - generic [ref=e1336]:
+                  - link [ref=e1337] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e1339]
+                  - generic [ref=e1340]:
+                    - generic [ref=e1343] [cursor=pointer]:
+                      - generic [ref=e1344]: Hannaford Freshly Cut
+                      - generic [ref=e1345]: $8.99
+                    - button [ref=e1346] [cursor=pointer]:
+                      - link [ref=e1349]:
+                        - /url: /product/bone-in-strip-steak/undefined
+                        - text: Hannaford Freshly Cut
+                    - button [ref=e1353] [cursor=pointer]: Add to cart
+              - listitem [ref=e1354]:
+                - generic [ref=e1355]:
+                  - link [ref=e1356] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e1358]
+                  - generic [ref=e1359]:
+                    - generic [ref=e1362] [cursor=pointer]:
+                      - generic [ref=e1363]: Bone-In
+                      - generic [ref=e1364]: $0.99
+                    - button [ref=e1365] [cursor=pointer]:
+                      - link [ref=e1368]:
+                        - /url: /product/hannaford-chicken-drumsticks/undefined
+                        - text: Bone-In
+                    - button [ref=e1372] [cursor=pointer]: Add to cart
+              - listitem [ref=e1373]:
+                - generic [ref=e1374]:
+                  - link [ref=e1375] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e1377]
+                  - generic [ref=e1378]:
+                    - generic [ref=e1381] [cursor=pointer]:
+                      - generic [ref=e1382]: Hannaford 16/20 Ct. Cooked Shrimp $9.99 Lb. or
+                      - generic [ref=e1383]: $6.99
+                    - button [ref=e1384] [cursor=pointer]:
+                      - link [ref=e1387]:
+                        - /url: /product/gulf-of-maine-all-natural-atlantic-salmon/undefined
+                        - text: Hannaford 16/20 Ct. Cooked Shrimp $9.99 Lb. or
+                    - button [ref=e1391] [cursor=pointer]: Add to cart
+              - listitem [ref=e1392]:
+                - generic [ref=e1393]:
+                  - link [ref=e1394] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e1396]
+                  - generic [ref=e1397]:
+                    - generic [ref=e1400] [cursor=pointer]:
+                      - generic [ref=e1401]: Packed with Vitamin C, Fiber and Antioxidants - 1 Lb. Pkg.
+                      - generic [ref=e1402]: $5.00
+                    - button [ref=e1403] [cursor=pointer]:
+                      - link [ref=e1406]:
+                        - /url: /product/strawberries/undefined
+                        - text: Packed with Vitamin C, Fiber and Antioxidants - 1 Lb. Pkg.
+                    - button [ref=e1410] [cursor=pointer]: Add to cart
+              - listitem [ref=e1411]:
+                - generic [ref=e1412]:
+                  - link [ref=e1413] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e1415]
+                  - generic [ref=e1416]:
+                    - generic [ref=e1419] [cursor=pointer]:
+                      - generic [ref=e1420]: Hannaford All Natural - Pork Loin
+                      - generic [ref=e1421]: $1.99
+                    - button [ref=e1422] [cursor=pointer]:
+                      - link [ref=e1425]:
+                        - /url: /product/boneless-center-cut-pork-chops/undefined
+                        - text: Hannaford All Natural - Pork Loin
+                    - button [ref=e1429] [cursor=pointer]: Add to cart
+    - contentinfo [ref=e1430]:
+      - navigation [ref=e1431]:
+        - generic [ref=e1432]:
+          - generic [ref=e1433]:
+            - link [ref=e1437] [cursor=pointer]:
+              - /url: ""
+              - text: Store Locator
+            - link [ref=e1441] [cursor=pointer]:
+              - /url: https://recipes.hannaford.com
+              - text: Recipes
+            - link [ref=e1445] [cursor=pointer]:
+              - /url: ""
+              - text: Pharmacy
+            - link [ref=e1449] [cursor=pointer]:
+              - /url: https://entertaining.hannaford.com/
+              - text: Catering
+            - link [ref=e1453] [cursor=pointer]:
+              - /url: ""
+              - text: Floral
+            - link [ref=e1457] [cursor=pointer]:
+              - /url: ""
+              - text: Gift Cards
+            - link [ref=e1461] [cursor=pointer]:
+              - /url: ""
+              - text: Wellness
+            - link [ref=e1465] [cursor=pointer]:
+              - /url: ""
+              - text: Savory Magazine
+          - generic [ref=e1468]:
+            - heading [level=3] [ref=e1470]: About
+            - list [ref=e1472]:
+              - listitem [ref=e1473]:
+                - link [ref=e1475] [cursor=pointer]:
+                  - /url: ""
+                  - text: About Us
+              - listitem [ref=e1476]:
+                - link [ref=e1478] [cursor=pointer]:
+                  - /url: ""
+                  - text: Private Brands
+              - listitem [ref=e1479]:
+                - link [ref=e1481] [cursor=pointer]:
+                  - /url: ""
+                  - text: Store Departments
+              - listitem [ref=e1482]:
+                - link [ref=e1484] [cursor=pointer]:
+                  - /url: ""
+                  - text: News & Media
+              - listitem [ref=e1485]:
+                - link [ref=e1487] [cursor=pointer]:
+                  - /url: ""
+                  - text: Community
+              - listitem [ref=e1488]:
+                - link [ref=e1490] [cursor=pointer]:
+                  - /url: ""
+                  - text: A+ School Rewards
+              - listitem [ref=e1491]:
+                - link [ref=e1493] [cursor=pointer]:
+                  - /url: ""
+                  - text: Guiding Stars
+              - listitem [ref=e1494]:
+                - link [ref=e1496] [cursor=pointer]:
+                  - /url: ""
+                  - text: Security
+          - generic [ref=e1499]:
+            - heading [level=3] [ref=e1501]: Customer Support
+            - list [ref=e1503]:
+              - listitem [ref=e1504]:
+                - link [ref=e1506] [cursor=pointer]:
+                  - /url: ""
+                  - text: Contact Us
+              - listitem [ref=e1507]:
+                - link [ref=e1509] [cursor=pointer]:
+                  - /url: ""
+                  - text: Help
+              - listitem [ref=e1510]:
+                - link [ref=e1512] [cursor=pointer]:
+                  - /url: ""
+                  - text: Coupon Policy
+              - listitem [ref=e1513]:
+                - link [ref=e1515] [cursor=pointer]:
+                  - /url: ""
+                  - text: Food Safety
+              - listitem [ref=e1516]:
+                - link [ref=e1518] [cursor=pointer]:
+                  - /url: ""
+                  - text: Product Recalls
+              - listitem [ref=e1519]:
+                - link [ref=e1521] [cursor=pointer]:
+                  - /url: ""
+                  - text: COVID-19
+          - generic [ref=e1524]:
+            - heading [level=3] [ref=e1526]: Company
+            - list [ref=e1528]:
+              - listitem [ref=e1529]:
+                - link [ref=e1531] [cursor=pointer]:
+                  - /url: ""
+                  - text: Careers
+              - listitem [ref=e1532]:
+                - link [ref=e1534] [cursor=pointer]:
+                  - /url: ""
+                  - text: Associate Connect
+              - listitem [ref=e1535]:
+                - link [ref=e1537] [cursor=pointer]:
+                  - /url: ""
+                  - text: New Suppliers
+        - navigation [ref=e1538]:
+          - generic [ref=e1539]:
+            - link [ref=e1540] [cursor=pointer]:
+              - /url: https://www.pinterest.com/hannaford
+              - generic:
+                - img
+            - link [ref=e1541] [cursor=pointer]:
+              - /url: https://www.facebook.com/Hannaford
+              - generic:
+                - img
+            - link [ref=e1542] [cursor=pointer]:
+              - /url: https://www.instagram.com/hannafordmkts
+              - generic:
+                - img
+            - link [ref=e1543] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@hannafordmkts
+              - generic:
+                - img
+            - link [ref=e1544] [cursor=pointer]:
+              - /url: https://www.youtube.com/user/hannafordvideo
+              - generic:
+                - img
+          - generic [ref=e1545]:
+            - generic [ref=e1547]:
+              - link [ref=e1550] [cursor=pointer]:
+                - /url: ""
+                - text: Legal Terms
+              - link [ref=e1553] [cursor=pointer]:
+                - /url: ""
+                - text: Privacy Statement
+              - link [ref=e1556] [cursor=pointer]:
+                - /url: https://hannaford.com/groceries/index.html
+                - text: Products
+              - link [ref=e1559] [cursor=pointer]:
+                - /url: ""
+                - text: Privacy Center
+              - link [ref=e1562] [cursor=pointer]:
+                - /url: ""
+                - text: Opt-out of Targeted Advertising or Sale of Personal Information
+            - paragraph [ref=e1563]: ©2026 Hannaford. All Rights Reserved
+  - button [ref=e1566] [cursor=pointer]:
+    - generic:
+      - img
+```

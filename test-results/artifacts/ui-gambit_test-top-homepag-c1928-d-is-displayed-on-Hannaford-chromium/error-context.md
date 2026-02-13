@@ -1,0 +1,1351 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - link "Skip to Main Content" [ref=e4] [cursor=pointer]:
+    - /url: "#"
+  - generic [ref=e5]:
+    - banner [ref=e6]:
+      - navigation "Main Menu" [ref=e8]:
+        - link "Home" [ref=e10] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e12]
+        - generic [ref=e81]:
+          - searchbox "Search" [ref=e82]
+          - generic:
+            - img
+          - generic [ref=e83]: When results are available, use the up and down keys to review and the enter key to select.
+        - generic [ref=e84]:
+          - button "Sign In" [ref=e85] [cursor=pointer]:
+            - text: Sign In
+            - generic [ref=e86]:
+              - generic:
+                - img
+          - listitem [ref=e88]:
+            - link "Shopping List" [ref=e89] [cursor=pointer]:
+              - /url: "#"
+        - button "Cart Subtotal $0.00" [ref=e90] [cursor=pointer]:
+          - generic [ref=e91]:
+            - generic [ref=e92]: $0.00
+            - img [ref=e94]
+      - navigation "Secondary" [ref=e98]:
+        - list [ref=e99]:
+          - listitem [ref=e100]:
+            - button "Categories" [ref=e101] [cursor=pointer]:
+              - text: Categories
+              - generic [ref=e102]:
+                - generic:
+                  - img
+          - listitem [ref=e104]:
+            - link "Past Purchases" [ref=e105] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e106]:
+            - link "Weekly Ad" [ref=e107] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e108]:
+            - link "Coupons" [ref=e109] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e110]:
+            - link "Sales" [ref=e111] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e112]:
+            - link "My Hannaford Rewards" [ref=e113] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e114]:
+            - link "Recipes" [ref=e115] [cursor=pointer]:
+              - /url: https://recipes.hannaford.com
+          - listitem [ref=e116]:
+            - button "Pharmacy & Wellness" [ref=e117] [cursor=pointer]:
+              - text: Pharmacy & Wellness
+              - generic [ref=e118]:
+                - generic:
+                  - img
+        - generic [ref=e122]:
+          - img [ref=e124]:
+            - img [ref=e126]
+          - generic [ref=e128]:
+            - button "In-Store" [ref=e129] [cursor=pointer]:
+              - strong [ref=e130]: In-Store
+            - generic [ref=e131]: at
+            - button "417 Payne Rd , 04074" [ref=e132] [cursor=pointer]:
+              - strong [ref=e133]: 417 Payne Rd
+              - generic [ref=e134]: ", 04074"
+    - link "Go to notifications" [ref=e137] [cursor=pointer]:
+      - /url: "#"
+      - generic [ref=e138]:
+        - generic [ref=e139]: "2"
+        - generic [ref=e140]:
+          - text: Notifications
+          - img [ref=e142]
+      - list:
+        - listitem [ref=e145]: Cubs Traffic Notification
+  - generic [ref=e147]:
+    - main [ref=e148]:
+      - generic [ref=e151]:
+        - generic [ref=e153]:
+          - generic:
+            - button "Previous slide" [ref=e154] [cursor=pointer]:
+              - img [ref=e156]
+            - button "Next slide" [ref=e159] [cursor=pointer]:
+              - img [ref=e161]
+          - generic [ref=e165]:
+            - generic [ref=e168]:
+              - generic:
+                - generic [ref=e169]:
+                  - generic [ref=e170]: This is boosted with scheduled_priority of 10
+                  - generic [ref=e171]: body copy
+                  - button "Shop Now" [ref=e173] [cursor=pointer]:
+                    - text: Shop Now
+                    - img [ref=e175]
+                - list [ref=e180]:
+                  - listitem [ref=e181]:
+                    - generic [ref=e183]:
+                      - link "Broccoli Crowns priced at $1.99" [ref=e186] [cursor=pointer]:
+                        - /url: "#"
+                        - img "Broccoli Crowns" [ref=e187]
+                      - generic [ref=e189]:
+                        - link "Broccoli Crowns" [ref=e191] [cursor=pointer]:
+                          - /url: /product/broccoli-crowns-1-crown/118645
+                        - generic [ref=e192]:
+                          - generic [ref=e193]: Broccoli Crowns
+                          - generic [ref=e194] [cursor=pointer]: $1.99
+                  - listitem [ref=e195]:
+                    - generic [ref=e197]:
+                      - link "Gala Apples priced at $0.70" [ref=e200] [cursor=pointer]:
+                        - /url: "#"
+                        - img "Gala Apples" [ref=e201]
+                      - generic [ref=e203]:
+                        - link "Gala Apples" [ref=e205] [cursor=pointer]:
+                          - /url: /product/gala-apples-1-ea/118580
+                        - generic [ref=e206]:
+                          - generic [ref=e207]: Gala Apples
+                          - generic [ref=e208] [cursor=pointer]: $0.70
+            - generic [ref=e211]:
+              - generic:
+                - generic [ref=e212]:
+                  - generic [ref=e213]: Beans. Shells. Sauce. Don’t Forget the Savings!
+                  - generic [ref=e214]: Spend $15 on Old El Paso’s Tex-Mex flavors and receive $5 off. Dinner done and savings redeemed.
+                  - button "Shop Old El Paso" [ref=e216] [cursor=pointer]:
+                    - text: Shop Old El Paso
+                    - img [ref=e218]
+                - list [ref=e223]:
+                  - listitem [ref=e224]:
+                    - generic [ref=e226]:
+                      - link "Old El Paso 25% Less Sodium Taco Seasoning Mix Packet priced at $1.29" [ref=e229] [cursor=pointer]:
+                        - /url: "#"
+                        - img "Old El Paso 25% Less Sodium Taco Seasoning Mix Packet" [ref=e230]
+                      - generic [ref=e232]:
+                        - link "Old El Paso 25% Less Sodium Taco Seasoning Mix Packet" [ref=e234] [cursor=pointer]:
+                          - /url: /product/old-el-paso-25-less-sodium-taco-seasoning-mix-packet-1-oz-pkt/24939
+                        - generic [ref=e235]:
+                          - generic [ref=e236]: Old El Paso 25% Less Sodium Taco Seasoning Mix Packet
+                          - generic [ref=e237] [cursor=pointer]: $1.29
+                  - listitem [ref=e238]:
+                    - generic [ref=e240]:
+                      - link "Old El Paso Fat Free Refried Beans priced at $2.25" [ref=e243] [cursor=pointer]:
+                        - /url: "#"
+                        - img "Old El Paso Fat Free Refried Beans" [ref=e244]
+                      - generic [ref=e246]:
+                        - link "Old El Paso Fat Free Refried Beans" [ref=e248] [cursor=pointer]:
+                          - /url: /product/old-el-paso-fat-free-refried-beans-16-oz-can/20534
+                        - generic [ref=e249]:
+                          - generic [ref=e250]: Old El Paso Fat Free Refried Beans
+                          - generic [ref=e251] [cursor=pointer]: $2.25
+                  - listitem [ref=e252]:
+                    - generic [ref=e254]:
+                      - link "Old El Paso Gluten Free Stand 'N Stuff Hard Taco Shells - 10 ct priced at $1.99" [ref=e257] [cursor=pointer]:
+                        - /url: "#"
+                        - img "Old El Paso Gluten Free Stand 'N Stuff Hard Taco Shells - 10 ct" [ref=e258]
+                      - generic [ref=e260]:
+                        - link "Old El Paso Gluten Free Stand 'N Stuff Hard Taco Shells - 10 ct" [ref=e262] [cursor=pointer]:
+                          - /url: /product/old-el-paso-gluten-free-stand-n-stuff-hard-taco-shells-10-ct-4.7-oz-box/135495
+                        - generic [ref=e263]:
+                          - generic [ref=e264]: Old El Paso Gluten Free Stand 'N Stuff Hard Taco Shells - 10 ct
+                          - generic [ref=e265] [cursor=pointer]:
+                            - generic [ref=e266]: Sale Price
+                            - text: $1.99
+                          - generic [ref=e268]:
+                            - generic [ref=e269]: Original Price
+                            - text: $3.29
+            - generic [ref=e272]:
+              - generic:
+                - generic [ref=e273]:
+                  - generic [ref=e274]: This should be in Slot 4
+                  - generic [ref=e275]: body copy
+                  - button "Shop now" [ref=e277] [cursor=pointer]:
+                    - text: Shop now
+                    - img [ref=e279]
+                - list [ref=e284]:
+                  - listitem [ref=e285]:
+                    - generic [ref=e287]:
+                      - link "Ben & Jerry's Chocolate Fudge Brownie Ice Cream priced at $5.59" [ref=e290] [cursor=pointer]:
+                        - /url: "#"
+                        - img "Ben & Jerry's Chocolate Fudge Brownie Ice Cream" [ref=e291]
+                      - generic [ref=e293]:
+                        - link "Ben & Jerry's Chocolate Fudge Brownie Ice Cream" [ref=e295] [cursor=pointer]:
+                          - /url: /product/ben-jerrys-chocolate-fudge-brownie-ice-cream-1-pint/14520
+                        - generic [ref=e296]:
+                          - generic [ref=e297]: Ben & Jerry's Chocolate Fudge Brownie Ice Cream
+                          - generic [ref=e298] [cursor=pointer]: $5.59
+                  - listitem [ref=e299]:
+                    - generic [ref=e301]:
+                      - link "Newman's Own Thin & Crispy Uncured Pepperoni Pizza Frozen priced at $6.99" [ref=e304] [cursor=pointer]:
+                        - /url: "#"
+                        - img "Newman's Own Thin & Crispy Uncured Pepperoni Pizza Frozen" [ref=e305]
+                      - generic [ref=e307]:
+                        - link "Newman's Own Thin & Crispy Uncured Pepperoni Pizza Frozen" [ref=e309] [cursor=pointer]:
+                          - /url: /product/newmans-own-thin-crispy-uncured-pepperoni-pizza-frozen-15.1-oz-box/163119
+                        - generic [ref=e310]:
+                          - generic [ref=e311]: Newman's Own Thin & Crispy Uncured Pepperoni Pizza Frozen
+                          - generic [ref=e312] [cursor=pointer]: $6.99
+            - generic [ref=e316]:
+              - generic [ref=e317]: Seafood savings for Lent!
+              - generic [ref=e318]: $7.99/lb salmon and $6.99/lb shrimp with digital coupons!
+              - button "Shop now" [ref=e320] [cursor=pointer]:
+                - text: Shop now
+                - img [ref=e322]
+            - generic [ref=e327]:
+              - generic:
+                - generic [ref=e328]:
+                  - generic [ref=e329]: Spend $15, Earn 500 GO Points
+                  - generic [ref=e330]: Get rewarded when you stock up on tailgating favorites.
+                  - button "Shop Now" [ref=e332] [cursor=pointer]:
+                    - text: Shop Now
+                    - img [ref=e334]
+                - list [ref=e339]:
+                  - listitem [ref=e340]:
+                    - generic [ref=e342]:
+                      - link "Heinz Simply Tomato No Artificial Sweeteners Ketchup priced at $7.59" [ref=e345] [cursor=pointer]:
+                        - /url: "#"
+                        - img "Heinz Simply Tomato No Artificial Sweeteners Ketchup" [ref=e346]
+                      - generic [ref=e348]:
+                        - link "Heinz Simply Tomato No Artificial Sweeteners Ketchup" [ref=e350] [cursor=pointer]:
+                          - /url: /product/heinz-simply-tomato-no-artificial-sweeteners-ketchup-31-oz-btl/573
+                        - generic [ref=e351]:
+                          - generic [ref=e352]: Heinz Simply Tomato No Artificial Sweeteners Ketchup
+                          - generic [ref=e353] [cursor=pointer]: $7.59
+                  - listitem [ref=e354]:
+                    - generic [ref=e356]:
+                      - link "Heinz Tomato Ketchup Value Size priced at $8.35" [ref=e359] [cursor=pointer]:
+                        - /url: "#"
+                        - img "Heinz Tomato Ketchup Value Size" [ref=e360]
+                      - generic [ref=e362]:
+                        - link "Heinz Tomato Ketchup Value Size" [ref=e364] [cursor=pointer]:
+                          - /url: /product/heinz-tomato-ketchup-value-size-64-oz-btl/575
+                        - generic [ref=e365]:
+                          - generic [ref=e366]: Heinz Tomato Ketchup Value Size
+                          - generic [ref=e367] [cursor=pointer]: $8.35
+        - generic [ref=e368]:
+          - button "Play" [ref=e370] [cursor=pointer]:
+            - img [ref=e371]
+          - list [ref=e376]:
+            - listitem [ref=e377]:
+              - button "go to slide 1" [ref=e378] [cursor=pointer]
+            - listitem [ref=e379]:
+              - button "go to slide 2" [ref=e380] [cursor=pointer]
+            - listitem [ref=e381]:
+              - button "go to slide 3" [ref=e382] [cursor=pointer]
+            - listitem [ref=e383]:
+              - button "go to slide 4" [ref=e384] [cursor=pointer]
+            - listitem [ref=e385]:
+              - button "go to slide 5" [ref=e386] [cursor=pointer]
+      - generic [ref=e388]:
+        - generic [ref=e390]:
+          - region "Coupons Page Link" [ref=e394]:
+            - link "Coupons -" [ref=e396] [cursor=pointer]:
+              - generic [ref=e397]:
+                - generic:
+                  - img
+              - paragraph [ref=e398]: Coupons
+          - region "Weekly Ad Page Link" [ref=e402]:
+            - link "Weekly Ad -" [ref=e404] [cursor=pointer]:
+              - generic [ref=e405]:
+                - generic:
+                  - img
+              - paragraph [ref=e406]: Weekly Ad
+          - region "My Hannaford Rewards Page Link" [ref=e410]:
+            - link "My Hannaford Rewards -" [ref=e412] [cursor=pointer]:
+              - generic [ref=e413]:
+                - generic:
+                  - img
+              - paragraph [ref=e414]: My Hannaford Rewards
+          - region "Store Locator Page Link" [ref=e418]:
+            - link "Store Locator -" [ref=e420] [cursor=pointer]:
+              - generic [ref=e421]:
+                - generic:
+                  - img
+              - paragraph [ref=e422]: Store Locator
+        - generic [ref=e426]:
+          - heading "Inspiration" [level=2] [ref=e427]
+          - list [ref=e433]:
+            - listitem [ref=e434]:
+              - region "Snacks & platters — your best play yet. Online Only. Save $5." [ref=e435]:
+                - link "Snacks & platters — your best play yet. Online Only. Save $5." [ref=e436] [cursor=pointer]:
+                  - paragraph [ref=e439]: Snacks & platters — your best play yet. Online Only. Save $5.
+            - listitem [ref=e440]:
+              - region "30% off Nature's Promise chicken! hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi" [ref=e441]:
+                - link "30% off Nature's Promise chicken! hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi" [ref=e442] [cursor=pointer]:
+                  - img "Grilled chicken" [ref=e444]
+                  - paragraph [ref=e446]: 30% off Nature's Promise chicken! hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi
+            - listitem [ref=e447]:
+              - region "Fall test" [ref=e448]:
+                - link "Fall test" [ref=e449] [cursor=pointer]:
+                  - paragraph [ref=e452]: Fall test
+        - generic [ref=e454]:
+          - generic "Weekly Ad Zone" [ref=e459]:
+            - region "Weekly Ad Zone" [ref=e460]:
+              - generic [ref=e461]:
+                - heading "Weekly Ad Zone" [level=2] [ref=e462]
+                - button "View all weekly ad products" [ref=e463] [cursor=pointer]: View All
+              - generic [ref=e470]:
+                - list
+                - list [ref=e471]:
+                  - listitem [ref=e472]:
+                    - button "add to shopping list" [ref=e475] [cursor=pointer]:
+                      - generic:
+                        - img:
+                          - generic:
+                            - img
+                    - generic [ref=e478] [cursor=pointer]:
+                      - generic [ref=e479]:
+                        - generic "$8.99 lb." [ref=e480]
+                        - link "Bone-In Strip Steak" [ref=e481]:
+                          - /url: "#"
+                      - button "See Eligible Items" [ref=e484]
+                  - listitem [ref=e485]:
+                    - button "add to shopping list" [ref=e488] [cursor=pointer]:
+                      - generic:
+                        - img:
+                          - generic:
+                            - img
+                    - generic [ref=e491] [cursor=pointer]:
+                      - generic [ref=e492]:
+                        - generic "$0.99 lb." [ref=e493]
+                        - link "Hannaford Chicken Drumsticks" [ref=e494]:
+                          - /url: "#"
+                      - button "See Eligible Items" [ref=e497]
+                  - listitem [ref=e498]:
+                    - button "add to shopping list" [ref=e501] [cursor=pointer]:
+                      - generic:
+                        - img:
+                          - generic:
+                            - img
+                    - generic [ref=e504] [cursor=pointer]:
+                      - generic [ref=e505]:
+                        - generic "$6.99 lb." [ref=e506]
+                        - link "Gulf of Maine All Natural Atlantic Salmon" [ref=e507]:
+                          - /url: "#"
+                          - text: Gulf of Maine All Natural Atlantic Salmo...
+                      - button "See Eligible Items" [ref=e510]
+                  - listitem [ref=e511]:
+                    - button "add to shopping list" [ref=e514] [cursor=pointer]:
+                      - generic:
+                        - img:
+                          - generic:
+                            - img
+                    - generic [ref=e517] [cursor=pointer]:
+                      - generic [ref=e518]:
+                        - generic "2/ $5.00" [ref=e519]
+                        - link "Strawberries" [ref=e520]:
+                          - /url: "#"
+                      - button "See Eligible Items" [ref=e523]
+                  - listitem [ref=e524]:
+                    - button "add to shopping list" [ref=e527] [cursor=pointer]:
+                      - generic:
+                        - img:
+                          - generic:
+                            - img
+                    - generic [ref=e530] [cursor=pointer]:
+                      - generic [ref=e531]:
+                        - generic "$1.99 lb." [ref=e532]
+                        - link "Boneless Center Cut Pork Chops" [ref=e533]:
+                          - /url: "#"
+                      - button "See Eligible Items" [ref=e536]
+          - generic "Summer Time" [ref=e541]:
+            - region "Summer Time" [ref=e542]:
+              - generic [ref=e543]:
+                - heading "Summer Time" [level=2] [ref=e544]
+                - button "View all products" [ref=e545] [cursor=pointer]: View All
+              - generic [ref=e546]:
+                - generic [ref=e548]:
+                  - button "Next slide" [ref=e549] [cursor=pointer]:
+                    - img [ref=e551]
+                  - generic [ref=e555]:
+                    - list [ref=e557]:
+                      - listitem [ref=e558]:
+                        - generic [ref=e559]:
+                          - link [ref=e560] [cursor=pointer]:
+                            - /url: /product/kingsford-match-light-instant-charcoal-briquets-8-lb-bag/6324
+                            - img [ref=e562]
+                          - generic [ref=e563]:
+                            - generic [ref=e566] [cursor=pointer]:
+                              - generic [ref=e567]: Kingsford Match Light Instant Charcoal Briquets
+                              - generic [ref=e568]: $9.59
+                            - button "Kingsford Match Light Instant Charcoal Briquets 8 LB BAG$1.20 /PER POUND" [ref=e569] [cursor=pointer]:
+                              - link "Kingsford Match Light Instant Charcoal Briquets" [ref=e572]:
+                                - /url: /product/kingsford-match-light-instant-charcoal-briquets-8-lb-bag/6324
+                              - generic [ref=e574]: 8 LB BAG | $1.20 /PER POUND
+                            - button "Add to cart" [ref=e578] [cursor=pointer]
+                        - button "add to shopping list" [ref=e582] [cursor=pointer]:
+                          - generic:
+                            - img:
+                              - generic:
+                                - img
+                      - listitem [ref=e583]:
+                        - generic [ref=e584]:
+                          - link [ref=e585] [cursor=pointer]:
+                            - /url: /product/kingsford-the-original-charcoal-briquets-16-lb-bag/6326
+                            - img [ref=e587]
+                          - generic [ref=e588]:
+                            - generic [ref=e591] [cursor=pointer]:
+                              - generic [ref=e592]: Kingsford The Original Charcoal Briquets
+                              - generic [ref=e593]: $14.19
+                            - button "Kingsford The Original Charcoal Briquets 16 LB BAG$0.88 /PER POUND" [ref=e594] [cursor=pointer]:
+                              - link "Kingsford The Original Charcoal Briquets" [ref=e597]:
+                                - /url: /product/kingsford-the-original-charcoal-briquets-16-lb-bag/6326
+                              - generic [ref=e599]: 16 LB BAG | $0.88 /PER POUND
+                            - button "Add to cart" [ref=e603] [cursor=pointer]
+                        - button "add to shopping list" [ref=e607] [cursor=pointer]:
+                          - generic:
+                            - img:
+                              - generic:
+                                - img
+                      - listitem [ref=e608]:
+                        - generic [ref=e609]:
+                          - link [ref=e610] [cursor=pointer]:
+                            - /url: /product/kingsford-charcoal-lighter-fluid-odorless-32-oz-btl/27785
+                            - img [ref=e612]
+                          - generic [ref=e613]:
+                            - generic [ref=e616] [cursor=pointer]:
+                              - generic [ref=e617]: Kingsford Charcoal Lighter Fluid Odorless
+                              - generic [ref=e618]: $5.69
+                            - button "Kingsford Charcoal Lighter Fluid Odorless 32 OZ BTL$5.69 /PER QUART" [ref=e619] [cursor=pointer]:
+                              - link "Kingsford Charcoal Lighter Fluid Odorless" [ref=e622]:
+                                - /url: /product/kingsford-charcoal-lighter-fluid-odorless-32-oz-btl/27785
+                              - generic [ref=e624]: 32 OZ BTL | $5.69 /PER QUART
+                            - button "Add to cart" [ref=e628] [cursor=pointer]
+                        - button "add to shopping list" [ref=e632] [cursor=pointer]:
+                          - generic:
+                            - img:
+                              - generic:
+                                - img
+                      - listitem [ref=e633]:
+                        - generic [ref=e634]:
+                          - link [ref=e635] [cursor=pointer]:
+                            - /url: /product/smart-living-charcoal-lighter-fluid-32-oz-btl/124646
+                            - img [ref=e637]
+                          - generic [ref=e638]:
+                            - generic [ref=e641] [cursor=pointer]:
+                              - generic [ref=e642]: Smart Living Charcoal Lighter Fluid
+                              - generic [ref=e643]: $4.99
+                            - button "Smart Living Charcoal Lighter Fluid 32 OZ BTL$4.99 /PER QUART" [ref=e644] [cursor=pointer]:
+                              - link "Smart Living Charcoal Lighter Fluid" [ref=e647]:
+                                - /url: /product/smart-living-charcoal-lighter-fluid-32-oz-btl/124646
+                                - generic [ref=e648]:
+                                  - generic:
+                                    - img
+                                - text: Smart Living Charcoal Lighter Fluid
+                              - generic [ref=e650]: 32 OZ BTL | $4.99 /PER QUART
+                            - button "Add to cart" [ref=e654] [cursor=pointer]
+                        - button "add to shopping list" [ref=e658] [cursor=pointer]:
+                          - generic:
+                            - img:
+                              - generic:
+                                - img
+                      - listitem [ref=e659]:
+                        - generic [ref=e660]:
+                          - link [ref=e661] [cursor=pointer]:
+                            - /url: /product/smart-living-charcoal-briquets-instant-lighting-12-lb-bag/144774
+                            - img [ref=e663]
+                          - generic [ref=e664]:
+                            - generic [ref=e667] [cursor=pointer]:
+                              - generic [ref=e668]: Smart Living Charcoal Briquets Instant Lighting
+                              - generic [ref=e669]: $10.99
+                            - button "Smart Living Charcoal Briquets Instant Lighting 12 LB BAG$0.91 /PER POUND" [ref=e670] [cursor=pointer]:
+                              - link "Smart Living Charcoal Briquets Instant Lighting" [ref=e673]:
+                                - /url: /product/smart-living-charcoal-briquets-instant-lighting-12-lb-bag/144774
+                                - generic [ref=e674]:
+                                  - generic:
+                                    - img
+                                - text: Smart Living Charcoal Briquets Instant Lighting
+                              - generic [ref=e676]: 12 LB BAG | $0.91 /PER POUND
+                            - button "Add to cart" [ref=e680] [cursor=pointer]
+                        - button "add to shopping list" [ref=e684] [cursor=pointer]:
+                          - generic:
+                            - img:
+                              - generic:
+                                - img
+                    - list [ref=e686]:
+                      - listitem [ref=e687]:
+                        - generic [ref=e688]:
+                          - link [ref=e689] [cursor=pointer]:
+                            - /url: /product/good-cook-bamboo-skewers-brochette-wood-12-inch-100-ct-pkg/155713
+                            - img [ref=e691]
+                          - generic [ref=e692]:
+                            - generic [ref=e695] [cursor=pointer]:
+                              - generic [ref=e696]: Good Cook Bamboo Skewers Brochette Wood 12 Inch
+                              - generic [ref=e697]: $2.99
+                            - button "Good Cook Bamboo Skewers Brochette Wood 12 Inch 100 CT PKG$2.99 /PER 100 CT" [ref=e698] [cursor=pointer]:
+                              - link "Good Cook Bamboo Skewers Brochette Wood 12 Inch" [ref=e701]:
+                                - /url: /product/good-cook-bamboo-skewers-brochette-wood-12-inch-100-ct-pkg/155713
+                              - generic [ref=e703]: 100 CT PKG | $2.99 /PER 100 CT
+                            - button "Add to cart" [ref=e707] [cursor=pointer]
+                        - button "add to shopping list" [ref=e711] [cursor=pointer]:
+                          - generic:
+                            - img:
+                              - generic:
+                                - img
+                      - listitem [ref=e712]:
+                        - generic [ref=e713]:
+                          - link [ref=e714] [cursor=pointer]:
+                            - /url: /product/kingsford-charcoal-briquets-the-original-8-lb-bag/174673
+                            - img [ref=e716]
+                          - generic [ref=e717]:
+                            - generic [ref=e720] [cursor=pointer]:
+                              - generic [ref=e721]: Kingsford Charcoal Briquets The Original
+                              - generic [ref=e722]: $9.59
+                            - button "Kingsford Charcoal Briquets The Original 8 LB BAG$1.20 /PER POUND" [ref=e723] [cursor=pointer]:
+                              - link "Kingsford Charcoal Briquets The Original" [ref=e726]:
+                                - /url: /product/kingsford-charcoal-briquets-the-original-8-lb-bag/174673
+                              - generic [ref=e728]: 8 LB BAG | $1.20 /PER POUND
+                            - button "Add to cart" [ref=e732] [cursor=pointer]
+                        - button "add to shopping list" [ref=e736] [cursor=pointer]:
+                          - generic:
+                            - img:
+                              - generic:
+                                - img
+                      - listitem [ref=e737]:
+                        - generic [ref=e738]:
+                          - link [ref=e739] [cursor=pointer]:
+                            - /url: /product/yasso-sea-salt-caramel-greek-yogurt-bars-4-ct-14-oz-box/204660
+                            - img [ref=e741]
+                          - generic [ref=e742]:
+                            - generic [ref=e745] [cursor=pointer]:
+                              - generic [ref=e746]: Yasso Sea Salt Caramel Greek Yogurt Bars - 4 ct
+                              - generic [ref=e747]: $6.29
+                            - button "Yasso Sea Salt Caramel Greek Yogurt Bars - 4 ct 14 OZ BOX$14.38 /PER QUART" [ref=e748] [cursor=pointer]:
+                              - link "Yasso Sea Salt Caramel Greek Yogurt Bars - 4 ct" [ref=e751]:
+                                - /url: /product/yasso-sea-salt-caramel-greek-yogurt-bars-4-ct-14-oz-box/204660
+                              - generic [ref=e753]: 14 OZ BOX | $14.38 /PER QUART
+                            - button "Add to cart" [ref=e757] [cursor=pointer]
+                        - button "add to shopping list" [ref=e761] [cursor=pointer]:
+                          - generic:
+                            - img:
+                              - generic:
+                                - img
+                      - listitem [ref=e762]:
+                        - generic [ref=e763]:
+                          - link [ref=e764] [cursor=pointer]:
+                            - /url: /product/smart-living-charcoal-briquets-instant-lighting-8-lb-bag/212404
+                            - img [ref=e766]
+                          - generic [ref=e767]:
+                            - generic [ref=e770] [cursor=pointer]:
+                              - generic [ref=e771]: Smart Living Charcoal Briquets Instant Lighting
+                              - generic [ref=e772]: $8.89
+                            - button "Smart Living Charcoal Briquets Instant Lighting 8 LB BAG$1.11 /PER POUND" [ref=e773] [cursor=pointer]:
+                              - link "Smart Living Charcoal Briquets Instant Lighting" [ref=e776]:
+                                - /url: /product/smart-living-charcoal-briquets-instant-lighting-8-lb-bag/212404
+                                - generic [ref=e777]:
+                                  - generic:
+                                    - img
+                                - text: Smart Living Charcoal Briquets Instant Lighting
+                              - generic [ref=e779]: 8 LB BAG | $1.11 /PER POUND
+                            - button "Add to cart" [ref=e783] [cursor=pointer]
+                        - button "add to shopping list" [ref=e787] [cursor=pointer]:
+                          - generic:
+                            - img:
+                              - generic:
+                                - img
+                      - listitem [ref=e788]:
+                        - generic [ref=e789]:
+                          - link [ref=e790] [cursor=pointer]:
+                            - /url: /product/yasso-chocolate-chip-cookie-dough-greek-yogurt-bars-4-ct-14-oz-box/212455
+                            - img [ref=e792]
+                          - generic [ref=e793]:
+                            - generic [ref=e796] [cursor=pointer]:
+                              - generic [ref=e797]: Yasso Chocolate Chip Cookie Dough Greek Yogurt Bars - 4 ct
+                              - generic [ref=e798]: $6.29
+                            - button "Yasso Chocolate Chip Cookie Dough Greek Yogurt Bars - 4 ct 14 OZ BOX$14.38 /PER QUART" [ref=e799] [cursor=pointer]:
+                              - link "Yasso Chocolate Chip Cookie Dough Greek Yogurt Bars - 4 ct" [ref=e802]:
+                                - /url: /product/yasso-chocolate-chip-cookie-dough-greek-yogurt-bars-4-ct-14-oz-box/212455
+                              - generic [ref=e804]: 14 OZ BOX | $14.38 /PER QUART
+                            - button "Add to cart" [ref=e808] [cursor=pointer]
+                        - button "add to shopping list" [ref=e812] [cursor=pointer]:
+                          - generic:
+                            - img:
+                              - generic:
+                                - img
+                    - list [ref=e814]:
+                      - listitem [ref=e815]:
+                        - generic [ref=e816]:
+                          - link [ref=e817] [cursor=pointer]:
+                            - /url: /product/yasso-coffee-chocolate-chip-greek-yogurt-bars-4-ct-14-oz-box/212472
+                            - img [ref=e819]
+                          - generic [ref=e820]:
+                            - generic [ref=e823] [cursor=pointer]:
+                              - generic [ref=e824]: Yasso Coffee Chocolate Chip Greek Yogurt Bars - 4 ct
+                              - generic [ref=e825]: $6.29
+                            - button "Yasso Coffee Chocolate Chip Greek Yogurt Bars - 4 ct 14 OZ BOX$14.38 /PER QUART" [ref=e826] [cursor=pointer]:
+                              - link "Yasso Coffee Chocolate Chip Greek Yogurt Bars - 4 ct" [ref=e829]:
+                                - /url: /product/yasso-coffee-chocolate-chip-greek-yogurt-bars-4-ct-14-oz-box/212472
+                              - generic [ref=e831]: 14 OZ BOX | $14.38 /PER QUART
+                            - button "Add to cart" [ref=e835] [cursor=pointer]
+                        - button "add to shopping list" [ref=e839] [cursor=pointer]:
+                          - generic:
+                            - img:
+                              - generic:
+                                - img
+                      - listitem [ref=e840]:
+                        - generic [ref=e841]:
+                          - link [ref=e842] [cursor=pointer]:
+                            - /url: /product/yasso-mint-chocolate-chip-greek-yogurt-bars-4-ct-14-oz-box/212473
+                            - img [ref=e844]
+                          - generic [ref=e845]:
+                            - generic [ref=e848] [cursor=pointer]:
+                              - generic [ref=e849]: Yasso Mint Chocolate Chip Greek Yogurt Bars - 4 ct
+                              - generic [ref=e850]: $6.29
+                            - button "Yasso Mint Chocolate Chip Greek Yogurt Bars - 4 ct 14 OZ BOX$14.38 /PER QUART" [ref=e851] [cursor=pointer]:
+                              - link "Yasso Mint Chocolate Chip Greek Yogurt Bars - 4 ct" [ref=e854]:
+                                - /url: /product/yasso-mint-chocolate-chip-greek-yogurt-bars-4-ct-14-oz-box/212473
+                              - generic [ref=e856]: 14 OZ BOX | $14.38 /PER QUART
+                            - button "Add to cart" [ref=e860] [cursor=pointer]
+                        - button "add to shopping list" [ref=e864] [cursor=pointer]:
+                          - generic:
+                            - img:
+                              - generic:
+                                - img
+                      - listitem [ref=e865]:
+                        - generic [ref=e866]:
+                          - link [ref=e867] [cursor=pointer]:
+                            - /url: /product/yasso-cookies-n-cream-greek-yogurt-bars-4-ct-14-oz-box/218431
+                            - img [ref=e869]
+                          - generic [ref=e870]:
+                            - generic [ref=e873] [cursor=pointer]:
+                              - generic [ref=e874]: Yasso Cookies 'n Cream Greek Yogurt Bars- 4 ct
+                              - generic [ref=e875]: $6.29
+                            - button "Yasso Cookies 'n Cream Greek Yogurt Bars- 4 ct 14 OZ BOX$14.38 /PER QUART" [ref=e876] [cursor=pointer]:
+                              - link "Yasso Cookies 'n Cream Greek Yogurt Bars- 4 ct" [ref=e879]:
+                                - /url: /product/yasso-cookies-n-cream-greek-yogurt-bars-4-ct-14-oz-box/218431
+                              - generic [ref=e881]: 14 OZ BOX | $14.38 /PER QUART
+                            - button "Add to cart" [ref=e885] [cursor=pointer]
+                        - button "add to shopping list" [ref=e889] [cursor=pointer]:
+                          - generic:
+                            - img:
+                              - generic:
+                                - img
+                      - listitem [ref=e890]:
+                        - generic [ref=e891]:
+                          - link [ref=e892] [cursor=pointer]:
+                            - /url: /product/yasso-chocolate-fudge-greek-yogurt-bars-4-ct-14-oz-box/227386
+                            - img [ref=e894]
+                          - generic [ref=e895]:
+                            - generic [ref=e898] [cursor=pointer]:
+                              - generic [ref=e899]: Yasso Chocolate Fudge Greek Yogurt Bars - 4 ct
+                              - generic [ref=e900]: $6.29
+                            - button "Yasso Chocolate Fudge Greek Yogurt Bars - 4 ct 14 OZ BOX$14.38 /PER QUART" [ref=e901] [cursor=pointer]:
+                              - link "Yasso Chocolate Fudge Greek Yogurt Bars - 4 ct" [ref=e904]:
+                                - /url: /product/yasso-chocolate-fudge-greek-yogurt-bars-4-ct-14-oz-box/227386
+                              - generic [ref=e906]: 14 OZ BOX | $14.38 /PER QUART
+                            - button "Add to cart" [ref=e910] [cursor=pointer]
+                        - button "add to shopping list" [ref=e914] [cursor=pointer]:
+                          - generic:
+                            - img:
+                              - generic:
+                                - img
+                      - listitem [ref=e915]:
+                        - generic [ref=e916]:
+                          - link [ref=e917] [cursor=pointer]:
+                            - /url: /product/yasso-fudge-brownie-greek-yogurt-bars-4-ct-14-oz-box/228140
+                            - img [ref=e919]
+                          - generic [ref=e920]:
+                            - generic [ref=e923] [cursor=pointer]:
+                              - generic [ref=e924]: Yasso Fudge Brownie Greek Yogurt Bars - 4 ct
+                              - generic [ref=e925]: $6.29
+                            - button "Yasso Fudge Brownie Greek Yogurt Bars - 4 ct 14 OZ BOX$14.38 /PER QUART" [ref=e926] [cursor=pointer]:
+                              - link "Yasso Fudge Brownie Greek Yogurt Bars - 4 ct" [ref=e929]:
+                                - /url: /product/yasso-fudge-brownie-greek-yogurt-bars-4-ct-14-oz-box/228140
+                              - generic [ref=e931]: 14 OZ BOX | $14.38 /PER QUART
+                            - button "Add to cart" [ref=e935] [cursor=pointer]
+                        - button "add to shopping list" [ref=e939] [cursor=pointer]:
+                          - generic:
+                            - img:
+                              - generic:
+                                - img
+                    - list [ref=e941]:
+                      - listitem [ref=e942]:
+                        - generic [ref=e943]:
+                          - link [ref=e944] [cursor=pointer]:
+                            - /url: /product/yasso-chocolate-peanut-butter-chip-greek-yogurt-bars-4-ct-14-oz-box/228771
+                            - img [ref=e946]
+                          - generic [ref=e947]:
+                            - generic [ref=e950] [cursor=pointer]:
+                              - generic [ref=e951]: Yasso Chocolate Peanut Butter Chip Greek Yogurt Bars - 4 ct
+                              - generic [ref=e952]: $6.29
+                            - button "Yasso Chocolate Peanut Butter Chip Greek Yogurt Bars - 4 ct 14 OZ BOX$14.38 /PER QUART" [ref=e953] [cursor=pointer]:
+                              - link "Yasso Chocolate Peanut Butter Chip Greek Yogurt Bars - 4 ct" [ref=e956]:
+                                - /url: /product/yasso-chocolate-peanut-butter-chip-greek-yogurt-bars-4-ct-14-oz-box/228771
+                              - generic [ref=e958]: 14 OZ BOX | $14.38 /PER QUART
+                            - button "Add to cart" [ref=e962] [cursor=pointer]
+                        - button "add to shopping list" [ref=e966] [cursor=pointer]:
+                          - generic:
+                            - img:
+                              - generic:
+                                - img
+                      - listitem [ref=e967]:
+                        - generic [ref=e968]:
+                          - link [ref=e969] [cursor=pointer]:
+                            - /url: /product/good-cook-skewers-100-ct-pkg/230120
+                            - img [ref=e971]
+                          - generic [ref=e972]:
+                            - generic [ref=e975] [cursor=pointer]:
+                              - generic [ref=e976]: Good Cook Skewers
+                              - generic [ref=e977]: $1.29
+                            - button "Good Cook Skewers 100 CT PKG$1.29 /PER 100 CT" [ref=e978] [cursor=pointer]:
+                              - link "Good Cook Skewers" [ref=e981]:
+                                - /url: /product/good-cook-skewers-100-ct-pkg/230120
+                              - generic [ref=e983]: 100 CT PKG | $1.29 /PER 100 CT
+                            - button "Add to cart" [ref=e987] [cursor=pointer]
+                        - button "add to shopping list" [ref=e991] [cursor=pointer]:
+                          - generic:
+                            - img:
+                              - generic:
+                                - img
+                      - listitem [ref=e992]:
+                        - generic [ref=e993]:
+                          - link [ref=e994] [cursor=pointer]:
+                            - /url: /product/yasso-black-raspberry-chip-greek-yogurt-bars-4-ct-14-oz-box/234895
+                            - img [ref=e996]
+                          - generic [ref=e997]:
+                            - generic [ref=e1000] [cursor=pointer]:
+                              - generic [ref=e1001]: Yasso Black Raspberry Chip Greek Yogurt Bars - 4 ct
+                              - generic [ref=e1002]: $6.29
+                            - button "Yasso Black Raspberry Chip Greek Yogurt Bars - 4 ct 14 OZ BOX$14.38 /PER QUART" [ref=e1003] [cursor=pointer]:
+                              - link "Yasso Black Raspberry Chip Greek Yogurt Bars - 4 ct" [ref=e1006]:
+                                - /url: /product/yasso-black-raspberry-chip-greek-yogurt-bars-4-ct-14-oz-box/234895
+                              - generic [ref=e1008]: 14 OZ BOX | $14.38 /PER QUART
+                            - button "Add to cart" [ref=e1012] [cursor=pointer]
+                        - button "add to shopping list" [ref=e1016] [cursor=pointer]:
+                          - generic:
+                            - img:
+                              - generic:
+                                - img
+                      - listitem [ref=e1017]:
+                        - generic [ref=e1018]:
+                          - link [ref=e1019] [cursor=pointer]:
+                            - /url: /product/kingsford-match-light-instant-charcoal-briquets-12-lb-bag/260894
+                            - img [ref=e1021]
+                          - generic [ref=e1022]:
+                            - generic [ref=e1025] [cursor=pointer]:
+                              - generic [ref=e1026]: Kingsford Match Light Instant Charcoal Briquets
+                              - generic [ref=e1027]: $14.19
+                            - button "Kingsford Match Light Instant Charcoal Briquets 12 LB BAG$1.18 /PER POUND" [ref=e1028] [cursor=pointer]:
+                              - link "Kingsford Match Light Instant Charcoal Briquets" [ref=e1031]:
+                                - /url: /product/kingsford-match-light-instant-charcoal-briquets-12-lb-bag/260894
+                              - generic [ref=e1033]: 12 LB BAG | $1.18 /PER POUND
+                            - button "Add to cart" [ref=e1037] [cursor=pointer]
+                        - button "add to shopping list" [ref=e1041] [cursor=pointer]:
+                          - generic:
+                            - img:
+                              - generic:
+                                - img
+                      - listitem [ref=e1042]:
+                        - generic [ref=e1043]:
+                          - link [ref=e1044] [cursor=pointer]:
+                            - /url: /product/yasso-mint-chocolate-crunch-dipped-greek-yogurt-bars-4-ct-10.6-oz-box/279746
+                            - img [ref=e1046]
+                          - generic [ref=e1047]:
+                            - generic [ref=e1050] [cursor=pointer]:
+                              - generic [ref=e1051]: Yasso Mint Chocolate Crunch Dipped Greek Yogurt Bars - 4 ct
+                              - generic [ref=e1052]: $6.29
+                            - button "Yasso Mint Chocolate Crunch Dipped Greek Yogurt Bars - 4 ct 10.6 OZ BOX$18.99 /PER QUART" [ref=e1053] [cursor=pointer]:
+                              - link "Yasso Mint Chocolate Crunch Dipped Greek Yogurt Bars - 4 ct" [ref=e1056]:
+                                - /url: /product/yasso-mint-chocolate-crunch-dipped-greek-yogurt-bars-4-ct-10.6-oz-box/279746
+                              - generic [ref=e1058]: 10.6 OZ BOX | $18.99 /PER QUART
+                            - button "Add to cart" [ref=e1062] [cursor=pointer]
+                        - button "add to shopping list" [ref=e1066] [cursor=pointer]:
+                          - generic:
+                            - img:
+                              - generic:
+                                - img
+                    - list [ref=e1068]:
+                      - listitem [ref=e1069]:
+                        - generic [ref=e1070]:
+                          - link [ref=e1071] [cursor=pointer]:
+                            - /url: /product/yasso-sea-salt-caramel-chocolate-crunch-greek-yogurt-bars-4-ct-10.6-oz-box/279747
+                            - img [ref=e1073]
+                          - generic [ref=e1074]:
+                            - generic [ref=e1077] [cursor=pointer]:
+                              - generic [ref=e1078]: Yasso Sea Salt Caramel Chocolate Crunch Greek Yogurt Bars - 4 ct
+                              - generic [ref=e1079]: $6.29
+                            - button "Yasso Sea Salt Caramel Chocolate Crunch Greek Yogurt Bars - 4 ct 10.6 OZ BOX$18.99 /PER QUART" [ref=e1080] [cursor=pointer]:
+                              - link "Yasso Sea Salt Caramel Chocolate Crunch Greek Yogurt Bars - 4 ct" [ref=e1083]:
+                                - /url: /product/yasso-sea-salt-caramel-chocolate-crunch-greek-yogurt-bars-4-ct-10.6-oz-box/279747
+                              - generic [ref=e1085]: 10.6 OZ BOX | $18.99 /PER QUART
+                            - button "Add to cart" [ref=e1089] [cursor=pointer]
+                        - button "add to shopping list" [ref=e1093] [cursor=pointer]:
+                          - generic:
+                            - img:
+                              - generic:
+                                - img
+                      - listitem [ref=e1094]:
+                        - generic [ref=e1095]:
+                          - link [ref=e1096] [cursor=pointer]:
+                            - /url: /product/yasso-vanilla-chocolate-crunch-frozen-greek-yogurt-bars-4-ct-10.6-oz-box/279748
+                            - img [ref=e1098]
+                          - generic [ref=e1099]:
+                            - generic [ref=e1102] [cursor=pointer]:
+                              - generic [ref=e1103]: Yasso Vanilla Chocolate Crunch Frozen Greek Yogurt Bars - 4 ct
+                              - generic [ref=e1104]: $6.29
+                            - button "Yasso Vanilla Chocolate Crunch Frozen Greek Yogurt Bars - 4 ct 10.6 OZ BOX$18.99 /PER QUART" [ref=e1105] [cursor=pointer]:
+                              - link "Yasso Vanilla Chocolate Crunch Frozen Greek Yogurt Bars - 4 ct" [ref=e1108]:
+                                - /url: /product/yasso-vanilla-chocolate-crunch-frozen-greek-yogurt-bars-4-ct-10.6-oz-box/279748
+                              - generic [ref=e1110]: 10.6 OZ BOX | $18.99 /PER QUART
+                            - button "Add to cart" [ref=e1114] [cursor=pointer]
+                        - button "add to shopping list" [ref=e1118] [cursor=pointer]:
+                          - generic:
+                            - img:
+                              - generic:
+                                - img
+                      - listitem [ref=e1119]:
+                        - generic [ref=e1120]:
+                          - link [ref=e1121] [cursor=pointer]:
+                            - /url: /product/smart-living-charcoal-briquettes-16-lb-bag/287807
+                            - img [ref=e1123]
+                          - generic [ref=e1124]:
+                            - generic [ref=e1127] [cursor=pointer]:
+                              - generic [ref=e1128]: Smart Living Charcoal Briquettes
+                              - generic [ref=e1129]: $11.49
+                            - button "Smart Living Charcoal Briquettes 16 LB BAG$0.71 /PER POUND" [ref=e1130] [cursor=pointer]:
+                              - link "Smart Living Charcoal Briquettes" [ref=e1133]:
+                                - /url: /product/smart-living-charcoal-briquettes-16-lb-bag/287807
+                                - generic [ref=e1134]:
+                                  - generic:
+                                    - img
+                                - text: Smart Living Charcoal Briquettes
+                              - generic [ref=e1136]: 16 LB BAG | $0.71 /PER POUND
+                            - button "Add to cart" [ref=e1140] [cursor=pointer]
+                        - button "add to shopping list" [ref=e1144] [cursor=pointer]:
+                          - generic:
+                            - img:
+                              - generic:
+                                - img
+                      - listitem [ref=e1145]:
+                        - generic [ref=e1146]:
+                          - link [ref=e1147] [cursor=pointer]:
+                            - /url: /product/smart-living-multi-purpose-lighter-1-ct-pkg/289268
+                            - img [ref=e1149]
+                          - generic [ref=e1150]:
+                            - generic [ref=e1153] [cursor=pointer]:
+                              - generic [ref=e1154]: Smart Living Multi-Purpose Lighter
+                              - generic [ref=e1155]: $3.99
+                            - button "Smart Living Multi-Purpose Lighter 1 CT PKG$3.99 /EACH" [ref=e1156] [cursor=pointer]:
+                              - link "Smart Living Multi-Purpose Lighter" [ref=e1159]:
+                                - /url: /product/smart-living-multi-purpose-lighter-1-ct-pkg/289268
+                                - generic [ref=e1160]:
+                                  - generic:
+                                    - img
+                                - text: Smart Living Multi-Purpose Lighter
+                              - generic [ref=e1162]: 1 CT PKG | $3.99 /EACH
+                            - button "Add to cart" [ref=e1166] [cursor=pointer]
+                        - button "add to shopping list" [ref=e1170] [cursor=pointer]:
+                          - generic:
+                            - img:
+                              - generic:
+                                - img
+                      - listitem [ref=e1171]:
+                        - generic [ref=e1172]:
+                          - link [ref=e1173] [cursor=pointer]:
+                            - /url: /product/smart-living-charcoal-briquettes-instant-lighting-4-lb-bag/291916
+                            - img [ref=e1175]
+                          - generic [ref=e1176]:
+                            - generic [ref=e1179] [cursor=pointer]:
+                              - generic [ref=e1180]: Smart Living Charcoal Briquettes Instant Lighting
+                              - generic [ref=e1181]: $5.49
+                            - button "Smart Living Charcoal Briquettes Instant Lighting 4 LB BAG$1.37 /PER POUND" [ref=e1182] [cursor=pointer]:
+                              - link "Smart Living Charcoal Briquettes Instant Lighting" [ref=e1185]:
+                                - /url: /product/smart-living-charcoal-briquettes-instant-lighting-4-lb-bag/291916
+                                - generic [ref=e1186]:
+                                  - generic:
+                                    - img
+                                - text: Smart Living Charcoal Briquettes Instant Lighting
+                              - generic [ref=e1188]: 4 LB BAG | $1.37 /PER POUND
+                            - button "Add to cart" [ref=e1192] [cursor=pointer]
+                        - button "add to shopping list" [ref=e1196] [cursor=pointer]:
+                          - generic:
+                            - img:
+                              - generic:
+                                - img
+                - list [ref=e1198]:
+                  - listitem [ref=e1199]:
+                    - button "go to slide 1" [ref=e1200] [cursor=pointer]
+                  - listitem [ref=e1201]:
+                    - button "go to slide 2" [ref=e1202] [cursor=pointer]
+                  - listitem [ref=e1203]:
+                    - button "go to slide 3" [ref=e1204] [cursor=pointer]
+                  - listitem [ref=e1205]:
+                    - button "go to slide 4" [ref=e1206] [cursor=pointer]
+                  - listitem [ref=e1207]:
+                    - button "go to slide 5" [ref=e1208] [cursor=pointer]
+        - region "Inspiration" [ref=e1209]:
+          - heading [level=2]
+          - generic [ref=e1210]:
+            - button "Trending Trending" [ref=e1211] [cursor=pointer]
+            - button "Featured Featured" [ref=e1212] [cursor=pointer]
+          - generic [ref=e1214]:
+            - generic [ref=e1216]:
+              - button "Next slide" [ref=e1217] [cursor=pointer]:
+                - img [ref=e1219]
+              - generic [ref=e1223]:
+                - list [ref=e1225]:
+                  - listitem [ref=e1226]
+                  - listitem [ref=e1229]
+                  - listitem [ref=e1232]
+                  - listitem [ref=e1235]
+                  - listitem [ref=e1238]
+                - list [ref=e1242]:
+                  - listitem [ref=e1243]
+            - list [ref=e1247]:
+              - listitem [ref=e1248]:
+                - button "go to slide 1" [ref=e1249] [cursor=pointer]
+              - listitem [ref=e1250]:
+                - button "go to slide 2" [ref=e1251] [cursor=pointer]
+        - region "Inspiration" [ref=e1253]:
+          - generic [ref=e1260]:
+            - generic [ref=e1265] [cursor=pointer]:
+              - heading "Save 20% Every Week. Save on Meals Made Easy. This is going longer. Watermelon c..." [level=2] [ref=e1266]
+              - paragraph [ref=e1268]: This classic combines the delicate crunch from a cinnamon and sugar coating with a soft and chewy cookie. Cake batter is pretty tasty as well, fr...
+              - button "Shop Recipe" [ref=e1270]:
+                - text: Shop Recipe
+                - img [ref=e1272]
+            - generic [ref=e1277] [cursor=pointer]:
+              - img "A fest" [ref=e1278]
+              - generic [ref=e1280]:
+                - heading "21+ Signature Chicago Dishes" [level=2] [ref=e1281]
+                - paragraph [ref=e1283]: The city has been a foodie haven since its inception and publications like Conde Nast Traveler, Bon Appetit and USA Today have all praised its cu...
+                - button "link" [ref=e1285]:
+                  - text: link
+                  - img [ref=e1287]
+            - generic [ref=e1292] [cursor=pointer]:
+              - img "A fest" [ref=e1293]
+              - generic [ref=e1295]:
+                - heading "Few Signature Chicago Dishes, and more and more and more and more and more an..." [level=2] [ref=e1296]:
+                  - paragraph [ref=e1297]: Few Signature Chicago Dishes, and more and more and more and more and more an...
+                - paragraph [ref=e1299]: Welcome to the world’s largest free-admission outdoor food festival. The annual lakefront extravaganza, a summer staple for more than 40 years, l...
+                - button "Nature's Promise" [ref=e1301]:
+                  - text: Nature's Promise
+                  - img [ref=e1303]
+        - generic [ref=e1307]:
+          - region "Get Ready to Gobble" [ref=e1310]
+          - generic [ref=e1314]:
+            - separator [ref=e1316]
+            - list [ref=e1318]:
+              - listitem [ref=e1319]:
+                - generic [ref=e1320]:
+                  - link [ref=e1321] [cursor=pointer]:
+                    - /url: /product/1
+                  - generic [ref=e1324]:
+                    - button "product is loading product is loading" [ref=e1325] [cursor=pointer]:
+                      - generic "product is loading" [ref=e1327]
+                      - generic "product is loading" [ref=e1329]
+                    - generic "product is loading" [ref=e1331]
+              - listitem [ref=e1332]:
+                - generic [ref=e1333]:
+                  - link [ref=e1334] [cursor=pointer]:
+                    - /url: /product/2
+                  - generic [ref=e1337]:
+                    - button "product is loading product is loading" [ref=e1338] [cursor=pointer]:
+                      - generic "product is loading" [ref=e1340]
+                      - generic "product is loading" [ref=e1342]
+                    - generic "product is loading" [ref=e1344]
+              - listitem [ref=e1345]:
+                - generic [ref=e1346]:
+                  - link [ref=e1347] [cursor=pointer]:
+                    - /url: /product/3
+                  - generic [ref=e1350]:
+                    - button "product is loading product is loading" [ref=e1351] [cursor=pointer]:
+                      - generic "product is loading" [ref=e1353]
+                      - generic "product is loading" [ref=e1355]
+                    - generic "product is loading" [ref=e1357]
+              - listitem [ref=e1358]:
+                - generic [ref=e1359]:
+                  - link [ref=e1360] [cursor=pointer]:
+                    - /url: /product/4
+                  - generic [ref=e1363]:
+                    - button "product is loading product is loading" [ref=e1364] [cursor=pointer]:
+                      - generic "product is loading" [ref=e1366]
+                      - generic "product is loading" [ref=e1368]
+                    - generic "product is loading" [ref=e1370]
+              - listitem [ref=e1371]:
+                - generic [ref=e1372]:
+                  - link [ref=e1373] [cursor=pointer]:
+                    - /url: /product/5
+                  - generic [ref=e1376]:
+                    - button "product is loading product is loading" [ref=e1377] [cursor=pointer]:
+                      - generic "product is loading" [ref=e1379]
+                      - generic "product is loading" [ref=e1381]
+                    - generic "product is loading" [ref=e1383]
+          - generic [ref=e1387]:
+            - separator [ref=e1389]
+            - list [ref=e1391]:
+              - listitem [ref=e1392]:
+                - generic [ref=e1393]:
+                  - link [ref=e1394] [cursor=pointer]:
+                    - /url: /product/1
+                  - generic [ref=e1397]:
+                    - button "product is loading product is loading" [ref=e1398] [cursor=pointer]:
+                      - generic "product is loading" [ref=e1400]
+                      - generic "product is loading" [ref=e1402]
+                    - generic "product is loading" [ref=e1404]
+              - listitem [ref=e1405]:
+                - generic [ref=e1406]:
+                  - link [ref=e1407] [cursor=pointer]:
+                    - /url: /product/2
+                  - generic [ref=e1410]:
+                    - button "product is loading product is loading" [ref=e1411] [cursor=pointer]:
+                      - generic "product is loading" [ref=e1413]
+                      - generic "product is loading" [ref=e1415]
+                    - generic "product is loading" [ref=e1417]
+              - listitem [ref=e1418]:
+                - generic [ref=e1419]:
+                  - link [ref=e1420] [cursor=pointer]:
+                    - /url: /product/3
+                  - generic [ref=e1423]:
+                    - button "product is loading product is loading" [ref=e1424] [cursor=pointer]:
+                      - generic "product is loading" [ref=e1426]
+                      - generic "product is loading" [ref=e1428]
+                    - generic "product is loading" [ref=e1430]
+              - listitem [ref=e1431]:
+                - generic [ref=e1432]:
+                  - link [ref=e1433] [cursor=pointer]:
+                    - /url: /product/4
+                  - generic [ref=e1436]:
+                    - button "product is loading product is loading" [ref=e1437] [cursor=pointer]:
+                      - generic "product is loading" [ref=e1439]
+                      - generic "product is loading" [ref=e1441]
+                    - generic "product is loading" [ref=e1443]
+              - listitem [ref=e1444]:
+                - generic [ref=e1445]:
+                  - link [ref=e1446] [cursor=pointer]:
+                    - /url: /product/5
+                  - generic [ref=e1449]:
+                    - button "product is loading product is loading" [ref=e1450] [cursor=pointer]:
+                      - generic "product is loading" [ref=e1452]
+                      - generic "product is loading" [ref=e1454]
+                    - generic "product is loading" [ref=e1456]
+          - generic [ref=e1460]:
+            - separator [ref=e1462]
+            - list [ref=e1464]:
+              - listitem [ref=e1465]:
+                - generic [ref=e1466]:
+                  - link [ref=e1467] [cursor=pointer]:
+                    - /url: /product/1
+                  - generic [ref=e1470]:
+                    - button "product is loading product is loading" [ref=e1471] [cursor=pointer]:
+                      - generic "product is loading" [ref=e1473]
+                      - generic "product is loading" [ref=e1475]
+                    - generic "product is loading" [ref=e1477]
+              - listitem [ref=e1478]:
+                - generic [ref=e1479]:
+                  - link [ref=e1480] [cursor=pointer]:
+                    - /url: /product/2
+                  - generic [ref=e1483]:
+                    - button "product is loading product is loading" [ref=e1484] [cursor=pointer]:
+                      - generic "product is loading" [ref=e1486]
+                      - generic "product is loading" [ref=e1488]
+                    - generic "product is loading" [ref=e1490]
+              - listitem [ref=e1491]:
+                - generic [ref=e1492]:
+                  - link [ref=e1493] [cursor=pointer]:
+                    - /url: /product/3
+                  - generic [ref=e1496]:
+                    - button "product is loading product is loading" [ref=e1497] [cursor=pointer]:
+                      - generic "product is loading" [ref=e1499]
+                      - generic "product is loading" [ref=e1501]
+                    - generic "product is loading" [ref=e1503]
+              - listitem [ref=e1504]:
+                - generic [ref=e1505]:
+                  - link [ref=e1506] [cursor=pointer]:
+                    - /url: /product/4
+                  - generic [ref=e1509]:
+                    - button "product is loading product is loading" [ref=e1510] [cursor=pointer]:
+                      - generic "product is loading" [ref=e1512]
+                      - generic "product is loading" [ref=e1514]
+                    - generic "product is loading" [ref=e1516]
+              - listitem [ref=e1517]:
+                - generic [ref=e1518]:
+                  - link [ref=e1519] [cursor=pointer]:
+                    - /url: /product/5
+                  - generic [ref=e1522]:
+                    - button "product is loading product is loading" [ref=e1523] [cursor=pointer]:
+                      - generic "product is loading" [ref=e1525]
+                      - generic "product is loading" [ref=e1527]
+                    - generic "product is loading" [ref=e1529]
+          - generic [ref=e1533]:
+            - separator [ref=e1535]
+            - list [ref=e1537]:
+              - listitem [ref=e1538]:
+                - generic [ref=e1539]:
+                  - link [ref=e1540] [cursor=pointer]:
+                    - /url: /product/1
+                  - generic [ref=e1543]:
+                    - button "product is loading product is loading" [ref=e1544] [cursor=pointer]:
+                      - generic "product is loading" [ref=e1546]
+                      - generic "product is loading" [ref=e1548]
+                    - generic "product is loading" [ref=e1550]
+              - listitem [ref=e1551]:
+                - generic [ref=e1552]:
+                  - link [ref=e1553] [cursor=pointer]:
+                    - /url: /product/2
+                  - generic [ref=e1556]:
+                    - button "product is loading product is loading" [ref=e1557] [cursor=pointer]:
+                      - generic "product is loading" [ref=e1559]
+                      - generic "product is loading" [ref=e1561]
+                    - generic "product is loading" [ref=e1563]
+              - listitem [ref=e1564]:
+                - generic [ref=e1565]:
+                  - link [ref=e1566] [cursor=pointer]:
+                    - /url: /product/3
+                  - generic [ref=e1569]:
+                    - button "product is loading product is loading" [ref=e1570] [cursor=pointer]:
+                      - generic "product is loading" [ref=e1572]
+                      - generic "product is loading" [ref=e1574]
+                    - generic "product is loading" [ref=e1576]
+              - listitem [ref=e1577]:
+                - generic [ref=e1578]:
+                  - link [ref=e1579] [cursor=pointer]:
+                    - /url: /product/4
+                  - generic [ref=e1582]:
+                    - button "product is loading product is loading" [ref=e1583] [cursor=pointer]:
+                      - generic "product is loading" [ref=e1585]
+                      - generic "product is loading" [ref=e1587]
+                    - generic "product is loading" [ref=e1589]
+              - listitem [ref=e1590]:
+                - generic [ref=e1591]:
+                  - link [ref=e1592] [cursor=pointer]:
+                    - /url: /product/5
+                  - generic [ref=e1595]:
+                    - button "product is loading product is loading" [ref=e1596] [cursor=pointer]:
+                      - generic "product is loading" [ref=e1598]
+                      - generic "product is loading" [ref=e1600]
+                    - generic "product is loading" [ref=e1602]
+          - region "Get Ready to Gobble" [ref=e1605]
+          - generic "weekly ad zone prism." [ref=e1610]:
+            - region "weekly ad zone prism." [ref=e1611]:
+              - generic [ref=e1612]:
+                - heading "weekly ad zone prism." [level=2] [ref=e1613]
+                - button "View all products" [ref=e1614] [cursor=pointer]: View All
+              - list [ref=e1621]:
+                - listitem [ref=e1622]:
+                  - generic [ref=e1623]:
+                    - link [ref=e1624] [cursor=pointer]:
+                      - /url: "#"
+                      - img [ref=e1626]
+                    - generic [ref=e1627]:
+                      - generic [ref=e1630] [cursor=pointer]:
+                        - generic [ref=e1631]: Hannaford Freshly Cut
+                        - generic [ref=e1632]: $8.99
+                      - button "Hannaford Freshly Cut" [ref=e1633] [cursor=pointer]:
+                        - link "Hannaford Freshly Cut" [ref=e1636]:
+                          - /url: /product/bone-in-strip-steak/undefined
+                      - button "Add to cart" [ref=e1640] [cursor=pointer]
+                - listitem [ref=e1641]:
+                  - generic [ref=e1642]:
+                    - link [ref=e1643] [cursor=pointer]:
+                      - /url: "#"
+                      - img [ref=e1645]
+                    - generic [ref=e1646]:
+                      - generic [ref=e1649] [cursor=pointer]:
+                        - generic [ref=e1650]: Bone-In
+                        - generic [ref=e1651]: $0.99
+                      - button "Bone-In" [ref=e1652] [cursor=pointer]:
+                        - link "Bone-In" [ref=e1655]:
+                          - /url: /product/hannaford-chicken-drumsticks/undefined
+                      - button "Add to cart" [ref=e1659] [cursor=pointer]
+                - listitem [ref=e1660]:
+                  - generic [ref=e1661]:
+                    - link [ref=e1662] [cursor=pointer]:
+                      - /url: "#"
+                      - img [ref=e1664]
+                    - generic [ref=e1665]:
+                      - generic [ref=e1668] [cursor=pointer]:
+                        - generic [ref=e1669]: Hannaford 16/20 Ct. Cooked Shrimp $9.99 Lb. or
+                        - generic [ref=e1670]: $6.99
+                      - button "Hannaford 16/20 Ct. Cooked Shrimp $9.99 Lb. or" [ref=e1671] [cursor=pointer]:
+                        - link "Hannaford 16/20 Ct. Cooked Shrimp $9.99 Lb. or" [ref=e1674]:
+                          - /url: /product/gulf-of-maine-all-natural-atlantic-salmon/undefined
+                      - button "Add to cart" [ref=e1678] [cursor=pointer]
+                - listitem [ref=e1679]:
+                  - generic [ref=e1680]:
+                    - link [ref=e1681] [cursor=pointer]:
+                      - /url: "#"
+                      - img [ref=e1683]
+                    - generic [ref=e1684]:
+                      - generic [ref=e1687] [cursor=pointer]:
+                        - generic [ref=e1688]: Packed with Vitamin C, Fiber and Antioxidants - 1 Lb. Pkg.
+                        - generic [ref=e1689]: $5.00
+                      - button "Packed with Vitamin C, Fiber and Antioxidants - 1 Lb. Pkg." [ref=e1690] [cursor=pointer]:
+                        - link "Packed with Vitamin C, Fiber and Antioxidants - 1 Lb. Pkg." [ref=e1693]:
+                          - /url: /product/strawberries/undefined
+                      - button "Add to cart" [ref=e1697] [cursor=pointer]
+                - listitem [ref=e1698]:
+                  - generic [ref=e1699]:
+                    - link [ref=e1700] [cursor=pointer]:
+                      - /url: "#"
+                      - img [ref=e1702]
+                    - generic [ref=e1703]:
+                      - generic [ref=e1706] [cursor=pointer]:
+                        - generic [ref=e1707]: Hannaford All Natural - Pork Loin
+                        - generic [ref=e1708]: $1.99
+                      - button "Hannaford All Natural - Pork Loin" [ref=e1709] [cursor=pointer]:
+                        - link "Hannaford All Natural - Pork Loin" [ref=e1712]:
+                          - /url: /product/boneless-center-cut-pork-chops/undefined
+                      - button "Add to cart" [ref=e1716] [cursor=pointer]
+    - contentinfo [ref=e1717]:
+      - navigation [ref=e1718]:
+        - generic "Hannaford's footer links" [ref=e1719]:
+          - generic [ref=e1720]:
+            - link "footer store locator" [ref=e1724] [cursor=pointer]:
+              - /url: ""
+              - text: Store Locator
+            - link "footer recipes" [ref=e1728] [cursor=pointer]:
+              - /url: https://recipes.hannaford.com
+              - text: Recipes
+            - link "footer pharmacy" [ref=e1732] [cursor=pointer]:
+              - /url: ""
+              - text: Pharmacy
+            - link "footer catering" [ref=e1736] [cursor=pointer]:
+              - /url: https://entertaining.hannaford.com/
+              - text: Catering
+            - link "footer floral" [ref=e1740] [cursor=pointer]:
+              - /url: ""
+              - text: Floral
+            - link "footer gift cards" [ref=e1744] [cursor=pointer]:
+              - /url: ""
+              - text: Gift Cards
+            - link "footer wellness" [ref=e1748] [cursor=pointer]:
+              - /url: ""
+              - text: Wellness
+            - link "footer savory magazine" [ref=e1752] [cursor=pointer]:
+              - /url: ""
+              - text: Savory Magazine
+          - generic [ref=e1755]:
+            - heading "About" [level=3] [ref=e1757]
+            - list [ref=e1759]:
+              - listitem [ref=e1760]:
+                - link "footer about us" [ref=e1762] [cursor=pointer]:
+                  - /url: ""
+                  - text: About Us
+              - listitem [ref=e1763]:
+                - link "footer private brands" [ref=e1765] [cursor=pointer]:
+                  - /url: ""
+                  - text: Private Brands
+              - listitem [ref=e1766]:
+                - link "footer store departments" [ref=e1768] [cursor=pointer]:
+                  - /url: ""
+                  - text: Store Departments
+              - listitem [ref=e1769]:
+                - link "footer news & media" [ref=e1771] [cursor=pointer]:
+                  - /url: ""
+                  - text: News & Media
+              - listitem [ref=e1772]:
+                - link "footer community" [ref=e1774] [cursor=pointer]:
+                  - /url: ""
+                  - text: Community
+              - listitem [ref=e1775]:
+                - link "footer a+ school rewards" [ref=e1777] [cursor=pointer]:
+                  - /url: ""
+                  - text: A+ School Rewards
+              - listitem [ref=e1778]:
+                - link "footer guiding stars" [ref=e1780] [cursor=pointer]:
+                  - /url: ""
+                  - text: Guiding Stars
+              - listitem [ref=e1781]:
+                - link "footer security" [ref=e1783] [cursor=pointer]:
+                  - /url: ""
+                  - text: Security
+          - generic [ref=e1786]:
+            - heading "Customer Support" [level=3] [ref=e1788]
+            - list [ref=e1790]:
+              - listitem [ref=e1791]:
+                - link "footer contact us" [ref=e1793] [cursor=pointer]:
+                  - /url: ""
+                  - text: Contact Us
+              - listitem [ref=e1794]:
+                - link "footer help" [ref=e1796] [cursor=pointer]:
+                  - /url: ""
+                  - text: Help
+              - listitem [ref=e1797]:
+                - link "footer coupon policy" [ref=e1799] [cursor=pointer]:
+                  - /url: ""
+                  - text: Coupon Policy
+              - listitem [ref=e1800]:
+                - link "footer food safety" [ref=e1802] [cursor=pointer]:
+                  - /url: ""
+                  - text: Food Safety
+              - listitem [ref=e1803]:
+                - link "footer product recalls" [ref=e1805] [cursor=pointer]:
+                  - /url: ""
+                  - text: Product Recalls
+              - listitem [ref=e1806]:
+                - link "footer covid-19" [ref=e1808] [cursor=pointer]:
+                  - /url: ""
+                  - text: COVID-19
+          - generic [ref=e1811]:
+            - heading "Company" [level=3] [ref=e1813]
+            - list [ref=e1815]:
+              - listitem [ref=e1816]:
+                - link "footer careers" [ref=e1818] [cursor=pointer]:
+                  - /url: ""
+                  - text: Careers
+              - listitem [ref=e1819]:
+                - link "footer associate connect" [ref=e1821] [cursor=pointer]:
+                  - /url: ""
+                  - text: Associate Connect
+              - listitem [ref=e1822]:
+                - link "footer new suppliers" [ref=e1824] [cursor=pointer]:
+                  - /url: ""
+                  - text: New Suppliers
+        - navigation "social media and legal info" [ref=e1825]:
+          - generic [ref=e1826]:
+            - link "Our Pinterest" [ref=e1827] [cursor=pointer]:
+              - /url: https://www.pinterest.com/hannaford
+              - generic:
+                - img
+            - link "Our Facebook" [ref=e1828] [cursor=pointer]:
+              - /url: https://www.facebook.com/Hannaford
+              - generic:
+                - img
+            - link "Our Instagram" [ref=e1829] [cursor=pointer]:
+              - /url: https://www.instagram.com/hannafordmkts
+              - generic:
+                - img
+            - link "Our TikTok" [ref=e1830] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@hannafordmkts
+              - generic:
+                - img
+            - link "Our Youtube" [ref=e1831] [cursor=pointer]:
+              - /url: https://www.youtube.com/user/hannafordvideo
+              - generic:
+                - img
+          - generic [ref=e1832]:
+            - generic [ref=e1834]:
+              - link "footer legal terms" [ref=e1837] [cursor=pointer]:
+                - /url: ""
+                - text: Legal Terms
+              - link "footer privacy statement" [ref=e1840] [cursor=pointer]:
+                - /url: ""
+                - text: Privacy Statement
+              - link "footer products" [ref=e1843] [cursor=pointer]:
+                - /url: https://hannaford.com/groceries/index.html
+                - text: Products
+              - link "footer privacy center" [ref=e1846] [cursor=pointer]:
+                - /url: ""
+                - text: Privacy Center
+              - link "footer opt-out of targeted advertising or sale of personal information" [ref=e1849] [cursor=pointer]:
+                - /url: ""
+                - text: Opt-out of Targeted Advertising or Sale of Personal Information
+            - paragraph [ref=e1850]: ©2026 Hannaford. All Rights Reserved
+  - button "Launch chat" [ref=e1853] [cursor=pointer]:
+    - generic:
+      - img
+```
