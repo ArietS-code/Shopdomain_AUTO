@@ -1,0 +1,47 @@
+# Node dependencies
+node_modules/
+.npm/
+
+# Build output
+/dist/
+/.vite-cache/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Coverage
+/coverage/
+
+# Test Results & Artifacts
+/test-results/html-report/
+/test-results/artifacts/
+/test-results/.last-run.json
+/playwright-report/
+/playwright/.cache/
+
+# Keep screenshots directory structure
+!/test-results/screenshots/
+/test-results/screenshots/*.png
+
+# IDE/editor
+.idea/
+.vscode/
+*.swp
+
+# macOS Finder metadata (root + nested)
+.DS_Store
+**/.DS_Store
+# Optional other macOS artifacts (uncomment if they appear)
+# .AppleDouble
+# .LSOverride
+
+# Env files (local only; never commit secrets)
+.env.local
+.env.*.local
+
+# If using pnpm store or yarn v3 cache, uncomment relevant ignores:
+# .pnpm-store/
+# .yarn/cache/
