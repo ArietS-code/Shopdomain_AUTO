@@ -1,0 +1,5 @@
+{
+    "terminal.integrated.commandsToSkipShell": [
+        "json     \"chat.tools.terminal.autoApprove\": {         \"/^npm .*/\": true,         \"/^node .*/\": true,         \"/^npx .*/\": true,         \"cat .*/\": true,         \"ls .*/\": true,         \"build.log\": true,         \"'EOF_BASE64'\": true     },"
+    ]
+}

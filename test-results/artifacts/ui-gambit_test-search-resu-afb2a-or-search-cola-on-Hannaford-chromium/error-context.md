@@ -1,0 +1,157 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - link "Skip to Main Content" [ref=e4] [cursor=pointer]:
+    - /url: "#"
+  - generic [ref=e5]:
+    - banner [ref=e6]:
+      - navigation "Main Menu" [ref=e8]:
+        - link "Home" [ref=e10] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e12]
+        - generic [ref=e81]:
+          - searchbox "Search" [ref=e82]
+          - generic:
+            - img
+          - generic [ref=e83]: When results are available, use the up and down keys to review and the enter key to select.
+        - generic [ref=e84]:
+          - button "Sign In" [ref=e85] [cursor=pointer]:
+            - text: Sign In
+            - generic [ref=e86]:
+              - generic:
+                - img
+          - listitem [ref=e88]:
+            - link "Shopping List" [ref=e89] [cursor=pointer]:
+              - /url: "#"
+        - button "Cart Subtotal $0.00" [ref=e90] [cursor=pointer]:
+          - generic [ref=e91]:
+            - generic [ref=e92]: $0.00
+            - img [ref=e94]
+      - navigation "Secondary" [ref=e98]:
+        - list [ref=e99]:
+          - listitem [ref=e100]:
+            - button "Categories" [ref=e101] [cursor=pointer]:
+              - text: Categories
+              - generic [ref=e102]:
+                - generic:
+                  - img
+          - listitem [ref=e104]:
+            - link "Past Purchases" [ref=e105] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e106]:
+            - link "Weekly Ad" [ref=e107] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e108]:
+            - link "Coupons" [ref=e109] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e110]:
+            - link "Sales" [ref=e111] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e112]:
+            - link "My Hannaford Rewards" [ref=e113] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e114]:
+            - link "Recipes" [ref=e115] [cursor=pointer]:
+              - /url: https://recipes.hannaford.com
+          - listitem [ref=e116]:
+            - button "Pharmacy & Wellness" [ref=e117] [cursor=pointer]:
+              - text: Pharmacy & Wellness
+              - generic [ref=e118]:
+                - generic:
+                  - img
+        - generic [ref=e122]:
+          - img [ref=e124]
+          - generic [ref=e125]:
+            - button "In-Store" [ref=e126] [cursor=pointer]:
+              - strong [ref=e127]: In-Store
+            - generic [ref=e128]: at
+            - button ", 04074" [ref=e129] [cursor=pointer]:
+              - strong
+              - generic [ref=e130]: ", 04074"
+    - generic [ref=e131]:
+      - generic [ref=e133]:
+        - menu [ref=e135]:
+          - menuitem "For You" [ref=e136] [cursor=pointer]:
+            - generic [ref=e140]: For You
+          - menuitem "New Arrivals" [ref=e141] [cursor=pointer]:
+            - generic [ref=e145]: New Arrivals
+          - menuitem "Organic" [ref=e146] [cursor=pointer]:
+            - generic [ref=e150]: Organic
+          - menuitem "View More" [ref=e151] [cursor=pointer]:
+            - generic [ref=e155]:
+              - text: View More
+              - generic:
+                - img
+          - listitem [ref=e156] [cursor=pointer]
+          - menuitem "Produce" [ref=e158] [cursor=pointer]:
+            - generic [ref=e162]: Produce
+          - menuitem "Meat" [ref=e163] [cursor=pointer]:
+            - generic [ref=e167]: Meat
+          - menuitem "Seafood" [ref=e168] [cursor=pointer]:
+            - generic [ref=e172]: Seafood
+          - menuitem "Deli & Prepared Food" [ref=e173] [cursor=pointer]:
+            - generic [ref=e177]: Deli & Prepared Food
+          - menuitem "Dairy & Eggs" [ref=e178] [cursor=pointer]:
+            - generic [ref=e182]: Dairy & Eggs
+          - menuitem "Beverages" [ref=e183] [cursor=pointer]:
+            - generic [ref=e187]: Beverages
+          - menuitem "Bread & Bakery" [ref=e188] [cursor=pointer]:
+            - generic [ref=e192]: Bread & Bakery
+          - menuitem "Frozen" [ref=e193] [cursor=pointer]:
+            - generic [ref=e197]: Frozen
+          - menuitem "Rice, Pasta & Beans" [ref=e198] [cursor=pointer]:
+            - generic [ref=e202]: Rice, Pasta & Beans
+          - menuitem "Baking & Cooking" [ref=e203] [cursor=pointer]:
+            - generic [ref=e207]: Baking & Cooking
+          - menuitem "Condiments & Sauces" [ref=e208] [cursor=pointer]:
+            - generic [ref=e212]: Condiments & Sauces
+          - menuitem "Soups & Canned Goods" [ref=e213] [cursor=pointer]:
+            - generic [ref=e217]: Soups & Canned Goods
+          - menuitem "Breakfast" [ref=e218] [cursor=pointer]:
+            - generic [ref=e222]: Breakfast
+          - menuitem "Snacks" [ref=e223] [cursor=pointer]:
+            - generic [ref=e227]: Snacks
+          - menuitem "Candy & Chocolate" [ref=e228] [cursor=pointer]:
+            - generic [ref=e232]: Candy & Chocolate
+          - menuitem "Adult Beverages" [ref=e233] [cursor=pointer]:
+            - generic [ref=e237]: Adult Beverages
+          - menuitem "Laundry, Paper & Cleaning" [ref=e238] [cursor=pointer]:
+            - generic [ref=e242]: Laundry, Paper & Cleaning
+          - menuitem "Home & Office" [ref=e243] [cursor=pointer]:
+            - generic [ref=e247]: Home & Office
+          - menuitem "Health & Beauty" [ref=e248] [cursor=pointer]:
+            - generic [ref=e252]: Health & Beauty
+          - menuitem "Baby" [ref=e253] [cursor=pointer]:
+            - generic [ref=e257]: Baby
+          - menuitem "Pets" [ref=e258] [cursor=pointer]:
+            - generic [ref=e262]: Pets
+        - button "Next Categories" [ref=e263] [cursor=pointer]:
+          - img [ref=e265]
+      - link "Go to notifications" [ref=e269] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e270]:
+          - generic [ref=e271]: "2"
+          - generic [ref=e272]:
+            - text: Notifications
+            - img [ref=e274]
+        - list:
+          - listitem [ref=e277]: Cubs Traffic Notification
+  - main [ref=e280]:
+    - generic [ref=e286]:
+      - heading "Inspiration" [level=2] [ref=e287]
+      - list [ref=e293]:
+        - listitem [ref=e294]:
+          - region "Snacks & platters — your best play yet. Online Only. Save $5." [ref=e295]:
+            - link "Snacks & platters — your best play yet. Online Only. Save $5." [ref=e296] [cursor=pointer]:
+              - paragraph [ref=e299]: Snacks & platters — your best play yet. Online Only. Save $5.
+        - listitem [ref=e300]:
+          - region "30% off Nature's Promise chicken! hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi" [ref=e301]:
+            - link "30% off Nature's Promise chicken! hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi" [ref=e302] [cursor=pointer]:
+              - img "Grilled chicken" [ref=e304]
+              - paragraph [ref=e306]: 30% off Nature's Promise chicken! hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi hi
+        - listitem [ref=e307]:
+          - region "Fall test" [ref=e308]:
+            - link "Fall test" [ref=e309] [cursor=pointer]:
+              - paragraph [ref=e312]: Fall test
+```
