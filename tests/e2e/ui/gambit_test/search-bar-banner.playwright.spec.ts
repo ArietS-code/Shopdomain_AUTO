@@ -20,7 +20,7 @@
 import { test, expect } from '@playwright/test';
 import { PlaywrightHomepagePage } from '../../page-objects/PlaywrightHomepagePage';
 import { getAllOpcoConfigs } from '../../../config/test.config';
-import { setupGambitSession } from '../../../utils/gambit-helpers';
+import { setupGambitSession } from '../../../utils/gambit-helpers.js';
 
 // ============================================================================
 // Test Configuration

@@ -1,7 +1,7 @@
 import { test, expect, type Locator, type Page } from '@playwright/test';
 import { PlaywrightHomepagePage } from '../../../page-objects/PlaywrightHomepagePage';
 import { getOpcoConfig, type OPCO } from '../../../../config/test.config';
-import { setupGambitSession } from '../../../../utils/gambit-helpers';
+import { setupGambitSession } from '../../../../utils/gambit-helpers.js';
 
 const TARGET_OPCO = (process.env.TEST_OPCO as OPCO) || 'hannaford';
 
