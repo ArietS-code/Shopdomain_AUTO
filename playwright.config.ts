@@ -7,6 +7,9 @@ import { defineConfig, devices } from '@playwright/test';
 export default defineConfig({
   testDir: './tests/e2e',
   
+  /* Test timeout - increase to 90 seconds for slow pages */
+  timeout: 40000,
+  
   /* Run tests in files in parallel */
   fullyParallel: false,
   

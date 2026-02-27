@@ -31,6 +31,12 @@ export class PlaywrightHomepagePage {
   readonly promotionBanner: Locator;
   readonly dealSection: Locator;
   readonly categoryGrid: Locator;
+  
+  // Gambit banner elements
+  readonly smallTilesList: Locator;
+  readonly largeTileCarousel: Locator;
+  readonly heroBannerCarousel: Locator;
+  readonly topHomepageBanner: Locator;
 
   constructor(page: Page) {
     this.page = page;
@@ -58,13 +64,36 @@ export class PlaywrightHomepagePage {
     this.promotionBanner = page.locator('[data-testid="promotion-banner"]');
     this.dealSection = page.locator('[data-testid="deals-section"]');
     this.categoryGrid = page.locator('[data-testid="category-grid"]');
+    
+    // Gambit banner locators
+    this.smallTilesList = page.locator('ul[class*="simple-tile-list"]').first();
+    this.largeTileCarousel = page.locator('[class*="large-tile-carousel"]').first();
+    this.heroBannerCarousel = page.locator('#display-ad-hero-1');
+    this.topHomepageBanner = page.locator('#display-ad-1');
+  }
+
+  // Smart wait helper - waits for page to load and DOM to be ready
+  async waitForPageReady(timeout: number = 30000) {
+    await this.page.waitForLoadState('load', { timeout });
+    await this.page.waitForLoadState('domcontentloaded', { timeout });
+    // Small delay for dynamic content to start loading
+    await this.page.waitForTimeout(500);
+  }
+
+  // Wait for element to be ready for interaction
+  async waitForElement(locator: Locator, options: { timeout?: number; state?: 'visible' | 'attached' | 'hidden' } = {}) {
+    const timeout = options.timeout || 10000;
+    const state = options.state || 'visible';
+    await locator.waitFor({ state, timeout });
+    return locator;
   }
 
   // Navigation
   async goto(url: string) {
+    // Navigate and wait for load event (not networkidle - too strict for ad-heavy pages)
     await this.page.goto(url, { 
-      waitUntil: 'domcontentloaded',
-      timeout: 30000 
+      waitUntil: 'load',
+      timeout: 60000 // Increased for slower OPCOs
     });
     
     // Add small random delay to appear more human
@@ -241,8 +270,10 @@ export class PlaywrightHomepagePage {
       }
       
       if (welcomePopupFound) {
-        // Priority: Look for X button specifically
+        // Priority: Look for X button specifically (especially for Hannaford Welcome modal)
         const closeButtonSelectors = [
+          'text=/Welcome!/i >> xpath=../.. >> button:has-text("×")', // X button in Welcome modal header
+          '[class*="modal"] button:has-text("×"):visible', // X button in any modal
           'button[aria-label*="Close"]:visible',
           'button[aria-label="Close"]',
           'button.close:visible',
@@ -251,7 +282,8 @@ export class PlaywrightHomepagePage {
           '[data-testid="close-modal"]:visible',
           '.modal__close:visible',
           'button[class*="close"]:visible',
-          '[role="button"][aria-label*="Close"]'
+          '[role="button"][aria-label*="Close"]',
+          'svg[class*="close"] >> xpath=..' // Close icon with parent button
         ];
         
         for (const selector of closeButtonSelectors) {
@@ -399,6 +431,97 @@ export class PlaywrightHomepagePage {
     console.log('✅ Initial setup complete');
   }
 
+  // Gambit banner helper methods
+  
+  /**
+   * Get all small tiles from the homepage
+   * @returns Array of Locator objects for each small tile
+   */
+  async getSmallTiles() {
+    await this.page.evaluate(() => window.scrollBy(0, 300));
+    await this.page.waitForTimeout(1500);
+    await this.smallTilesList.waitFor({ state: 'visible', timeout: 10000 }).catch(() => {});
+    return await this.smallTilesList.locator('li').all();
+  }
+
+  /**
+   * Get a specific small tile by position (1-indexed)
+   * @param position - Position of the tile (1, 2, 3, etc.)
+   */
+  getSmallTileByPosition(position: number) {
+    return this.page.locator(`(//ul[contains(@class,"simple-tile-list")]//li)[${position}]`);
+  }
+
+  /**
+   * Get all large tiles from the homepage carousel
+   * Scrolls down progressively until large tiles carousel is found
+   * @returns Array of Locator objects for each large tile
+   */
+  async getLargeTiles() {
+    console.log('🔄 Scrolling to find large tiles...');
+    
+    let largeTilesFound = false;
+    let scrollAttempts = 0;
+    const maxScrollAttempts = 10;
+    const scrollIncrement = 500; // pixels per scroll
+    
+    // Progressive scroll until large tiles carousel is found
+    while (!largeTilesFound && scrollAttempts < maxScrollAttempts) {
+      // Scroll down
+      await this.page.evaluate((increment) => window.scrollBy(0, increment), scrollIncrement);
+      await this.page.waitForTimeout(500);
+      
+      // Check if large tiles carousel is visible
+      const isVisible = await this.largeTileCarousel.isVisible({ timeout: 2000 }).catch(() => false);
+      
+      if (isVisible) {
+        console.log(`✅ Large tiles carousel found after ${scrollAttempts + 1} scroll(s)`);
+        largeTilesFound = true;
+      } else {
+        scrollAttempts++;
+        console.log(`⏳ Large tiles not found, scrolling... (attempt ${scrollAttempts})`);
+      }
+    }
+    
+    if (!largeTilesFound) {
+      console.log(`⚠️ Large tiles carousel not found after ${maxScrollAttempts} scroll attempts`);
+      return [];
+    }
+    
+    // Wait for carousel to be stable
+    await this.page.waitForTimeout(1000);
+    
+    // Get all carousel items (large tiles) - try multiple selectors
+    let items = await this.largeTileCarousel.locator('[class*="large-tile-carousel_carousel_item"]').all();
+    
+    if (items.length === 0) {
+      console.log('⚠️ No tiles found with large-tile-carousel_carousel_item selector, trying alternative...');
+      items = await this.largeTileCarousel.locator('.pdl-carousel_item').all();
+    }
+    
+    if (items.length === 0) {
+      console.log('⚠️ No tiles found with pdl-carousel_item selector, trying generic li elements...');
+      items = await this.largeTileCarousel.locator('li').all();
+    }
+    
+    if (items.length === 0) {
+      console.log('⚠️ No tiles found with li selector, trying div elements...');
+      items = await this.largeTileCarousel.locator('div[class*="carousel"]').all();
+    }
+    
+    console.log(`📊 Total large tiles found: ${items.length}`);
+    return items;
+  }
+
+  /**
+   * Check if a tile element has a "Sponsored" label
+   * @param tile - Locator for the tile element
+   */
+  async isTileSponsored(tile: Locator): Promise<boolean> {
+    const text = await tile.textContent().catch(() => '');
+    return text?.includes('Sponsored') ?? false;
+  }
+
   // Search methods
   async clickSearchBar(options: { force?: boolean } = {}) {
     try {
@@ -464,10 +587,6 @@ export class PlaywrightHomepagePage {
   // Wait for page elements
   async waitForPageLoad() {
     await this.page.waitForLoadState('load');
-  }
-
-  async waitForElement(selector: string, timeout: number = 10000) {
-    await this.page.locator(selector).waitFor({ state: 'visible', timeout });
   }
 
   // Screenshot utility with timestamp
