@@ -1,0 +1,109 @@
+POC Script Explanation (Human-Friendly)
+File: tests/e2e/ui/gambit_test/large-tiles-gambit.poc.playwright.spec.ts
+
+Purpose
+-------
+This POC verifies that the homepage large-tile carousel can be found reliably,
+checks whether a "Sponsored" label appears near that section, captures any
+large-tile slot traffic, and saves screenshots for evidence.
+
+Step-by-Step Flow
+-----------------
+1) Import required modules
+   - Uses Playwright test/assertion tools.
+   - Uses homepage page object for common setup actions.
+   - Uses shared OPCO config so the script can target a specific brand.
+
+2) Define constants
+   - QA user-agent string is set so the test can run in delta/beta safely.
+   - TARGET_OPCO is read from TEST_OPCO env var, defaulting to "hannaford".
+   - Carousel and card selectors are declared at the top for easy maintenance.
+
+3) Helper: scrollUntilVisible(...)
+   - Repeatedly scrolls down the page in fixed increments.
+   - After each scroll, checks if target carousel is visible.
+   - Stops early when found, or exits after max attempts.
+   - Returns true if found, false if not found.
+
+4) Helper: findLargeTileCards(...)
+   - Tries multiple selectors in priority order to find large-tile cards.
+   - Returns first selector that produces card count > 0.
+   - Gives back:
+     - locator for cards
+     - count of cards
+     - selector used (for debugging/reporting)
+
+5) Start test case
+   - Resolves OPCO URL via getOpcoConfig(TARGET_OPCO).
+   - Sets QA user-agent as request header.
+
+6) Capture ad slot traffic
+   - Listens to outgoing requests.
+   - Parses request payload when URL includes /ads or adhese.
+   - Extracts slot names that include "large_tile".
+   - Stores unique slot names in a Set for reporting.
+
+7) Anti-bot compatibility tweak
+   - Sets navigator.webdriver to false using addInitScript.
+   - Reduces chance of automation blocking.
+
+8) Open homepage and complete initial setup
+   - Navigates to OPCO homepage.
+   - Waits for page readiness.
+   - Runs initial setup via page object:
+     - modal handling
+     - shopping mode setup
+     - cleanup of blocking overlays
+
+9) Find large-tile carousel by scrolling
+   - Locates large-tile section using carousel selector.
+   - Calls scrollUntilVisible helper.
+   - Hard-asserts carousel visibility once found.
+
+10) Find large-tile cards inside carousel
+    - Calls findLargeTileCards helper.
+    - Logs card count and matched selector.
+    - Hard-asserts at least one card exists.
+
+11) Check "Sponsored" label presence
+    - Looks for label inside the large-tile section.
+    - Also checks globally as fallback.
+    - Logs result:
+      - success if found
+      - warning if not found (no hard fail in current POC mode)
+
+12) Check large-tile slot traffic
+    - Expected pattern example:
+      hannaford.com_website_home_large_tile_1-flex
+    - Logs all observed large_tile slot names.
+    - Logs whether expected pattern appeared.
+    - In current POC mode, missing slot is warning-only.
+
+13) Save screenshots for evidence
+    - Full-page screenshot.
+    - Section screenshot of large-tile carousel.
+    - Paths:
+      - test-results/screenshots/large-tiles/{opco}-gambit-poc-full-page.png
+      - test-results/screenshots/large-tiles/{opco}-gambit-poc-large-tile-section.png
+
+How to Run
+----------
+Default (hannaford):
+  npx playwright test tests/e2e/ui/gambit_test/large-tiles-gambit.poc.playwright.spec.ts --reporter=list
+
+Custom OPCO example:
+  TEST_OPCO=stopandshop npx playwright test tests/e2e/ui/gambit_test/large-tiles-gambit.poc.playwright.spec.ts --reporter=list
+
+What Pass Means in Current POC
+------------------------------
+- Carousel is found and visible.
+- At least one large-tile card is found.
+- Screenshots are captured.
+- Sponsored label and slot checks are informative (warning if missing),
+  not strict blockers.
+
+If You Want Strict Validation
+-----------------------------
+You can switch warning checks to hard assertions so the test fails when:
+- Sponsored label is missing, and/or
+- large_tile_1-flex slot request is missing.

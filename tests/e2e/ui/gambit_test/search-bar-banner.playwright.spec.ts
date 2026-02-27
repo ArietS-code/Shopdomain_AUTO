@@ -19,15 +19,14 @@
 
 import { test, expect } from '@playwright/test';
 import { PlaywrightHomepagePage } from '../../page-objects/PlaywrightHomepagePage';
-import { OPCO_CONFIGS, getAllOpcoConfigs, type OPCO, type OpcoConfig } from '../../../config/test.config';
-import { time } from 'console';
+import { getAllOpcoConfigs } from '../../../config/test.config';
+import { setupGambitSession } from '../../../utils/gambit-helpers';
 
 // ============================================================================
 // Test Configuration
 // ============================================================================
 
 const BASE_URL = process.env.TEST_BASE_URL || 'https://nonprd-delta.stopandshop.com';
-const QA_USER_AGENT = 'qa-reg-(pdl)-cua/05:01; +reg/18';
 const TIMEOUT = 5000;
 // ============================================================================
 // Multi-OPCO Test Suite: Cross-Platform Verification
@@ -38,40 +37,7 @@ test.describe('Search Bar ADUSA Banner - Multi-OPCO Verification', () => {
 
   for (const [opcoKey, opco] of opcos) {
     test(`Check if Skinny banner on ${opco.name}`, async ({ page, context }) => {
-      // Add stealth scripts to bypass bot detection
-      await context.addInitScript(() => {
-        // Override the navigator.webdriver property
-        Object.defineProperty(navigator, 'webdriver', {
-          get: () => false,
-        });
-        
-        // Override the navigator.plugins to appear as a real browser
-        Object.defineProperty(navigator, 'plugins', {
-          get: () => [1, 2, 3, 4, 5],
-        });
-        
-        // Override the navigator.languages
-        Object.defineProperty(navigator, 'languages', {
-          get: () => ['en-US', 'en'],
-        });
-        
-        // Add chrome property
-        (window as any).chrome = {
-          runtime: {},
-        };
-        
-        // Mock permissions
-        const originalQuery = window.navigator.permissions.query;
-        window.navigator.permissions.query = (parameters: any) => (
-          parameters.name === 'notifications' ?
-            Promise.resolve({ state: 'prompt' } as PermissionStatus) :
-            originalQuery(parameters)
-        );
-      });
-
-      await page.setExtraHTTPHeaders({
-        'User-Agent': QA_USER_AGENT
-      });
+      await setupGambitSession(page, context);
 
       // Initialize page object
       const homepage = new PlaywrightHomepagePage(page);
@@ -79,15 +45,16 @@ test.describe('Search Bar ADUSA Banner - Multi-OPCO Verification', () => {
       // Navigate to OPCO homepage
       await homepage.goto(opco.url);
       
-      // Add human-like delay after navigation
-      await page.waitForTimeout(1500 + Math.random() * 1000);
+      // Wait for page to be fully loaded
+      await homepage.waitForPageReady();
       
       // Complete initial setup
       await homepage.completeInitialSetup('in-store');
 
-      await expect(homepage.searchInput).toBeVisible({ timeout: TIMEOUT });
+      await expect(homepage.searchInput).toBeVisible({ timeout: 15000 });
       await homepage.clickSearchBar();
 
+      // Wait for dropdown to load
       await page.waitForTimeout(2000);
 
       // Check for ADUSA banner

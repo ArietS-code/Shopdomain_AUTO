@@ -22,13 +22,13 @@
 
 import { test, expect } from '@playwright/test';
 import { PlaywrightHomepagePage } from '../../page-objects/PlaywrightHomepagePage';
-import { OPCO_CONFIGS, getAllOpcoConfigs, type OPCO, type OpcoConfig } from '../../../config/test.config';
+import { getAllOpcoConfigs } from '../../../config/test.config';
+import { setupGambitSession } from '../../../utils/gambit-helpers';
 
 // ============================================================================
 // Test Configuration
 // ============================================================================
 
-const QA_USER_AGENT = 'qa-reg-(pdl)-cua/05:01; +reg/18';
 const TIMEOUT = 1000;
 
 // Search keywords for testing
@@ -45,40 +45,7 @@ test.describe('Search Result Gambit Banner - Multi-OPCO API Validation', () => {
 
   for (const [opcoKey, opco] of opcos) {
     test(`Validate Gambit banner slot names in /json response for search "${DEFAULT_SEARCH_KEYWORD}" on ${opco.name}`, async ({ page, context }) => {
-      // Add stealth scripts to bypass bot detection
-      await context.addInitScript(() => {
-        // Override the navigator.webdriver property
-        Object.defineProperty(navigator, 'webdriver', {
-          get: () => false,
-        });
-        
-        // Override the navigator.plugins to appear as a real browser
-        Object.defineProperty(navigator, 'plugins', {
-          get: () => [1, 2, 3, 4, 5],
-        });
-        
-        // Override the navigator.languages
-        Object.defineProperty(navigator, 'languages', {
-          get: () => ['en-US', 'en'],
-        });
-        
-        // Add chrome property
-        (window as any).chrome = {
-          runtime: {},
-        };
-        
-        // Mock permissions
-        const originalQuery = window.navigator.permissions.query;
-        window.navigator.permissions.query = (parameters: any) => (
-          parameters.name === 'notifications' ?
-            Promise.resolve({ state: 'prompt' } as PermissionStatus) :
-            originalQuery(parameters)
-        );
-      });
-
-      await page.setExtraHTTPHeaders({
-        'User-Agent': QA_USER_AGENT
-      });
+      await setupGambitSession(page, context);
 
       // Array to store intercepted JSON responses
       let jsonResponses: any[] = [];

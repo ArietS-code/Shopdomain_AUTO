@@ -57,7 +57,7 @@ test.describe('Banner API - Slot Configuration', () => {
         try {
           apiResponse = JSON.parse(body);
           apiCalled = true;
-          console.log('✅ Banner API Response received:', JSON.stringify(apiResponse, null, 2));
+          console.log('✅ Banner API Response received');
         } catch (e) {
           console.log('⚠️  Response is not JSON');
         }
@@ -105,7 +105,7 @@ test.describe('Banner API - Slot Configuration', () => {
         try {
           const body = await response.json();
           apiResponse = body;
-          console.log(`📡 ${opco.name} Banner API Response:`, JSON.stringify(body, null, 2));
+          console.log(`📡 ${opco.name} Banner API Response received`);
         } catch (e) {
           // Not JSON, skip
         }
