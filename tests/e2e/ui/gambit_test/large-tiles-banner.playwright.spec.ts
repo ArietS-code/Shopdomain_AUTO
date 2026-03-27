@@ -109,14 +109,11 @@ test.describe('Large Tiles Gambit - Multi-OPCO Verification', () => {
       
       // Complete initial setup
       await homepage.completeInitialSetup('in-store');
-
-      // Wait for main content to load
-      await page.waitForTimeout(2000);
-
       console.log(`🔍 Loading large tiles section on ${opco.name}`);
 
       // Use page object method to get large tiles
       const largeTiles = await homepage.getLargeTiles();
+      await page.waitForTimeout(2000);
       console.log(`📊 Total large tiles found on ${opco.name}: ${largeTiles.length}`);
 
       // Handle OPCOs with no large tiles
