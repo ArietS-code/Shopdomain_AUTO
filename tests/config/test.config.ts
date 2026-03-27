@@ -14,24 +14,55 @@ export type OPCO =
   | 'hannaford';
 
 // Valid environment values
-export type Environment = 'beta' | 'delta';
+export type Environment = 'beta' | 'delta' | 'prod';
 
 // OPCO Configuration Interface
 export interface OpcoConfig {
   name: string;
   url: string;
   expectedSlotName: string;
+  userId: number;
+  guestUserId: number; // Guest/unauthenticated user ID
+  storeId: number;
 }
 
 // Get OPCO from environment variable or default
 const OPCO: OPCO = (process.env.TEST_OPCO as OPCO) || 'stopandshop';
 
-// Get environment from environment variable or default
-const ENV: Environment = (process.env.TEST_ENV as Environment) || 'delta';
+// Get environment from environment variable with validation
+const getEnvironment = (): Environment => {
+  const envInput = process.env.TEST_ENV?.toLowerCase();
+  
+  if (envInput === 'prod' || envInput === 'production') {
+    console.log('🔴 Running tests in PRODUCTION environment');
+    return 'prod';
+  } else if (envInput === 'beta') {
+    console.log('🟡 Running tests in BETA environment');
+    return 'beta';
+  } else if (envInput === 'delta') {
+    console.log('🟢 Running tests in DELTA environment');
+    return 'delta';
+  } else {
+    // Default to delta if no environment specified or invalid value
+    console.log('🟢 Running tests in DELTA environment (default)');
+    return 'delta';
+  }
+};
+
+const ENV: Environment = getEnvironment();
 
 // Build dynamic base URL
 const buildBaseUrl = (opco: OPCO, env: Environment): string => {
-  return `https://nonprd-${env}.${opco}.com/`;
+  if (env === 'prod') {
+    return `https://www.${opco}.com/`;
+  } else if (env === 'beta') {
+    return `https://nonprd-beta.${opco}.com/`;
+  } else if (env === 'delta') {
+    return `https://nonprd-delta.${opco}.com/`;
+  } else {
+    // Fallback to delta
+    return `https://nonprd-delta.${opco}.com/`;
+  }
 };
 
 // All valid OPCO values
@@ -45,7 +76,7 @@ export const VALID_OPCOS: OPCO[] = [
 ];
 
 // All valid environment values
-export const VALID_ENVIRONMENTS: Environment[] = ['beta', 'delta'];
+export const VALID_ENVIRONMENTS: Environment[] = ['beta', 'delta', 'prod'];
 
 // OPCO display names for reporting
 export const OPCO_DISPLAY_NAMES: Record<OPCO, string> = {
@@ -58,38 +89,58 @@ export const OPCO_DISPLAY_NAMES: Record<OPCO, string> = {
 };
 
 // Complete OPCO configurations with URLs and expected slot names
-export const OPCO_CONFIGS: Record<OPCO, OpcoConfig> = {
+const buildOpcoConfig = (env: Environment): Record<OPCO, OpcoConfig> => ({
   stopandshop: {
     name: 'Stop & Shop',
-    url: 'https://nonprd-delta.stopandshop.com',
+    url: buildBaseUrl('stopandshop', env),
     expectedSlotName: 'stopandshop.com_website_dropdown-flex',
+    userId: 171347579, // STSH authenticated user
+    guestUserId: 2, // Guest/unauthenticated user
+    storeId: 50000014,
   },
   giantfood: {
     name: 'Giant Food',
-    url: 'https://nonprd-delta.giantfood.com',
+    url: buildBaseUrl('giantfood', env),
     expectedSlotName: 'giantfood.com_website_dropdown-flex',
+    userId: 170501985, // GNTC authenticated user
+    guestUserId: 2, // Guest/unauthenticated user
+    storeId: 50000351,
   },
   foodlion: {
     name: 'Food Lion',
-    url: 'https://nonprd-delta.foodlion.com',
+    url: buildBaseUrl('foodlion', env),
     expectedSlotName: 'foodlion.com_website_dropdown-flex',
+    userId: 170478074, // FDLN authenticated user
+    guestUserId: 2, // Guest/unauthenticated user
+    storeId: 50002071,
   },
   martinsfoods: {
     name: 'Martin\'s Foods',
-    url: 'https://nonprd-delta.martinsfoods.com',
+    url: buildBaseUrl('martinsfoods', env),
     expectedSlotName: 'martinsfoods.com_website_dropdown-flex',
+    userId: 2012140639, // MRTN authenticated user
+    guestUserId: 2, // Guest/unauthenticated user
+    storeId: 50000284,
   },
   giantfoodstores: {
     name: 'Giant Food Stores',
-    url: 'https://nonprd-delta.giantfoodstores.com',
+    url: buildBaseUrl('giantfoodstores', env),
     expectedSlotName: 'giantfoodstores.com_website_dropdown-flex',
+    userId: 2012362588, // GNTL authenticated user
+    guestUserId: 2, // Guest/unauthenticated user
+    storeId: 50000262,
   },
   hannaford: {
     name: 'Hannaford',
-    url: 'https://nonprd-delta.hannaford.com',
+    url: buildBaseUrl('hannaford', env),
     expectedSlotName: 'hannaford.com_website_dropdown-flex',
+    userId: 2, // TODO: Add authenticated user ID
+    guestUserId: 2, // Guest/unauthenticated user
+    storeId: 50002092,
   },
-};
+});
+
+export const OPCO_CONFIGS: Record<OPCO, OpcoConfig> = buildOpcoConfig(ENV);
 
 export const TEST_CONFIG = {
   // OPCO Configuration
@@ -278,7 +329,7 @@ export function getOpcoUrl(opco: OPCO): string {
  * Build URL for specific OPCO and environment
  */
 export function buildUrlForOpco(opco: OPCO, env: Environment): string {
-  return `https://nonprd-${env}.${opco}.com/`;
+  return buildBaseUrl(opco, env);
 }
 
 /**

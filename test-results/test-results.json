@@ -1,0 +1,2727 @@
+{
+  "config": {
+    "configFile": "/Users/pcvaxs5/Documents/GitHub/Ariet_L2_workshop/playwright.config.ts",
+    "rootDir": "/Users/pcvaxs5/Documents/GitHub/Ariet_L2_workshop/tests/e2e",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/pcvaxs5/Documents/GitHub/Ariet_L2_workshop/test-results/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/pcvaxs5/Documents/GitHub/Ariet_L2_workshop/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report",
+          "open": "always"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/test-results.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "test-results/junit-report.xml"
+        }
+      ],
+      [
+        "list",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "api/product-auctioned-api.playwright.spec.ts",
+      "file": "api/product-auctioned-api.playwright.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Auctioned Products API - Sponsored Products Validation",
+          "file": "api/product-auctioned-api.playwright.spec.ts",
+          "line": 114,
+          "column": 6,
+          "specs": [
+            {
+              "title": "[Guest User] Validate Auctioned Products API (type=itemdetail) for Stop & Shop",
+              "ok": true,
+              "tags": [
+                "api",
+                "auctionedapi",
+                "sponsored",
+                "itemdetail",
+                "stopandshop",
+                "guest"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 394,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[stopandshop] [Guest] Status Code: 200\n"
+                        },
+                        {
+                          "text": "[stopandshop] [Guest] Sponsored Products: 2\n"
+                        },
+                        {
+                          "text": "[stopandshop] [Guest] Auction IDs: 2428d4e3-8a93-4c81-9967-9d7a2ecf7479\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "1. Call Auctioned Products API with category ID",
+                          "duration": 383
+                        },
+                        {
+                          "title": "2. Validate sponsored products",
+                          "duration": 1
+                        },
+                        {
+                          "title": "3. Validate auctionId in sponsored products",
+                          "duration": 0
+                        },
+                        {
+                          "title": "4. Validate no Citrus references",
+                          "duration": 0
+                        }
+                      ],
+                      "startTime": "2026-03-13T18:13:19.930Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3e60578b00e41519271e-b4a4c5ad008db2051cc3",
+              "file": "api/product-auctioned-api.playwright.spec.ts",
+              "line": 121,
+              "column": 5
+            },
+            {
+              "title": "[Authenticated User] Validate Auctioned Products API (type=itemdetail) for Stop & Shop",
+              "ok": true,
+              "tags": [
+                "api",
+                "auctionedapi",
+                "sponsored",
+                "itemdetail",
+                "stopandshop",
+                "authenticated"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 238,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[stopandshop] [Authenticated] Status Code: 200\n"
+                        },
+                        {
+                          "text": "[stopandshop] [Authenticated] Sponsored Products: 2\n"
+                        },
+                        {
+                          "text": "[stopandshop] [Authenticated] Auction IDs: ae268400-35f3-4e9a-8abe-21fb6b986710\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "1. Call Auctioned Products API with category ID",
+                          "duration": 234
+                        },
+                        {
+                          "title": "2. Validate sponsored products",
+                          "duration": 0
+                        },
+                        {
+                          "title": "3. Validate auctionId in sponsored products",
+                          "duration": 0
+                        },
+                        {
+                          "title": "4. Validate no Citrus references",
+                          "duration": 1
+                        }
+                      ],
+                      "startTime": "2026-03-13T18:13:20.333Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3e60578b00e41519271e-64056df51e946785f958",
+              "file": "api/product-auctioned-api.playwright.spec.ts",
+              "line": 193,
+              "column": 5
+            },
+            {
+              "title": "[Guest User] Validate Auctioned Products API (type=itemdetail) for Giant Food",
+              "ok": true,
+              "tags": [
+                "api",
+                "auctionedapi",
+                "sponsored",
+                "itemdetail",
+                "giantfood",
+                "guest"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 571,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[giantfood] [Guest] Status Code: 200\n"
+                        },
+                        {
+                          "text": "[giantfood] [Guest] Sponsored Products: 2\n"
+                        },
+                        {
+                          "text": "[giantfood] [Guest] Auction IDs: f7a2c7b1-1b38-4213-a65c-54cbd0c27a2b\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "1. Call Auctioned Products API with category ID",
+                          "duration": 564
+                        },
+                        {
+                          "title": "2. Validate sponsored products",
+                          "duration": 1
+                        },
+                        {
+                          "title": "3. Validate auctionId in sponsored products",
+                          "duration": 1
+                        },
+                        {
+                          "title": "4. Validate no Citrus references",
+                          "duration": 1
+                        }
+                      ],
+                      "startTime": "2026-03-13T18:13:20.577Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3e60578b00e41519271e-84315a0a004c18ffd180",
+              "file": "api/product-auctioned-api.playwright.spec.ts",
+              "line": 121,
+              "column": 5
+            },
+            {
+              "title": "[Authenticated User] Validate Auctioned Products API (type=itemdetail) for Giant Food",
+              "ok": true,
+              "tags": [
+                "api",
+                "auctionedapi",
+                "sponsored",
+                "itemdetail",
+                "giantfood",
+                "authenticated"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 298,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[giantfood] [Authenticated] Status Code: 200\n"
+                        },
+                        {
+                          "text": "[giantfood] [Authenticated] Sponsored Products: 2\n"
+                        },
+                        {
+                          "text": "[giantfood] [Authenticated] Auction IDs: 12f99820-8679-4d4c-a6e2-ba811a857b8c\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "1. Call Auctioned Products API with category ID",
+                          "duration": 293
+                        },
+                        {
+                          "title": "2. Validate sponsored products",
+                          "duration": 1
+                        },
+                        {
+                          "title": "3. Validate auctionId in sponsored products",
+                          "duration": 1
+                        },
+                        {
+                          "title": "4. Validate no Citrus references",
+                          "duration": 1
+                        }
+                      ],
+                      "startTime": "2026-03-13T18:13:21.157Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3e60578b00e41519271e-31b6c8e70085414295d3",
+              "file": "api/product-auctioned-api.playwright.spec.ts",
+              "line": 193,
+              "column": 5
+            },
+            {
+              "title": "[Guest User] Validate Auctioned Products API (type=itemdetail) for Food Lion",
+              "ok": true,
+              "tags": [
+                "api",
+                "auctionedapi",
+                "sponsored",
+                "itemdetail",
+                "foodlion",
+                "guest"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 605,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[foodlion] [Guest] Status Code: 200\n"
+                        },
+                        {
+                          "text": "[foodlion] [Guest] Sponsored Products: 1\n"
+                        },
+                        {
+                          "text": "[foodlion] [Guest] Auction IDs: 003fa9f4-fd5c-4daa-81dd-d9e492780949\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "1. Call Auctioned Products API with category ID",
+                          "duration": 597
+                        },
+                        {
+                          "title": "2. Validate sponsored products",
+                          "duration": 1
+                        },
+                        {
+                          "title": "3. Validate auctionId in sponsored products",
+                          "duration": 1
+                        },
+                        {
+                          "title": "4. Validate no Citrus references",
+                          "duration": 0
+                        }
+                      ],
+                      "startTime": "2026-03-13T18:13:21.465Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3e60578b00e41519271e-2207b6aa514c1d083240",
+              "file": "api/product-auctioned-api.playwright.spec.ts",
+              "line": 121,
+              "column": 5
+            },
+            {
+              "title": "[Authenticated User] Validate Auctioned Products API (type=itemdetail) for Food Lion",
+              "ok": true,
+              "tags": [
+                "api",
+                "auctionedapi",
+                "sponsored",
+                "itemdetail",
+                "foodlion",
+                "authenticated"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 277,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[foodlion] [Authenticated] Status Code: 200\n"
+                        },
+                        {
+                          "text": "[foodlion] [Authenticated] Sponsored Products: 1\n"
+                        },
+                        {
+                          "text": "[foodlion] [Authenticated] Auction IDs: 0603c159-872b-40cf-8d5d-85e8a7af0ebf\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "1. Call Auctioned Products API with category ID",
+                          "duration": 273
+                        },
+                        {
+                          "title": "2. Validate sponsored products",
+                          "duration": 0
+                        },
+                        {
+                          "title": "3. Validate auctionId in sponsored products",
+                          "duration": 1
+                        },
+                        {
+                          "title": "4. Validate no Citrus references",
+                          "duration": 0
+                        }
+                      ],
+                      "startTime": "2026-03-13T18:13:22.077Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3e60578b00e41519271e-34d0a0a88c6b8b0331ca",
+              "file": "api/product-auctioned-api.playwright.spec.ts",
+              "line": 193,
+              "column": 5
+            },
+            {
+              "title": "[Guest User] Validate Auctioned Products API (type=itemdetail) for Martin's Foods",
+              "ok": true,
+              "tags": [
+                "api",
+                "auctionedapi",
+                "sponsored",
+                "itemdetail",
+                "martinsfoods",
+                "guest"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 454,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[martinsfoods] [Guest] Status Code: 200\n"
+                        },
+                        {
+                          "text": "[martinsfoods] [Guest] Sponsored Products: 3\n"
+                        },
+                        {
+                          "text": "[martinsfoods] [Guest] Auction IDs: 3b4c379c-6d15-4fa7-8728-ade4ced475ce\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "1. Call Auctioned Products API with category ID",
+                          "duration": 449
+                        },
+                        {
+                          "title": "2. Validate sponsored products",
+                          "duration": 0
+                        },
+                        {
+                          "title": "3. Validate auctionId in sponsored products",
+                          "duration": 1
+                        },
+                        {
+                          "title": "4. Validate no Citrus references",
+                          "duration": 1
+                        }
+                      ],
+                      "startTime": "2026-03-13T18:13:22.359Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3e60578b00e41519271e-935fe3777989a97b7d5c",
+              "file": "api/product-auctioned-api.playwright.spec.ts",
+              "line": 121,
+              "column": 5
+            },
+            {
+              "title": "[Authenticated User] Validate Auctioned Products API (type=itemdetail) for Martin's Foods",
+              "ok": true,
+              "tags": [
+                "api",
+                "auctionedapi",
+                "sponsored",
+                "itemdetail",
+                "martinsfoods",
+                "authenticated"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 262,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[martinsfoods] [Authenticated] Status Code: 200\n"
+                        },
+                        {
+                          "text": "[martinsfoods] [Authenticated] Sponsored Products: 3\n"
+                        },
+                        {
+                          "text": "[martinsfoods] [Authenticated] Auction IDs: 470982ea-a145-4373-8d24-00206e466c96\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "1. Call Auctioned Products API with category ID",
+                          "duration": 258
+                        },
+                        {
+                          "title": "2. Validate sponsored products",
+                          "duration": 0
+                        },
+                        {
+                          "title": "3. Validate auctionId in sponsored products",
+                          "duration": 0
+                        },
+                        {
+                          "title": "4. Validate no Citrus references",
+                          "duration": 0
+                        }
+                      ],
+                      "startTime": "2026-03-13T18:13:22.818Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3e60578b00e41519271e-fd4907d7c349244ddc1f",
+              "file": "api/product-auctioned-api.playwright.spec.ts",
+              "line": 193,
+              "column": 5
+            },
+            {
+              "title": "[Guest User] Validate Auctioned Products API (type=itemdetail) for Giant Food Stores",
+              "ok": true,
+              "tags": [
+                "api",
+                "auctionedapi",
+                "sponsored",
+                "itemdetail",
+                "giantfoodstores",
+                "guest"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 556,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[giantfoodstores] [Guest] Status Code: 200\n"
+                        },
+                        {
+                          "text": "[giantfoodstores] [Guest] Sponsored Products: 3\n"
+                        },
+                        {
+                          "text": "[giantfoodstores] [Guest] Auction IDs: 024d895a-1459-464d-ad6e-074b99c41e09\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "1. Call Auctioned Products API with category ID",
+                          "duration": 550
+                        },
+                        {
+                          "title": "2. Validate sponsored products",
+                          "duration": 1
+                        },
+                        {
+                          "title": "3. Validate auctionId in sponsored products",
+                          "duration": 0
+                        },
+                        {
+                          "title": "4. Validate no Citrus references",
+                          "duration": 0
+                        }
+                      ],
+                      "startTime": "2026-03-13T18:13:23.085Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3e60578b00e41519271e-040e37971f23013e83ab",
+              "file": "api/product-auctioned-api.playwright.spec.ts",
+              "line": 121,
+              "column": 5
+            },
+            {
+              "title": "[Authenticated User] Validate Auctioned Products API (type=itemdetail) for Giant Food Stores",
+              "ok": true,
+              "tags": [
+                "api",
+                "auctionedapi",
+                "sponsored",
+                "itemdetail",
+                "giantfoodstores",
+                "authenticated"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 453,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[giantfoodstores] [Authenticated] Status Code: 200\n"
+                        },
+                        {
+                          "text": "[giantfoodstores] [Authenticated] Sponsored Products: 3\n"
+                        },
+                        {
+                          "text": "[giantfoodstores] [Authenticated] Auction IDs: 65f29faa-6227-4260-b9d9-a519169a4a5c\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "1. Call Auctioned Products API with category ID",
+                          "duration": 447
+                        },
+                        {
+                          "title": "2. Validate sponsored products",
+                          "duration": 1
+                        },
+                        {
+                          "title": "3. Validate auctionId in sponsored products",
+                          "duration": 1
+                        },
+                        {
+                          "title": "4. Validate no Citrus references",
+                          "duration": 0
+                        }
+                      ],
+                      "startTime": "2026-03-13T18:13:23.648Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3e60578b00e41519271e-ae63539b58d766000944",
+              "file": "api/product-auctioned-api.playwright.spec.ts",
+              "line": 193,
+              "column": 5
+            },
+            {
+              "title": "[Guest User] Validate Auctioned Products API (type=itemdetail) for Hannaford",
+              "ok": true,
+              "tags": [
+                "api",
+                "auctionedapi",
+                "sponsored",
+                "itemdetail",
+                "hannaford",
+                "guest"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 720,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[hannaford] [Guest] Status Code: 200\n"
+                        },
+                        {
+                          "text": "[hannaford] [Guest] Sponsored Products: 1\n"
+                        },
+                        {
+                          "text": "[hannaford] [Guest] Auction IDs: 074a43c1-9fdb-45c6-a09c-e0bc181c7658\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "1. Call Auctioned Products API with category ID",
+                          "duration": 716
+                        },
+                        {
+                          "title": "2. Validate sponsored products",
+                          "duration": 1
+                        },
+                        {
+                          "title": "3. Validate auctionId in sponsored products",
+                          "duration": 1
+                        },
+                        {
+                          "title": "4. Validate no Citrus references",
+                          "duration": 0
+                        }
+                      ],
+                      "startTime": "2026-03-13T18:13:24.107Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3e60578b00e41519271e-f02ac64653a6cf771cb6",
+              "file": "api/product-auctioned-api.playwright.spec.ts",
+              "line": 121,
+              "column": 5
+            },
+            {
+              "title": "[Authenticated User] Validate Auctioned Products API (type=itemdetail) for Hannaford",
+              "ok": true,
+              "tags": [
+                "api",
+                "auctionedapi",
+                "sponsored",
+                "itemdetail",
+                "hannaford",
+                "authenticated"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 291,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[hannaford] [Authenticated] Status Code: 200\n"
+                        },
+                        {
+                          "text": "[hannaford] [Authenticated] Sponsored Products: 1\n"
+                        },
+                        {
+                          "text": "[hannaford] [Authenticated] Auction IDs: 6aa0f07a-7fdb-441c-b800-5c747e32796b\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "1. Call Auctioned Products API with category ID",
+                          "duration": 279
+                        },
+                        {
+                          "title": "2. Validate sponsored products",
+                          "duration": 1
+                        },
+                        {
+                          "title": "3. Validate auctionId in sponsored products",
+                          "duration": 1
+                        },
+                        {
+                          "title": "4. Validate no Citrus references",
+                          "duration": 2
+                        }
+                      ],
+                      "startTime": "2026-03-13T18:13:24.835Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3e60578b00e41519271e-ecc9fdfba1596a8e63b0",
+              "file": "api/product-auctioned-api.playwright.spec.ts",
+              "line": 193,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "Past Purchase API - Sponsored Products Validation",
+          "file": "api/product-auctioned-api.playwright.spec.ts",
+          "line": 270,
+          "column": 6,
+          "specs": [
+            {
+              "title": "[Authenticated User] Validate Past Purchase API (type=pastpurchases) for Stop & Shop",
+              "ok": true,
+              "tags": [
+                "api",
+                "pastpurchaseapi",
+                "sponsored",
+                "pastpurchases",
+                "stopandshop",
+                "authenticated"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 258,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[stopandshop] [Authenticated] Status Code: 200\n"
+                        },
+                        {
+                          "text": "[stopandshop] [Authenticated] ✓ Type: pastpurchases\n"
+                        },
+                        {
+                          "text": "[stopandshop] [Authenticated] ✓ Platform: web\n"
+                        },
+                        {
+                          "text": "[stopandshop] [Authenticated] ✓ gmbEnabled: true\n"
+                        },
+                        {
+                          "text": "[stopandshop] [Authenticated] ✓ All URL parameters validated\n"
+                        },
+                        {
+                          "text": "[stopandshop] [Authenticated] ✓ Total products returned: 5\n"
+                        },
+                        {
+                          "text": "[stopandshop] [Authenticated] Sponsored products found: 5\n"
+                        },
+                        {
+                          "text": "[stopandshop] [Authenticated] ✓ All sponsored products validated\n"
+                        },
+                        {
+                          "text": "[stopandshop] [Authenticated] Auction IDs: 9d19b6fb-c87d-4269-a7d0-d04b10b5f21a\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "1. Call Past Purchase API",
+                          "duration": 250
+                        },
+                        {
+                          "title": "3. Validate URL parameters",
+                          "duration": 1
+                        },
+                        {
+                          "title": "4. Validate response contains products",
+                          "duration": 1
+                        },
+                        {
+                          "title": "5. Validate sponsored products in response",
+                          "duration": 4
+                        },
+                        {
+                          "title": "3. Validate auctionId in sponsored products",
+                          "duration": 0
+                        },
+                        {
+                          "title": "4. Validate no Citrus references",
+                          "duration": 1
+                        }
+                      ],
+                      "startTime": "2026-03-13T18:13:25.132Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3e60578b00e41519271e-4de7bb9c498aaf0fee1b",
+              "file": "api/product-auctioned-api.playwright.spec.ts",
+              "line": 277,
+              "column": 5
+            },
+            {
+              "title": "[Authenticated User] Validate Past Purchase API (type=pastpurchases) for Giant Food",
+              "ok": true,
+              "tags": [
+                "api",
+                "pastpurchaseapi",
+                "sponsored",
+                "pastpurchases",
+                "giantfood",
+                "authenticated"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 334,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[giantfood] [Authenticated] Status Code: 200\n"
+                        },
+                        {
+                          "text": "[giantfood] [Authenticated] ✓ Type: pastpurchases\n"
+                        },
+                        {
+                          "text": "[giantfood] [Authenticated] ✓ Platform: web\n"
+                        },
+                        {
+                          "text": "[giantfood] [Authenticated] ✓ gmbEnabled: true\n"
+                        },
+                        {
+                          "text": "[giantfood] [Authenticated] ✓ All URL parameters validated\n"
+                        },
+                        {
+                          "text": "[giantfood] [Authenticated] ✓ Total products returned: 5\n"
+                        },
+                        {
+                          "text": "[giantfood] [Authenticated] Sponsored products found: 5\n"
+                        },
+                        {
+                          "text": "[giantfood] [Authenticated] ✓ All sponsored products validated\n"
+                        },
+                        {
+                          "text": "[giantfood] [Authenticated] Auction IDs: b5717a4f-dec5-46a4-be66-bfa893be2e0e\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "1. Call Past Purchase API",
+                          "duration": 316
+                        },
+                        {
+                          "title": "3. Validate URL parameters",
+                          "duration": 1
+                        },
+                        {
+                          "title": "4. Validate response contains products",
+                          "duration": 1
+                        },
+                        {
+                          "title": "5. Validate sponsored products in response",
+                          "duration": 9
+                        },
+                        {
+                          "title": "3. Validate auctionId in sponsored products",
+                          "duration": 1
+                        },
+                        {
+                          "title": "4. Validate no Citrus references",
+                          "duration": 0
+                        }
+                      ],
+                      "startTime": "2026-03-13T18:13:25.395Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3e60578b00e41519271e-ed70af1808eed3e072d8",
+              "file": "api/product-auctioned-api.playwright.spec.ts",
+              "line": 277,
+              "column": 5
+            },
+            {
+              "title": "[Authenticated User] Validate Past Purchase API (type=pastpurchases) for Food Lion",
+              "ok": true,
+              "tags": [
+                "api",
+                "pastpurchaseapi",
+                "sponsored",
+                "pastpurchases",
+                "foodlion",
+                "authenticated"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 343,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[foodlion] [Authenticated] Status Code: 200\n"
+                        },
+                        {
+                          "text": "[foodlion] [Authenticated] ✓ Type: pastpurchases\n"
+                        },
+                        {
+                          "text": "[foodlion] [Authenticated] ✓ Platform: web\n"
+                        },
+                        {
+                          "text": "[foodlion] [Authenticated] ✓ gmbEnabled: true\n"
+                        },
+                        {
+                          "text": "[foodlion] [Authenticated] ✓ All URL parameters validated\n"
+                        },
+                        {
+                          "text": "[foodlion] [Authenticated] ✓ Total products returned: 5\n"
+                        },
+                        {
+                          "text": "[foodlion] [Authenticated] Sponsored products found: 5\n"
+                        },
+                        {
+                          "text": "[foodlion] [Authenticated] ✓ All sponsored products validated\n"
+                        },
+                        {
+                          "text": "[foodlion] [Authenticated] Auction IDs: c7dbafef-6f85-49c3-85de-054f1f89818d\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "1. Call Past Purchase API",
+                          "duration": 333
+                        },
+                        {
+                          "title": "3. Validate URL parameters",
+                          "duration": 1
+                        },
+                        {
+                          "title": "4. Validate response contains products",
+                          "duration": 1
+                        },
+                        {
+                          "title": "5. Validate sponsored products in response",
+                          "duration": 2
+                        },
+                        {
+                          "title": "3. Validate auctionId in sponsored products",
+                          "duration": 1
+                        },
+                        {
+                          "title": "4. Validate no Citrus references",
+                          "duration": 1
+                        }
+                      ],
+                      "startTime": "2026-03-13T18:13:25.737Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3e60578b00e41519271e-311813b7cda2e6f88b1d",
+              "file": "api/product-auctioned-api.playwright.spec.ts",
+              "line": 277,
+              "column": 5
+            },
+            {
+              "title": "[Authenticated User] Validate Past Purchase API (type=pastpurchases) for Martin's Foods",
+              "ok": true,
+              "tags": [
+                "api",
+                "pastpurchaseapi",
+                "sponsored",
+                "pastpurchases",
+                "martinsfoods",
+                "authenticated"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 268,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[martinsfoods] [Authenticated] Status Code: 200\n"
+                        },
+                        {
+                          "text": "[martinsfoods] [Authenticated] ✓ Type: pastpurchases\n"
+                        },
+                        {
+                          "text": "[martinsfoods] [Authenticated] ✓ Platform: web\n"
+                        },
+                        {
+                          "text": "[martinsfoods] [Authenticated] ✓ gmbEnabled: true\n"
+                        },
+                        {
+                          "text": "[martinsfoods] [Authenticated] ✓ All URL parameters validated\n"
+                        },
+                        {
+                          "text": "[martinsfoods] [Authenticated] ✓ Total products returned: 5\n"
+                        },
+                        {
+                          "text": "[martinsfoods] [Authenticated] Sponsored products found: 5\n"
+                        },
+                        {
+                          "text": "[martinsfoods] [Authenticated] ✓ All sponsored products validated\n"
+                        },
+                        {
+                          "text": "[martinsfoods] [Authenticated] Auction IDs: 2a4a8292-3927-4eec-a075-5b1b1ecbc75c\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "1. Call Past Purchase API",
+                          "duration": 256
+                        },
+                        {
+                          "title": "3. Validate URL parameters",
+                          "duration": 1
+                        },
+                        {
+                          "title": "4. Validate response contains products",
+                          "duration": 2
+                        },
+                        {
+                          "title": "5. Validate sponsored products in response",
+                          "duration": 2
+                        },
+                        {
+                          "title": "3. Validate auctionId in sponsored products",
+                          "duration": 1
+                        },
+                        {
+                          "title": "4. Validate no Citrus references",
+                          "duration": 1
+                        }
+                      ],
+                      "startTime": "2026-03-13T18:13:26.096Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3e60578b00e41519271e-13406def5b2be6e7a08d",
+              "file": "api/product-auctioned-api.playwright.spec.ts",
+              "line": 277,
+              "column": 5
+            },
+            {
+              "title": "[Authenticated User] Validate Past Purchase API (type=pastpurchases) for Giant Food Stores",
+              "ok": true,
+              "tags": [
+                "api",
+                "pastpurchaseapi",
+                "sponsored",
+                "pastpurchases",
+                "giantfoodstores",
+                "authenticated"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 315,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[giantfoodstores] [Authenticated] Status Code: 200\n"
+                        },
+                        {
+                          "text": "[giantfoodstores] [Authenticated] ✓ Type: pastpurchases\n"
+                        },
+                        {
+                          "text": "[giantfoodstores] [Authenticated] ✓ Platform: web\n"
+                        },
+                        {
+                          "text": "[giantfoodstores] [Authenticated] ✓ gmbEnabled: true\n"
+                        },
+                        {
+                          "text": "[giantfoodstores] [Authenticated] ✓ All URL parameters validated\n"
+                        },
+                        {
+                          "text": "[giantfoodstores] [Authenticated] ✓ Total products returned: 5\n"
+                        },
+                        {
+                          "text": "[giantfoodstores] [Authenticated] Sponsored products found: 5\n"
+                        },
+                        {
+                          "text": "[giantfoodstores] [Authenticated] ✓ All sponsored products validated\n"
+                        },
+                        {
+                          "text": "[giantfoodstores] [Authenticated] Auction IDs: 6d3604af-3391-439b-937b-27a3533120dc\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "1. Call Past Purchase API",
+                          "duration": 301
+                        },
+                        {
+                          "title": "3. Validate URL parameters",
+                          "duration": 2
+                        },
+                        {
+                          "title": "4. Validate response contains products",
+                          "duration": 2
+                        },
+                        {
+                          "title": "5. Validate sponsored products in response",
+                          "duration": 5
+                        },
+                        {
+                          "title": "3. Validate auctionId in sponsored products",
+                          "duration": 0
+                        },
+                        {
+                          "title": "4. Validate no Citrus references",
+                          "duration": 1
+                        }
+                      ],
+                      "startTime": "2026-03-13T18:13:26.369Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3e60578b00e41519271e-c6831c9ac72e0dae6885",
+              "file": "api/product-auctioned-api.playwright.spec.ts",
+              "line": 277,
+              "column": 5
+            },
+            {
+              "title": "[Authenticated User] Validate Past Purchase API (type=pastpurchases) for Hannaford",
+              "ok": true,
+              "tags": [
+                "api",
+                "pastpurchaseapi",
+                "sponsored",
+                "pastpurchases",
+                "hannaford",
+                "authenticated"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 281,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[hannaford] [Authenticated] Status Code: 200\n"
+                        },
+                        {
+                          "text": "[hannaford] [Authenticated] ✓ Type: pastpurchases\n"
+                        },
+                        {
+                          "text": "[hannaford] [Authenticated] ✓ Platform: web\n"
+                        },
+                        {
+                          "text": "[hannaford] [Authenticated] ✓ gmbEnabled: true\n"
+                        },
+                        {
+                          "text": "[hannaford] [Authenticated] ✓ All URL parameters validated\n"
+                        },
+                        {
+                          "text": "[hannaford] [Authenticated] ✓ Total products returned: 5\n"
+                        },
+                        {
+                          "text": "[hannaford] [Authenticated] Sponsored products found: 5\n"
+                        },
+                        {
+                          "text": "[hannaford] [Authenticated] ✓ All sponsored products validated\n"
+                        },
+                        {
+                          "text": "[hannaford] [Authenticated] Auction IDs: 0db8ec54-425c-4b4a-852d-7123d554f320\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "1. Call Past Purchase API",
+                          "duration": 273
+                        },
+                        {
+                          "title": "3. Validate URL parameters",
+                          "duration": 1
+                        },
+                        {
+                          "title": "4. Validate response contains products",
+                          "duration": 1
+                        },
+                        {
+                          "title": "5. Validate sponsored products in response",
+                          "duration": 2
+                        },
+                        {
+                          "title": "3. Validate auctionId in sponsored products",
+                          "duration": 1
+                        },
+                        {
+                          "title": "4. Validate no Citrus references",
+                          "duration": 0
+                        }
+                      ],
+                      "startTime": "2026-03-13T18:13:26.691Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3e60578b00e41519271e-d1f15cbb6f5a6594fa24",
+              "file": "api/product-auctioned-api.playwright.spec.ts",
+              "line": 277,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "Order Confirmation API - Sponsored Products Validation",
+          "file": "api/product-auctioned-api.playwright.spec.ts",
+          "line": 387,
+          "column": 6,
+          "specs": [
+            {
+              "title": "[Authenticated User] Validate Order Confirmation API (type=orderconfirm) for Stop & Shop",
+              "ok": true,
+              "tags": [
+                "api",
+                "orderconfirmapi",
+                "sponsored",
+                "orderconfirm",
+                "stopandshop",
+                "authenticated"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 242,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[stopandshop] [Authenticated] Status Code: 200\n"
+                        },
+                        {
+                          "text": "[stopandshop] [Authenticated] Sponsored Products: 5\n"
+                        },
+                        {
+                          "text": "[stopandshop] [Authenticated] Auction IDs: e27e9773-7826-4a5e-82a1-48bda32623b5\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "1. Call Order Confirmation API",
+                          "duration": 238
+                        },
+                        {
+                          "title": "2. Validate Sponsored Products",
+                          "duration": 0
+                        },
+                        {
+                          "title": "3. Validate Auction IDs",
+                          "duration": 1
+                        },
+                        {
+                          "title": "4. Validate No Citrus References",
+                          "duration": 0
+                        }
+                      ],
+                      "startTime": "2026-03-13T18:13:26.978Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3e60578b00e41519271e-c5a4054a5eb94164c50a",
+              "file": "api/product-auctioned-api.playwright.spec.ts",
+              "line": 394,
+              "column": 5
+            },
+            {
+              "title": "[Authenticated User] Validate Order Confirmation API (type=orderconfirm) for Giant Food",
+              "ok": true,
+              "tags": [
+                "api",
+                "orderconfirmapi",
+                "sponsored",
+                "orderconfirm",
+                "giantfood",
+                "authenticated"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 368,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[giantfood] [Authenticated] Status Code: 200\n"
+                        },
+                        {
+                          "text": "[giantfood] [Authenticated] Sponsored Products: 5\n"
+                        },
+                        {
+                          "text": "[giantfood] [Authenticated] Auction IDs: 3685fb4f-9535-48ed-b675-f63fe02d4b77\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "1. Call Order Confirmation API",
+                          "duration": 364
+                        },
+                        {
+                          "title": "2. Validate Sponsored Products",
+                          "duration": 0
+                        },
+                        {
+                          "title": "3. Validate Auction IDs",
+                          "duration": 0
+                        },
+                        {
+                          "title": "4. Validate No Citrus References",
+                          "duration": 0
+                        }
+                      ],
+                      "startTime": "2026-03-13T18:13:27.225Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3e60578b00e41519271e-e77ceae8a36761b5bf5b",
+              "file": "api/product-auctioned-api.playwright.spec.ts",
+              "line": 394,
+              "column": 5
+            },
+            {
+              "title": "[Authenticated User] Validate Order Confirmation API (type=orderconfirm) for Food Lion",
+              "ok": true,
+              "tags": [
+                "api",
+                "orderconfirmapi",
+                "sponsored",
+                "orderconfirm",
+                "foodlion",
+                "authenticated"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 262,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[foodlion] [Authenticated] Status Code: 200\n"
+                        },
+                        {
+                          "text": "[foodlion] [Authenticated] Sponsored Products: 5\n"
+                        },
+                        {
+                          "text": "[foodlion] [Authenticated] Auction IDs: e4b2a68c-6be7-46f5-b935-9b7f51862ae1\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "1. Call Order Confirmation API",
+                          "duration": 259
+                        },
+                        {
+                          "title": "2. Validate Sponsored Products",
+                          "duration": 0
+                        },
+                        {
+                          "title": "3. Validate Auction IDs",
+                          "duration": 1
+                        },
+                        {
+                          "title": "4. Validate No Citrus References",
+                          "duration": 0
+                        }
+                      ],
+                      "startTime": "2026-03-13T18:13:27.599Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3e60578b00e41519271e-0923677ec6b90b70f55b",
+              "file": "api/product-auctioned-api.playwright.spec.ts",
+              "line": 394,
+              "column": 5
+            },
+            {
+              "title": "[Authenticated User] Validate Order Confirmation API (type=orderconfirm) for Martin's Foods",
+              "ok": true,
+              "tags": [
+                "api",
+                "orderconfirmapi",
+                "sponsored",
+                "orderconfirm",
+                "martinsfoods",
+                "authenticated"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 416,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[martinsfoods] [Authenticated] Status Code: 200\n"
+                        },
+                        {
+                          "text": "[martinsfoods] [Authenticated] Sponsored Products: 5\n"
+                        },
+                        {
+                          "text": "[martinsfoods] [Authenticated] Auction IDs: 15532a87-f136-40cb-874b-0e0a53177d6a\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "1. Call Order Confirmation API",
+                          "duration": 411
+                        },
+                        {
+                          "title": "2. Validate Sponsored Products",
+                          "duration": 0
+                        },
+                        {
+                          "title": "3. Validate Auction IDs",
+                          "duration": 1
+                        },
+                        {
+                          "title": "4. Validate No Citrus References",
+                          "duration": 1
+                        }
+                      ],
+                      "startTime": "2026-03-13T18:13:27.865Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3e60578b00e41519271e-ac7bceaacc82cd9b4efb",
+              "file": "api/product-auctioned-api.playwright.spec.ts",
+              "line": 394,
+              "column": 5
+            },
+            {
+              "title": "[Authenticated User] Validate Order Confirmation API (type=orderconfirm) for Giant Food Stores",
+              "ok": true,
+              "tags": [
+                "api",
+                "orderconfirmapi",
+                "sponsored",
+                "orderconfirm",
+                "giantfoodstores",
+                "authenticated"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 310,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[giantfoodstores] [Authenticated] Status Code: 200\n"
+                        },
+                        {
+                          "text": "[giantfoodstores] [Authenticated] Sponsored Products: 5\n"
+                        },
+                        {
+                          "text": "[giantfoodstores] [Authenticated] Auction IDs: 9014698e-3da4-4417-a330-e14da47b7d35\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "1. Call Order Confirmation API",
+                          "duration": 306
+                        },
+                        {
+                          "title": "2. Validate Sponsored Products",
+                          "duration": 0
+                        },
+                        {
+                          "title": "3. Validate Auction IDs",
+                          "duration": 1
+                        },
+                        {
+                          "title": "4. Validate No Citrus References",
+                          "duration": 1
+                        }
+                      ],
+                      "startTime": "2026-03-13T18:13:28.286Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3e60578b00e41519271e-23ff322e7a54cbdb5e24",
+              "file": "api/product-auctioned-api.playwright.spec.ts",
+              "line": 394,
+              "column": 5
+            },
+            {
+              "title": "[Authenticated User] Validate Order Confirmation API (type=orderconfirm) for Hannaford",
+              "ok": true,
+              "tags": [
+                "api",
+                "orderconfirmapi",
+                "sponsored",
+                "orderconfirm",
+                "hannaford",
+                "authenticated"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 334,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[hannaford] [Authenticated] Status Code: 200\n"
+                        },
+                        {
+                          "text": "[hannaford] [Authenticated] Sponsored Products: 5\n"
+                        },
+                        {
+                          "text": "[hannaford] [Authenticated] Auction IDs: 8b99b030-8552-4508-bd85-7a3ca6976bab\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "1. Call Order Confirmation API",
+                          "duration": 330
+                        },
+                        {
+                          "title": "2. Validate Sponsored Products",
+                          "duration": 0
+                        },
+                        {
+                          "title": "3. Validate Auction IDs",
+                          "duration": 1
+                        },
+                        {
+                          "title": "4. Validate No Citrus References",
+                          "duration": 0
+                        }
+                      ],
+                      "startTime": "2026-03-13T18:13:28.601Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3e60578b00e41519271e-d915432667f53bfc5858",
+              "file": "api/product-auctioned-api.playwright.spec.ts",
+              "line": 394,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "api/product-search-api.playwright.spec.ts",
+      "file": "api/product-search-api.playwright.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Product API - Sponsored Products Validation",
+          "file": "api/product-search-api.playwright.spec.ts",
+          "line": 95,
+          "column": 6,
+          "specs": [
+            {
+              "title": "[Guest User] Validate Product API search for Stop & Shop",
+              "ok": true,
+              "tags": [
+                "api",
+                "productapi",
+                "productsearch",
+                "sponsored",
+                "stopandshop",
+                "guest"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 287,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[stopandshop] [Guest] Testing search term: cola\n"
+                        },
+                        {
+                          "text": "[stopandshop] [Guest] ✓ Search term used: cola\n"
+                        },
+                        {
+                          "text": "[stopandshop] [Guest] Status Code: 200\n"
+                        },
+                        {
+                          "text": "[stopandshop] [Guest] Sponsored Products: 7\n"
+                        },
+                        {
+                          "text": "[stopandshop] [Guest] Auction IDs: f83eeb91-b120-4059-80a3-cc1dfc08a692\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "1. Call Product API with search keywords (Guest User)",
+                          "duration": 284
+                        },
+                        {
+                          "title": "2. Validate API status code",
+                          "duration": 0
+                        },
+                        {
+                          "title": "3. Validate auction IDs in response",
+                          "duration": 1
+                        }
+                      ],
+                      "startTime": "2026-03-13T18:13:28.979Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "10c647efab1228653b02-054a8a4989d8fc1c73f3",
+              "file": "api/product-search-api.playwright.spec.ts",
+              "line": 102,
+              "column": 5
+            },
+            {
+              "title": "[Guest User] Validate Product API search for Giant Food",
+              "ok": true,
+              "tags": [
+                "api",
+                "productapi",
+                "productsearch",
+                "sponsored",
+                "giantfood",
+                "guest"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 358,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[giantfood] [Guest] Testing search term: cola\n"
+                        },
+                        {
+                          "text": "[giantfood] [Guest] ✓ Search term used: cola\n"
+                        },
+                        {
+                          "text": "[giantfood] [Guest] Status Code: 200\n"
+                        },
+                        {
+                          "text": "[giantfood] [Guest] Sponsored Products: 7\n"
+                        },
+                        {
+                          "text": "[giantfood] [Guest] Auction IDs: 140ffe87-d592-4d01-8159-6cca322c7219\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "1. Call Product API with search keywords (Guest User)",
+                          "duration": 356
+                        },
+                        {
+                          "title": "2. Validate API status code",
+                          "duration": 1
+                        },
+                        {
+                          "title": "3. Validate auction IDs in response",
+                          "duration": 0
+                        }
+                      ],
+                      "startTime": "2026-03-13T18:13:29.270Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "10c647efab1228653b02-96d6e31b5c1c4074fa03",
+              "file": "api/product-search-api.playwright.spec.ts",
+              "line": 102,
+              "column": 5
+            },
+            {
+              "title": "[Guest User] Validate Product API search for Food Lion",
+              "ok": true,
+              "tags": [
+                "api",
+                "productapi",
+                "productsearch",
+                "sponsored",
+                "foodlion",
+                "guest"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 300,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[foodlion] [Guest] Testing search term: cola\n"
+                        },
+                        {
+                          "text": "[foodlion] [Guest] ✓ Search term used: cola\n"
+                        },
+                        {
+                          "text": "[foodlion] [Guest] Status Code: 200\n"
+                        },
+                        {
+                          "text": "[foodlion] [Guest] Sponsored Products: 6\n"
+                        },
+                        {
+                          "text": "[foodlion] [Guest] Auction IDs: 7fd27424-fe4c-48f0-b87b-baa792354932\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "1. Call Product API with search keywords (Guest User)",
+                          "duration": 297
+                        },
+                        {
+                          "title": "2. Validate API status code",
+                          "duration": 1
+                        },
+                        {
+                          "title": "3. Validate auction IDs in response",
+                          "duration": 0
+                        }
+                      ],
+                      "startTime": "2026-03-13T18:13:29.632Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "10c647efab1228653b02-acd0bf90c8cf6d6937f9",
+              "file": "api/product-search-api.playwright.spec.ts",
+              "line": 102,
+              "column": 5
+            },
+            {
+              "title": "[Guest User] Validate Product API search for Martin's Foods",
+              "ok": true,
+              "tags": [
+                "api",
+                "productapi",
+                "productsearch",
+                "sponsored",
+                "martinsfoods",
+                "guest"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 378,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[martinsfoods] [Guest] Testing search term: cola\n"
+                        },
+                        {
+                          "text": "[martinsfoods] [Guest] ✓ Search term used: cola\n"
+                        },
+                        {
+                          "text": "[martinsfoods] [Guest] Status Code: 200\n"
+                        },
+                        {
+                          "text": "[martinsfoods] [Guest] Sponsored Products: 6\n"
+                        },
+                        {
+                          "text": "[martinsfoods] [Guest] Auction IDs: 038d789a-ed25-4398-b13e-90e3c95f7e0e\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "1. Call Product API with search keywords (Guest User)",
+                          "duration": 374
+                        },
+                        {
+                          "title": "2. Validate API status code",
+                          "duration": 1
+                        },
+                        {
+                          "title": "3. Validate auction IDs in response",
+                          "duration": 1
+                        }
+                      ],
+                      "startTime": "2026-03-13T18:13:29.936Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "10c647efab1228653b02-8e0031fa8d78d3a549c6",
+              "file": "api/product-search-api.playwright.spec.ts",
+              "line": 102,
+              "column": 5
+            },
+            {
+              "title": "[Guest User] Validate Product API search for Giant Food Stores",
+              "ok": true,
+              "tags": [
+                "api",
+                "productapi",
+                "productsearch",
+                "sponsored",
+                "giantfoodstores",
+                "guest"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 677,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[giantfoodstores] [Guest] Testing search term: cola\n"
+                        },
+                        {
+                          "text": "[giantfoodstores] [Guest] ✓ Search term used: cola\n"
+                        },
+                        {
+                          "text": "[giantfoodstores] [Guest] Status Code: 200\n"
+                        },
+                        {
+                          "text": "[giantfoodstores] [Guest] Sponsored Products: 7\n"
+                        },
+                        {
+                          "text": "[giantfoodstores] [Guest] Auction IDs: 7529c6f7-ee35-42f3-ae98-5e57cb512f9d\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "1. Call Product API with search keywords (Guest User)",
+                          "duration": 622
+                        },
+                        {
+                          "title": "2. Validate API status code",
+                          "duration": 0
+                        },
+                        {
+                          "title": "3. Validate auction IDs in response",
+                          "duration": 1
+                        }
+                      ],
+                      "startTime": "2026-03-13T18:13:30.318Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "10c647efab1228653b02-b86f4e995bbd66414ff8",
+              "file": "api/product-search-api.playwright.spec.ts",
+              "line": 102,
+              "column": 5
+            },
+            {
+              "title": "[Guest User] Validate Product API search for Hannaford",
+              "ok": true,
+              "tags": [
+                "api",
+                "productapi",
+                "productsearch",
+                "sponsored",
+                "hannaford",
+                "guest"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 380,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "[hannaford] [Guest] Testing search term: cola\n"
+                        },
+                        {
+                          "text": "[hannaford] [Guest] ✓ Search term used: cola\n"
+                        },
+                        {
+                          "text": "[hannaford] [Guest] Status Code: 200\n"
+                        },
+                        {
+                          "text": "[hannaford] [Guest] Sponsored Products: 6\n"
+                        },
+                        {
+                          "text": "[hannaford] [Guest] Auction IDs: 54dd9304-2525-492a-8dd9-1fc1140d1c6b\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "1. Call Product API with search keywords (Guest User)",
+                          "duration": 370
+                        },
+                        {
+                          "title": "2. Validate API status code",
+                          "duration": 1
+                        },
+                        {
+                          "title": "3. Validate auction IDs in response",
+                          "duration": 1
+                        }
+                      ],
+                      "startTime": "2026-03-13T18:13:31.001Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "10c647efab1228653b02-ab90d676490cc4d9363e",
+              "file": "api/product-search-api.playwright.spec.ts",
+              "line": 102,
+              "column": 5
+            },
+            {
+              "title": "[Authenticated User] Validate Product API search for Stop & Shop",
+              "ok": true,
+              "tags": [
+                "api",
+                "productapi",
+                "productsearch",
+                "sponsored",
+                "stopandshop",
+                "authenticated"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "location": {
+                        "file": "/Users/pcvaxs5/Documents/GitHub/Ariet_L2_workshop/tests/e2e/api/product-search-api.playwright.spec.ts",
+                        "line": 166,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-13T18:13:31.389Z",
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/Users/pcvaxs5/Documents/GitHub/Ariet_L2_workshop/tests/e2e/api/product-search-api.playwright.spec.ts",
+                            "line": 166,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "10c647efab1228653b02-f730f432e0cca32b021c",
+              "file": "api/product-search-api.playwright.spec.ts",
+              "line": 166,
+              "column": 10
+            },
+            {
+              "title": "[Authenticated User] Validate Product API search for Giant Food",
+              "ok": true,
+              "tags": [
+                "api",
+                "productapi",
+                "productsearch",
+                "sponsored",
+                "giantfood",
+                "authenticated"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "location": {
+                        "file": "/Users/pcvaxs5/Documents/GitHub/Ariet_L2_workshop/tests/e2e/api/product-search-api.playwright.spec.ts",
+                        "line": 166,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-13T18:13:31.389Z",
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/Users/pcvaxs5/Documents/GitHub/Ariet_L2_workshop/tests/e2e/api/product-search-api.playwright.spec.ts",
+                            "line": 166,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "10c647efab1228653b02-b030ec761eb33be77ca0",
+              "file": "api/product-search-api.playwright.spec.ts",
+              "line": 166,
+              "column": 10
+            },
+            {
+              "title": "[Authenticated User] Validate Product API search for Food Lion",
+              "ok": true,
+              "tags": [
+                "api",
+                "productapi",
+                "productsearch",
+                "sponsored",
+                "foodlion",
+                "authenticated"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "location": {
+                        "file": "/Users/pcvaxs5/Documents/GitHub/Ariet_L2_workshop/tests/e2e/api/product-search-api.playwright.spec.ts",
+                        "line": 166,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-13T18:13:31.393Z",
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/Users/pcvaxs5/Documents/GitHub/Ariet_L2_workshop/tests/e2e/api/product-search-api.playwright.spec.ts",
+                            "line": 166,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "10c647efab1228653b02-01ab97ce3e3cb8351c76",
+              "file": "api/product-search-api.playwright.spec.ts",
+              "line": 166,
+              "column": 10
+            },
+            {
+              "title": "[Authenticated User] Validate Product API search for Martin's Foods",
+              "ok": true,
+              "tags": [
+                "api",
+                "productapi",
+                "productsearch",
+                "sponsored",
+                "martinsfoods",
+                "authenticated"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "location": {
+                        "file": "/Users/pcvaxs5/Documents/GitHub/Ariet_L2_workshop/tests/e2e/api/product-search-api.playwright.spec.ts",
+                        "line": 166,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-13T18:13:31.393Z",
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/Users/pcvaxs5/Documents/GitHub/Ariet_L2_workshop/tests/e2e/api/product-search-api.playwright.spec.ts",
+                            "line": 166,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "10c647efab1228653b02-c6d15537898428a94897",
+              "file": "api/product-search-api.playwright.spec.ts",
+              "line": 166,
+              "column": 10
+            },
+            {
+              "title": "[Authenticated User] Validate Product API search for Giant Food Stores",
+              "ok": true,
+              "tags": [
+                "api",
+                "productapi",
+                "productsearch",
+                "sponsored",
+                "giantfoodstores",
+                "authenticated"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "location": {
+                        "file": "/Users/pcvaxs5/Documents/GitHub/Ariet_L2_workshop/tests/e2e/api/product-search-api.playwright.spec.ts",
+                        "line": 166,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-13T18:13:31.393Z",
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/Users/pcvaxs5/Documents/GitHub/Ariet_L2_workshop/tests/e2e/api/product-search-api.playwright.spec.ts",
+                            "line": 166,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "10c647efab1228653b02-c44490d3e398128dd0e6",
+              "file": "api/product-search-api.playwright.spec.ts",
+              "line": 166,
+              "column": 10
+            },
+            {
+              "title": "[Authenticated User] Validate Product API search for Hannaford",
+              "ok": true,
+              "tags": [
+                "api",
+                "productapi",
+                "productsearch",
+                "sponsored",
+                "hannaford",
+                "authenticated"
+              ],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "location": {
+                        "file": "/Users/pcvaxs5/Documents/GitHub/Ariet_L2_workshop/tests/e2e/api/product-search-api.playwright.spec.ts",
+                        "line": 166,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-03-13T18:13:31.394Z",
+                      "annotations": [
+                        {
+                          "type": "skip",
+                          "location": {
+                            "file": "/Users/pcvaxs5/Documents/GitHub/Ariet_L2_workshop/tests/e2e/api/product-search-api.playwright.spec.ts",
+                            "line": 166,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "10c647efab1228653b02-931764ac1c70a48d271f",
+              "file": "api/product-search-api.playwright.spec.ts",
+              "line": 166,
+              "column": 10
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-03-13T18:13:18.882Z",
+    "duration": 12645.741,
+    "expected": 30,
+    "skipped": 6,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

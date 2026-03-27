@@ -1,0 +1,342 @@
+<testsuites id="" name="" tests="36" failures="0" skipped="6" errors="0" time="12.645741">
+<testsuite name="api/product-auctioned-api.playwright.spec.ts" timestamp="2026-03-13T18:13:19.023Z" hostname="chromium" tests="24" failures="0" skipped="0" time="8.85" errors="0">
+<testcase name="Auctioned Products API - Sponsored Products Validation › [Guest User] Validate Auctioned Products API (type=itemdetail) for Stop &amp; Shop" classname="api/product-auctioned-api.playwright.spec.ts" time="0.394">
+<system-out>
+<![CDATA[[stopandshop] [Guest] Status Code: 200
+[stopandshop] [Guest] Sponsored Products: 2
+[stopandshop] [Guest] Auction IDs: 2428d4e3-8a93-4c81-9967-9d7a2ecf7479
+]]>
+</system-out>
+</testcase>
+<testcase name="Auctioned Products API - Sponsored Products Validation › [Authenticated User] Validate Auctioned Products API (type=itemdetail) for Stop &amp; Shop" classname="api/product-auctioned-api.playwright.spec.ts" time="0.238">
+<system-out>
+<![CDATA[[stopandshop] [Authenticated] Status Code: 200
+[stopandshop] [Authenticated] Sponsored Products: 2
+[stopandshop] [Authenticated] Auction IDs: ae268400-35f3-4e9a-8abe-21fb6b986710
+]]>
+</system-out>
+</testcase>
+<testcase name="Auctioned Products API - Sponsored Products Validation › [Guest User] Validate Auctioned Products API (type=itemdetail) for Giant Food" classname="api/product-auctioned-api.playwright.spec.ts" time="0.571">
+<system-out>
+<![CDATA[[giantfood] [Guest] Status Code: 200
+[giantfood] [Guest] Sponsored Products: 2
+[giantfood] [Guest] Auction IDs: f7a2c7b1-1b38-4213-a65c-54cbd0c27a2b
+]]>
+</system-out>
+</testcase>
+<testcase name="Auctioned Products API - Sponsored Products Validation › [Authenticated User] Validate Auctioned Products API (type=itemdetail) for Giant Food" classname="api/product-auctioned-api.playwright.spec.ts" time="0.298">
+<system-out>
+<![CDATA[[giantfood] [Authenticated] Status Code: 200
+[giantfood] [Authenticated] Sponsored Products: 2
+[giantfood] [Authenticated] Auction IDs: 12f99820-8679-4d4c-a6e2-ba811a857b8c
+]]>
+</system-out>
+</testcase>
+<testcase name="Auctioned Products API - Sponsored Products Validation › [Guest User] Validate Auctioned Products API (type=itemdetail) for Food Lion" classname="api/product-auctioned-api.playwright.spec.ts" time="0.605">
+<system-out>
+<![CDATA[[foodlion] [Guest] Status Code: 200
+[foodlion] [Guest] Sponsored Products: 1
+[foodlion] [Guest] Auction IDs: 003fa9f4-fd5c-4daa-81dd-d9e492780949
+]]>
+</system-out>
+</testcase>
+<testcase name="Auctioned Products API - Sponsored Products Validation › [Authenticated User] Validate Auctioned Products API (type=itemdetail) for Food Lion" classname="api/product-auctioned-api.playwright.spec.ts" time="0.277">
+<system-out>
+<![CDATA[[foodlion] [Authenticated] Status Code: 200
+[foodlion] [Authenticated] Sponsored Products: 1
+[foodlion] [Authenticated] Auction IDs: 0603c159-872b-40cf-8d5d-85e8a7af0ebf
+]]>
+</system-out>
+</testcase>
+<testcase name="Auctioned Products API - Sponsored Products Validation › [Guest User] Validate Auctioned Products API (type=itemdetail) for Martin&apos;s Foods" classname="api/product-auctioned-api.playwright.spec.ts" time="0.454">
+<system-out>
+<![CDATA[[martinsfoods] [Guest] Status Code: 200
+[martinsfoods] [Guest] Sponsored Products: 3
+[martinsfoods] [Guest] Auction IDs: 3b4c379c-6d15-4fa7-8728-ade4ced475ce
+]]>
+</system-out>
+</testcase>
+<testcase name="Auctioned Products API - Sponsored Products Validation › [Authenticated User] Validate Auctioned Products API (type=itemdetail) for Martin&apos;s Foods" classname="api/product-auctioned-api.playwright.spec.ts" time="0.262">
+<system-out>
+<![CDATA[[martinsfoods] [Authenticated] Status Code: 200
+[martinsfoods] [Authenticated] Sponsored Products: 3
+[martinsfoods] [Authenticated] Auction IDs: 470982ea-a145-4373-8d24-00206e466c96
+]]>
+</system-out>
+</testcase>
+<testcase name="Auctioned Products API - Sponsored Products Validation › [Guest User] Validate Auctioned Products API (type=itemdetail) for Giant Food Stores" classname="api/product-auctioned-api.playwright.spec.ts" time="0.556">
+<system-out>
+<![CDATA[[giantfoodstores] [Guest] Status Code: 200
+[giantfoodstores] [Guest] Sponsored Products: 3
+[giantfoodstores] [Guest] Auction IDs: 024d895a-1459-464d-ad6e-074b99c41e09
+]]>
+</system-out>
+</testcase>
+<testcase name="Auctioned Products API - Sponsored Products Validation › [Authenticated User] Validate Auctioned Products API (type=itemdetail) for Giant Food Stores" classname="api/product-auctioned-api.playwright.spec.ts" time="0.453">
+<system-out>
+<![CDATA[[giantfoodstores] [Authenticated] Status Code: 200
+[giantfoodstores] [Authenticated] Sponsored Products: 3
+[giantfoodstores] [Authenticated] Auction IDs: 65f29faa-6227-4260-b9d9-a519169a4a5c
+]]>
+</system-out>
+</testcase>
+<testcase name="Auctioned Products API - Sponsored Products Validation › [Guest User] Validate Auctioned Products API (type=itemdetail) for Hannaford" classname="api/product-auctioned-api.playwright.spec.ts" time="0.72">
+<system-out>
+<![CDATA[[hannaford] [Guest] Status Code: 200
+[hannaford] [Guest] Sponsored Products: 1
+[hannaford] [Guest] Auction IDs: 074a43c1-9fdb-45c6-a09c-e0bc181c7658
+]]>
+</system-out>
+</testcase>
+<testcase name="Auctioned Products API - Sponsored Products Validation › [Authenticated User] Validate Auctioned Products API (type=itemdetail) for Hannaford" classname="api/product-auctioned-api.playwright.spec.ts" time="0.291">
+<system-out>
+<![CDATA[[hannaford] [Authenticated] Status Code: 200
+[hannaford] [Authenticated] Sponsored Products: 1
+[hannaford] [Authenticated] Auction IDs: 6aa0f07a-7fdb-441c-b800-5c747e32796b
+]]>
+</system-out>
+</testcase>
+<testcase name="Past Purchase API - Sponsored Products Validation › [Authenticated User] Validate Past Purchase API (type=pastpurchases) for Stop &amp; Shop" classname="api/product-auctioned-api.playwright.spec.ts" time="0.258">
+<system-out>
+<![CDATA[[stopandshop] [Authenticated] Status Code: 200
+[stopandshop] [Authenticated] ✓ Type: pastpurchases
+[stopandshop] [Authenticated] ✓ Platform: web
+[stopandshop] [Authenticated] ✓ gmbEnabled: true
+[stopandshop] [Authenticated] ✓ All URL parameters validated
+[stopandshop] [Authenticated] ✓ Total products returned: 5
+[stopandshop] [Authenticated] Sponsored products found: 5
+[stopandshop] [Authenticated] ✓ All sponsored products validated
+[stopandshop] [Authenticated] Auction IDs: 9d19b6fb-c87d-4269-a7d0-d04b10b5f21a
+]]>
+</system-out>
+</testcase>
+<testcase name="Past Purchase API - Sponsored Products Validation › [Authenticated User] Validate Past Purchase API (type=pastpurchases) for Giant Food" classname="api/product-auctioned-api.playwright.spec.ts" time="0.334">
+<system-out>
+<![CDATA[[giantfood] [Authenticated] Status Code: 200
+[giantfood] [Authenticated] ✓ Type: pastpurchases
+[giantfood] [Authenticated] ✓ Platform: web
+[giantfood] [Authenticated] ✓ gmbEnabled: true
+[giantfood] [Authenticated] ✓ All URL parameters validated
+[giantfood] [Authenticated] ✓ Total products returned: 5
+[giantfood] [Authenticated] Sponsored products found: 5
+[giantfood] [Authenticated] ✓ All sponsored products validated
+[giantfood] [Authenticated] Auction IDs: b5717a4f-dec5-46a4-be66-bfa893be2e0e
+]]>
+</system-out>
+</testcase>
+<testcase name="Past Purchase API - Sponsored Products Validation › [Authenticated User] Validate Past Purchase API (type=pastpurchases) for Food Lion" classname="api/product-auctioned-api.playwright.spec.ts" time="0.343">
+<system-out>
+<![CDATA[[foodlion] [Authenticated] Status Code: 200
+[foodlion] [Authenticated] ✓ Type: pastpurchases
+[foodlion] [Authenticated] ✓ Platform: web
+[foodlion] [Authenticated] ✓ gmbEnabled: true
+[foodlion] [Authenticated] ✓ All URL parameters validated
+[foodlion] [Authenticated] ✓ Total products returned: 5
+[foodlion] [Authenticated] Sponsored products found: 5
+[foodlion] [Authenticated] ✓ All sponsored products validated
+[foodlion] [Authenticated] Auction IDs: c7dbafef-6f85-49c3-85de-054f1f89818d
+]]>
+</system-out>
+</testcase>
+<testcase name="Past Purchase API - Sponsored Products Validation › [Authenticated User] Validate Past Purchase API (type=pastpurchases) for Martin&apos;s Foods" classname="api/product-auctioned-api.playwright.spec.ts" time="0.268">
+<system-out>
+<![CDATA[[martinsfoods] [Authenticated] Status Code: 200
+[martinsfoods] [Authenticated] ✓ Type: pastpurchases
+[martinsfoods] [Authenticated] ✓ Platform: web
+[martinsfoods] [Authenticated] ✓ gmbEnabled: true
+[martinsfoods] [Authenticated] ✓ All URL parameters validated
+[martinsfoods] [Authenticated] ✓ Total products returned: 5
+[martinsfoods] [Authenticated] Sponsored products found: 5
+[martinsfoods] [Authenticated] ✓ All sponsored products validated
+[martinsfoods] [Authenticated] Auction IDs: 2a4a8292-3927-4eec-a075-5b1b1ecbc75c
+]]>
+</system-out>
+</testcase>
+<testcase name="Past Purchase API - Sponsored Products Validation › [Authenticated User] Validate Past Purchase API (type=pastpurchases) for Giant Food Stores" classname="api/product-auctioned-api.playwright.spec.ts" time="0.315">
+<system-out>
+<![CDATA[[giantfoodstores] [Authenticated] Status Code: 200
+[giantfoodstores] [Authenticated] ✓ Type: pastpurchases
+[giantfoodstores] [Authenticated] ✓ Platform: web
+[giantfoodstores] [Authenticated] ✓ gmbEnabled: true
+[giantfoodstores] [Authenticated] ✓ All URL parameters validated
+[giantfoodstores] [Authenticated] ✓ Total products returned: 5
+[giantfoodstores] [Authenticated] Sponsored products found: 5
+[giantfoodstores] [Authenticated] ✓ All sponsored products validated
+[giantfoodstores] [Authenticated] Auction IDs: 6d3604af-3391-439b-937b-27a3533120dc
+]]>
+</system-out>
+</testcase>
+<testcase name="Past Purchase API - Sponsored Products Validation › [Authenticated User] Validate Past Purchase API (type=pastpurchases) for Hannaford" classname="api/product-auctioned-api.playwright.spec.ts" time="0.281">
+<system-out>
+<![CDATA[[hannaford] [Authenticated] Status Code: 200
+[hannaford] [Authenticated] ✓ Type: pastpurchases
+[hannaford] [Authenticated] ✓ Platform: web
+[hannaford] [Authenticated] ✓ gmbEnabled: true
+[hannaford] [Authenticated] ✓ All URL parameters validated
+[hannaford] [Authenticated] ✓ Total products returned: 5
+[hannaford] [Authenticated] Sponsored products found: 5
+[hannaford] [Authenticated] ✓ All sponsored products validated
+[hannaford] [Authenticated] Auction IDs: 0db8ec54-425c-4b4a-852d-7123d554f320
+]]>
+</system-out>
+</testcase>
+<testcase name="Order Confirmation API - Sponsored Products Validation › [Authenticated User] Validate Order Confirmation API (type=orderconfirm) for Stop &amp; Shop" classname="api/product-auctioned-api.playwright.spec.ts" time="0.242">
+<system-out>
+<![CDATA[[stopandshop] [Authenticated] Status Code: 200
+[stopandshop] [Authenticated] Sponsored Products: 5
+[stopandshop] [Authenticated] Auction IDs: e27e9773-7826-4a5e-82a1-48bda32623b5
+]]>
+</system-out>
+</testcase>
+<testcase name="Order Confirmation API - Sponsored Products Validation › [Authenticated User] Validate Order Confirmation API (type=orderconfirm) for Giant Food" classname="api/product-auctioned-api.playwright.spec.ts" time="0.368">
+<system-out>
+<![CDATA[[giantfood] [Authenticated] Status Code: 200
+[giantfood] [Authenticated] Sponsored Products: 5
+[giantfood] [Authenticated] Auction IDs: 3685fb4f-9535-48ed-b675-f63fe02d4b77
+]]>
+</system-out>
+</testcase>
+<testcase name="Order Confirmation API - Sponsored Products Validation › [Authenticated User] Validate Order Confirmation API (type=orderconfirm) for Food Lion" classname="api/product-auctioned-api.playwright.spec.ts" time="0.262">
+<system-out>
+<![CDATA[[foodlion] [Authenticated] Status Code: 200
+[foodlion] [Authenticated] Sponsored Products: 5
+[foodlion] [Authenticated] Auction IDs: e4b2a68c-6be7-46f5-b935-9b7f51862ae1
+]]>
+</system-out>
+</testcase>
+<testcase name="Order Confirmation API - Sponsored Products Validation › [Authenticated User] Validate Order Confirmation API (type=orderconfirm) for Martin&apos;s Foods" classname="api/product-auctioned-api.playwright.spec.ts" time="0.416">
+<system-out>
+<![CDATA[[martinsfoods] [Authenticated] Status Code: 200
+[martinsfoods] [Authenticated] Sponsored Products: 5
+[martinsfoods] [Authenticated] Auction IDs: 15532a87-f136-40cb-874b-0e0a53177d6a
+]]>
+</system-out>
+</testcase>
+<testcase name="Order Confirmation API - Sponsored Products Validation › [Authenticated User] Validate Order Confirmation API (type=orderconfirm) for Giant Food Stores" classname="api/product-auctioned-api.playwright.spec.ts" time="0.31">
+<system-out>
+<![CDATA[[giantfoodstores] [Authenticated] Status Code: 200
+[giantfoodstores] [Authenticated] Sponsored Products: 5
+[giantfoodstores] [Authenticated] Auction IDs: 9014698e-3da4-4417-a330-e14da47b7d35
+]]>
+</system-out>
+</testcase>
+<testcase name="Order Confirmation API - Sponsored Products Validation › [Authenticated User] Validate Order Confirmation API (type=orderconfirm) for Hannaford" classname="api/product-auctioned-api.playwright.spec.ts" time="0.334">
+<system-out>
+<![CDATA[[hannaford] [Authenticated] Status Code: 200
+[hannaford] [Authenticated] Sponsored Products: 5
+[hannaford] [Authenticated] Auction IDs: 8b99b030-8552-4508-bd85-7a3ca6976bab
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="api/product-search-api.playwright.spec.ts" timestamp="2026-03-13T18:13:19.023Z" hostname="chromium" tests="12" failures="0" skipped="6" time="2.38" errors="0">
+<testcase name="Product API - Sponsored Products Validation › [Guest User] Validate Product API search for Stop &amp; Shop" classname="api/product-search-api.playwright.spec.ts" time="0.287">
+<system-out>
+<![CDATA[[stopandshop] [Guest] Testing search term: cola
+[stopandshop] [Guest] ✓ Search term used: cola
+[stopandshop] [Guest] Status Code: 200
+[stopandshop] [Guest] Sponsored Products: 7
+[stopandshop] [Guest] Auction IDs: f83eeb91-b120-4059-80a3-cc1dfc08a692
+]]>
+</system-out>
+</testcase>
+<testcase name="Product API - Sponsored Products Validation › [Guest User] Validate Product API search for Giant Food" classname="api/product-search-api.playwright.spec.ts" time="0.358">
+<system-out>
+<![CDATA[[giantfood] [Guest] Testing search term: cola
+[giantfood] [Guest] ✓ Search term used: cola
+[giantfood] [Guest] Status Code: 200
+[giantfood] [Guest] Sponsored Products: 7
+[giantfood] [Guest] Auction IDs: 140ffe87-d592-4d01-8159-6cca322c7219
+]]>
+</system-out>
+</testcase>
+<testcase name="Product API - Sponsored Products Validation › [Guest User] Validate Product API search for Food Lion" classname="api/product-search-api.playwright.spec.ts" time="0.3">
+<system-out>
+<![CDATA[[foodlion] [Guest] Testing search term: cola
+[foodlion] [Guest] ✓ Search term used: cola
+[foodlion] [Guest] Status Code: 200
+[foodlion] [Guest] Sponsored Products: 6
+[foodlion] [Guest] Auction IDs: 7fd27424-fe4c-48f0-b87b-baa792354932
+]]>
+</system-out>
+</testcase>
+<testcase name="Product API - Sponsored Products Validation › [Guest User] Validate Product API search for Martin&apos;s Foods" classname="api/product-search-api.playwright.spec.ts" time="0.378">
+<system-out>
+<![CDATA[[martinsfoods] [Guest] Testing search term: cola
+[martinsfoods] [Guest] ✓ Search term used: cola
+[martinsfoods] [Guest] Status Code: 200
+[martinsfoods] [Guest] Sponsored Products: 6
+[martinsfoods] [Guest] Auction IDs: 038d789a-ed25-4398-b13e-90e3c95f7e0e
+]]>
+</system-out>
+</testcase>
+<testcase name="Product API - Sponsored Products Validation › [Guest User] Validate Product API search for Giant Food Stores" classname="api/product-search-api.playwright.spec.ts" time="0.677">
+<system-out>
+<![CDATA[[giantfoodstores] [Guest] Testing search term: cola
+[giantfoodstores] [Guest] ✓ Search term used: cola
+[giantfoodstores] [Guest] Status Code: 200
+[giantfoodstores] [Guest] Sponsored Products: 7
+[giantfoodstores] [Guest] Auction IDs: 7529c6f7-ee35-42f3-ae98-5e57cb512f9d
+]]>
+</system-out>
+</testcase>
+<testcase name="Product API - Sponsored Products Validation › [Guest User] Validate Product API search for Hannaford" classname="api/product-search-api.playwright.spec.ts" time="0.38">
+<system-out>
+<![CDATA[[hannaford] [Guest] Testing search term: cola
+[hannaford] [Guest] ✓ Search term used: cola
+[hannaford] [Guest] Status Code: 200
+[hannaford] [Guest] Sponsored Products: 6
+[hannaford] [Guest] Auction IDs: 54dd9304-2525-492a-8dd9-1fc1140d1c6b
+]]>
+</system-out>
+</testcase>
+<testcase name="Product API - Sponsored Products Validation › [Authenticated User] Validate Product API search for Stop &amp; Shop" classname="api/product-search-api.playwright.spec.ts" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Product API - Sponsored Products Validation › [Authenticated User] Validate Product API search for Giant Food" classname="api/product-search-api.playwright.spec.ts" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Product API - Sponsored Products Validation › [Authenticated User] Validate Product API search for Food Lion" classname="api/product-search-api.playwright.spec.ts" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Product API - Sponsored Products Validation › [Authenticated User] Validate Product API search for Martin&apos;s Foods" classname="api/product-search-api.playwright.spec.ts" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Product API - Sponsored Products Validation › [Authenticated User] Validate Product API search for Giant Food Stores" classname="api/product-search-api.playwright.spec.ts" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Product API - Sponsored Products Validation › [Authenticated User] Validate Product API search for Hannaford" classname="api/product-search-api.playwright.spec.ts" time="0">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+</testsuites>
